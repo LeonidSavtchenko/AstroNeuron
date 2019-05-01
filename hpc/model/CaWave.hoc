@@ -1,0 +1,15 @@
+
+soma{
+insert IP3Time
+TDelay_IP3Time = TimeDelayW 
+DurationIP3i_IP3Time = DurationIP3iCalciumWave 
+ip3io_IP3Time = InitIp3 
+}
+
+for i = 0, NumberDendrites-1 dendrite[i]  {
+insert IP3Time
+TDelay_IP3Time = TimeDelayW 
+DurationIP3i_IP3Time = DurationIP3iCalciumWave 
+ip3io_IP3Time = InitIp3 
+}
+

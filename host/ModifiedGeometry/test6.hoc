@@ -1,0 +1,4089 @@
+OriginalDendrite=   39 
+NumberDendrites=OriginalDendrite+2*(OriginalDendrite-1) 
+SeedNumber=OriginalDendrite-1
+create dendrite[NumberDendrites]
+//  NEURON hoc file generated from CVapp (NeuroMorpho.org version)
+//  Original file: c12877.CNG.swc 
+
+//  Generated Thu May 16 10:30:23 BST 2019
+
+{create soma[1]}
+{create axon[65]}
+{}
+{create apical_dendrite[92]}
+
+
+{access soma[0]}
+
+soma[0] {
+  pt3dclear()
+  pt3dadd(-5.88,14.31,-0.51,30.974) 
+  pt3dadd(0,0,0,30.974) 
+  pt3dadd(5.88,-14.31,0.51,30.974) 
+
+} // end of points list
+
+{soma[0] connect apical_dendrite[0](0), 0.5}
+
+apical_dendrite[0] {
+  pt3dclear()
+
+  //  Note: not adding point: (0,0,0,30.974) on parent, as this is a connection to the soma.
+  //  connect statement above means that this section is connected by a zero resistance wire to that point.
+
+  pt3dadd(-8.81,18.83,5.22,4.1) 
+  pt3dadd(-9.87,22.72,5.16,4.1) 
+
+} // end of points list
+
+{apical_dendrite[0] connect apical_dendrite[1](0), 1}
+
+apical_dendrite[1] {
+  pt3dclear()
+  pt3dadd(-9.87,22.72,5.16,4.1) 
+  pt3dadd(-7.63,25.26,5.07,2.5) 
+  pt3dadd(-5.3,32.33,9.66,2.1) 
+  pt3dadd(-3.74,37.94,12.58,2.1) 
+
+} // end of points list
+
+{apical_dendrite[1] connect apical_dendrite[2](0), 1}
+
+apical_dendrite[2] {
+  pt3dclear()
+  pt3dadd(-3.74,37.94,12.58,2.1) 
+  pt3dadd(-0.77,43.53,13.69,1.8) 
+  pt3dadd(0.7,52.33,15.67,1.5) 
+  pt3dadd(2.91,60.86,17.25,1.5) 
+  pt3dadd(5.77,69.13,18.92,1.5) 
+  pt3dadd(6.8,75.64,22.8,1.5) 
+  pt3dadd(7.95,82.67,24.68,1.5) 
+
+} // end of points list
+
+{apical_dendrite[2] connect apical_dendrite[3](0), 1}
+
+apical_dendrite[3] {
+  pt3dclear()
+  pt3dadd(7.95,82.67,24.68,1.5) 
+  pt3dadd(10.53,87.09,27.73,1.2) 
+  pt3dadd(18.15,98.99,31.24,1.2) 
+  pt3dadd(23.93,107.94,33.37,1.2) 
+  pt3dadd(29.45,117.33,35.99,1.2) 
+  pt3dadd(32.68,122.47,36.62,1.2) 
+
+} // end of points list
+
+{apical_dendrite[3] connect apical_dendrite[4](0), 1}
+
+apical_dendrite[4] {
+  pt3dclear()
+  pt3dadd(32.68,122.47,36.62,1.2) 
+  pt3dadd(36.45,130.01,37.91,1.1) 
+  pt3dadd(42.53,143.3,37.17,1.1) 
+  pt3dadd(45.12,151.9,36.28,1.1) 
+  pt3dadd(47.64,164.79,34.99,1.1) 
+  pt3dadd(48.13,173.08,34.27,1.1) 
+
+} // end of points list
+
+{apical_dendrite[4] connect apical_dendrite[5](0), 1}
+
+apical_dendrite[5] {
+  pt3dclear()
+  pt3dadd(48.13,173.08,34.27,1.1) 
+  pt3dadd(49.39,181.73,34.7,0.7) 
+  pt3dadd(50.42,193.52,35.17,0.7) 
+  pt3dadd(50.05,202.05,35.85,0.7) 
+  pt3dadd(49.63,212.16,36.06,0.7) 
+  pt3dadd(50.13,225.96,38.02,0.6) 
+  pt3dadd(49.68,236.56,37.22,0.6) 
+  pt3dadd(51.06,248.04,39.77,0.6) 
+  pt3dadd(51.74,253.77,41.04,0.6) 
+
+} // end of points list
+
+{apical_dendrite[5] connect apical_dendrite[6](0), 1}
+
+apical_dendrite[6] {
+  pt3dclear()
+  pt3dadd(51.74,253.77,41.04,0.6) 
+  pt3dadd(55.43,259.1,41.74,0.6) 
+  pt3dadd(61.14,262.63,44.74,0.5) 
+  pt3dadd(68.29,267.85,48,0.5) 
+  pt3dadd(75.56,273.7,52.3,0.5) 
+  pt3dadd(80.28,280.14,57.25,0.5) 
+  pt3dadd(83.06,284.1,60.31,0.5) 
+  pt3dadd(84.92,287.68,63.22,0.5) 
+  pt3dadd(87.28,295.25,66.31,0.5) 
+  pt3dadd(90.14,302.52,70.49,0.4) 
+  pt3dadd(93.15,309.82,73.68,0.4) 
+  pt3dadd(96.27,316.65,77.37,0.4) 
+  pt3dadd(100.72,324.53,80.29,0.4) 
+  pt3dadd(105.52,334.18,83.31,0.4) 
+  pt3dadd(108.68,342.61,86.04,0.4) 
+  pt3dadd(111.76,347.72,87.66,0.4) 
+  pt3dadd(115.08,357.28,89.95,0.4) 
+  pt3dadd(117.14,366.89,93.05,0.3) 
+  pt3dadd(117.94,375.45,96.44,0.3) 
+  pt3dadd(119.04,381.87,96.78,0.3) 
+  pt3dadd(121.98,390.15,97.96,0.3) 
+  pt3dadd(125.67,395.48,98.66,0.3) 
+  pt3dadd(128.1,400.86,100.19,0.3) 
+  pt3dadd(132.32,403.2,101.91,0.3) 
+  pt3dadd(133.01,407.83,102.65,0.3) 
+  pt3dadd(134.12,412.15,104.96,0.3) 
+  pt3dadd(135.41,416.02,107.28,0.3) 
+  pt3dadd(137.51,419.74,111.75,0.3) 
+
+} // end of points list
+
+{apical_dendrite[5] connect apical_dendrite[7](0), 1}
+
+apical_dendrite[7] {
+  pt3dclear()
+  pt3dadd(51.74,253.77,41.04,0.6) 
+  pt3dadd(52.54,260.02,40.32,0.3) 
+  pt3dadd(53.54,267.03,43.18,0.3) 
+  pt3dadd(53.54,274.63,43.9,0.3) 
+  pt3dadd(52.63,281.84,44.46,0.3) 
+  pt3dadd(52.37,289.89,45.64,0.3) 
+  pt3dadd(52.87,296.09,46.9,0.3) 
+  pt3dadd(54.01,302.02,48.24,0.3) 
+  pt3dadd(53.98,308.01,49.92,0.3) 
+  pt3dadd(54.09,315.14,51.14,0.3) 
+  pt3dadd(54.59,322.44,52.93,0.3) 
+  pt3dadd(56.65,328.75,54.42,0.3) 
+  pt3dadd(58.17,334.85,56.34,0.3) 
+  pt3dadd(59.96,339.4,57.24,0.3) 
+  pt3dadd(60.27,344.96,57.94,0.3) 
+  pt3dadd(61.38,350.39,60.79,0.3) 
+  pt3dadd(61,355.72,62.9,0.3) 
+
+} // end of points list
+
+{apical_dendrite[4] connect apical_dendrite[8](0), 1}
+
+apical_dendrite[8] {
+  pt3dclear()
+  pt3dadd(48.13,173.08,34.27,1.1) 
+  pt3dadd(48.59,181.75,29.51,0.3) 
+  pt3dadd(50.07,193.63,27.02,0.3) 
+  pt3dadd(51.79,203.45,25.02,0.3) 
+  pt3dadd(52.09,205.71,24.12,0.3) 
+
+} // end of points list
+
+{apical_dendrite[8] connect apical_dendrite[9](0), 1}
+
+apical_dendrite[9] {
+  pt3dclear()
+  pt3dadd(52.09,205.71,24.12,0.3) 
+  pt3dadd(53.16,208.21,21.31,0.3) 
+  pt3dadd(55.36,215.53,19.31,0.3) 
+  pt3dadd(56.27,221.2,16.06,0.3) 
+  pt3dadd(58.86,226.5,13.57,0.3) 
+  pt3dadd(60.95,230,11.96,0.3) 
+  pt3dadd(64.56,234.11,9.58,0.3) 
+  pt3dadd(66.84,234.95,6.92,0.3) 
+  pt3dadd(68.7,237.2,3.22,0.3) 
+  pt3dadd(70.11,241.46,0.51,0.3) 
+  pt3dadd(72.01,243.12,-5.22,0.3) 
+  pt3dadd(73.14,244.42,-12.09,0.3) 
+  pt3dadd(76.45,246.15,-16.6,0.3) 
+  pt3dadd(78.15,249.37,-21.82,0.3) 
+  pt3dadd(81.23,252.06,-27.35,0.3) 
+
+} // end of points list
+
+{apical_dendrite[8] connect apical_dendrite[10](0), 1}
+
+apical_dendrite[10] {
+  pt3dclear()
+  pt3dadd(52.09,205.71,24.12,0.3) 
+  pt3dadd(49.4,210.69,27.88,0.3) 
+  pt3dadd(47.46,217.89,24.74,0.3) 
+  pt3dadd(45.37,223.97,22.06,0.3) 
+  pt3dadd(44.19,230.42,19.52,0.3) 
+  pt3dadd(42.52,240.48,17.51,0.3) 
+  pt3dadd(42.03,247.28,16.6,0.3) 
+  pt3dadd(41.16,252.79,14.59,0.3) 
+  pt3dadd(40.78,258.01,13.66,0.3) 
+  pt3dadd(40.13,263.68,13.21,0.3) 
+  pt3dadd(40.97,267.24,12.42,0.3) 
+  pt3dadd(42.38,271.73,15.8,0.3) 
+  pt3dadd(43.75,276.71,18.16,0.3) 
+  pt3dadd(44.82,283.72,20.54,0.3) 
+  pt3dadd(45.43,289.45,22.3,0.3) 
+  pt3dadd(46.31,295.71,21.09,0.3) 
+  pt3dadd(47.64,299.96,18.88,0.3) 
+  pt3dadd(47.94,304.31,16,0.3) 
+  pt3dadd(48.89,308.39,13.22,0.3) 
+  pt3dadd(48.29,313.46,10.73,0.3) 
+  pt3dadd(48.74,318.93,7.41,0.3) 
+  pt3dadd(49.43,323.46,5.11,0.3) 
+  pt3dadd(50.19,329.1,2.84,0.3) 
+  pt3dadd(50.64,333.47,-1.01,0.3) 
+  pt3dadd(51.1,338.84,-7.37,0.3) 
+  pt3dadd(49.57,343.41,-13.05,0.3) 
+  pt3dadd(48.78,347.84,-16.09,0.3) 
+  pt3dadd(49.53,351.28,-19.42,0.3) 
+  pt3dadd(48.2,354.4,-22.58,0.3) 
+
+} // end of points list
+
+{apical_dendrite[3] connect apical_dendrite[11](0), 1}
+
+apical_dendrite[11] {
+  pt3dclear()
+  pt3dadd(32.68,122.47,36.62,1.2) 
+  pt3dadd(34.97,127.93,42.18,0.5) 
+  pt3dadd(37.4,131.23,45.68,0.5) 
+  pt3dadd(40.71,132.19,49.75,0.5) 
+  pt3dadd(43.57,132.97,53.75,0.5) 
+  pt3dadd(45.82,133.53,58.66,0.5) 
+  pt3dadd(46.58,136.19,63.91,0.5) 
+  pt3dadd(48.33,140.36,69.35,0.5) 
+  pt3dadd(49.14,143.53,73.1,0.5) 
+  pt3dadd(50.62,147.04,78.49,0.3) 
+  pt3dadd(52.57,153.93,82.51,0.3) 
+  pt3dadd(53.98,160.62,86.95,0.3) 
+  pt3dadd(53.45,163.83,92.02,0.3) 
+  pt3dadd(51.1,168.49,97.86,0.3) 
+  pt3dadd(48.9,173.17,102.7,0.3) 
+  pt3dadd(47.16,176.93,107.09,0.3) 
+  pt3dadd(46.21,180.46,110.58,0.3) 
+  pt3dadd(45,184.43,114.55,0.3) 
+  pt3dadd(44.51,188.14,118.12,0.3) 
+  pt3dadd(41.28,192.81,119.27,0.3) 
+
+} // end of points list
+
+{apical_dendrite[2] connect apical_dendrite[12](0), 1}
+
+apical_dendrite[12] {
+  pt3dclear()
+  pt3dadd(7.95,82.67,24.68,1.5) 
+  pt3dadd(5.44,91.37,24.53,0.8) 
+  pt3dadd(3.7,101.53,26.05,0.8) 
+  pt3dadd(1.16,110.83,27.94,0.8) 
+  pt3dadd(-1.45,117.91,29.24,0.8) 
+  pt3dadd(-1.95,120.41,29.24,0.8) 
+
+} // end of points list
+
+{apical_dendrite[12] connect apical_dendrite[13](0), 1}
+
+apical_dendrite[13] {
+  pt3dclear()
+  pt3dadd(-1.95,120.41,29.24,0.8) 
+  pt3dadd(-2.7,126.66,31.31,0.7) 
+  pt3dadd(-3.27,135.76,35.01,0.7) 
+  pt3dadd(-4.1,143.1,38.12,0.7) 
+  pt3dadd(-5.84,152.16,39.1,0.7) 
+  pt3dadd(-6.6,161.61,39.75,0.7) 
+  pt3dadd(-6.97,170.13,40.43,0.7) 
+  pt3dadd(-6.21,174.78,40.67,0.7) 
+
+} // end of points list
+
+{apical_dendrite[13] connect apical_dendrite[14](0), 1}
+
+apical_dendrite[14] {
+  pt3dclear()
+  pt3dadd(-6.21,174.78,40.67,0.7) 
+  pt3dadd(-5.6,178.3,41.36,0.7) 
+
+} // end of points list
+
+{apical_dendrite[14] connect apical_dendrite[15](0), 1}
+
+apical_dendrite[15] {
+  pt3dclear()
+  pt3dadd(-5.6,178.3,41.36,0.7) 
+  pt3dadd(-2.52,181.21,41.91,0.3) 
+  pt3dadd(1.12,188.13,42.15,0.3) 
+  pt3dadd(2.87,194.27,42.58,0.3) 
+  pt3dadd(4.51,201.99,43.04,0.3) 
+  pt3dadd(4.74,208.64,44.77,0.3) 
+  pt3dadd(4.71,214.63,46.45,0.3) 
+  pt3dadd(2.32,219.66,48.24,0.3) 
+  pt3dadd(1.37,225.28,49.76,0.3) 
+  pt3dadd(1.56,229.22,51.92,0.3) 
+  pt3dadd(2.29,234.47,54.2,0.3) 
+  pt3dadd(2.75,237.97,55.88,0.3) 
+  pt3dadd(3.59,241.64,58.13,0.3) 
+  pt3dadd(1.46,248.42,60.52,0.3) 
+  pt3dadd(2.87,256.1,62.46,0.3) 
+  pt3dadd(3.9,262.51,63.29,0.3) 
+  pt3dadd(5.2,269.56,64.19,0.3) 
+  pt3dadd(4.97,276.02,65.84,0.3) 
+  pt3dadd(5.85,282.39,67.67,0.3) 
+  pt3dadd(5.67,288.36,70.33,0.3) 
+  pt3dadd(5.1,294.16,72.42,0.3) 
+  pt3dadd(4.72,298.39,73.99,0.3) 
+  pt3dadd(3.66,303.37,74.47,0.3) 
+  pt3dadd(1.08,305.56,74.64,0.3) 
+
+} // end of points list
+
+{apical_dendrite[14] connect apical_dendrite[16](0), 1}
+
+apical_dendrite[16] {
+  pt3dclear()
+  pt3dadd(-5.6,178.3,41.36,0.7) 
+  pt3dadd(-5.67,185.89,42.56,0.3) 
+  pt3dadd(-6.81,193.06,44.61,0.3) 
+  pt3dadd(-7.38,198.86,46.7,0.3) 
+  pt3dadd(-10.57,207.33,47.96,0.3) 
+  pt3dadd(-13.34,213.28,49.72,0.3) 
+  pt3dadd(-14.06,216.85,51.73,0.3) 
+  pt3dadd(-14.17,222.83,53.89,0.3) 
+  pt3dadd(-15.23,228.92,54.91,0.3) 
+  pt3dadd(-14.96,232.88,56.57,0.3) 
+  pt3dadd(-13.85,238.3,59.42,0.3) 
+  pt3dadd(-14,243.78,63.08,0.3) 
+  pt3dadd(-12.93,250.8,65.46,0.3) 
+  pt3dadd(-13.76,257.04,68.03,0.3) 
+  pt3dadd(-14.06,260.29,71.61,0.3) 
+  pt3dadd(-12.54,265.29,72.99,0.3) 
+  pt3dadd(-11.81,269.44,74.73,0.3) 
+  pt3dadd(-13.45,271.52,76.05,0.3) 
+
+} // end of points list
+
+{apical_dendrite[13] connect apical_dendrite[17](0), 1}
+
+apical_dendrite[17] {
+  pt3dclear()
+  pt3dadd(-6.21,174.78,40.67,0.7) 
+  pt3dadd(-8.98,183.93,40.99,0.3) 
+  pt3dadd(-10.99,194.42,39.95,0.3) 
+  pt3dadd(-13.27,203.27,41.36,0.3) 
+  pt3dadd(-13.19,206.59,42.47,0.3) 
+  pt3dadd(-12.2,211.39,44.27,0.3) 
+  pt3dadd(-11.36,217.15,44.56,0.3) 
+  pt3dadd(-11.21,221.59,45.71,0.3) 
+  pt3dadd(-11.97,226.74,47.25,0.3) 
+  pt3dadd(-14.05,234.03,48.14,0.3) 
+  pt3dadd(-15.53,241.53,48.11,0.3) 
+  pt3dadd(-18.38,248.46,47.86,0.3) 
+  pt3dadd(-18.95,254.14,46.92,0.3) 
+  pt3dadd(-21.57,260.02,44.65,0.3) 
+  pt3dadd(-24.54,265.22,42.81,0.3) 
+
+} // end of points list
+
+{apical_dendrite[12] connect apical_dendrite[18](0), 1}
+
+apical_dendrite[18] {
+  pt3dclear()
+  pt3dadd(-1.95,120.41,29.24,0.8) 
+  pt3dadd(-9.78,124.76,29.17,0.3) 
+  pt3dadd(-14.72,130.28,28.56,0.3) 
+  pt3dadd(-21.37,137.87,29.77,0.3) 
+  pt3dadd(-28.77,147.31,30.91,0.3) 
+  pt3dadd(-35.61,155.36,32.1,0.3) 
+  pt3dadd(-44.31,165.34,33.06,0.3) 
+  pt3dadd(-52.06,175.1,32.13,0.3) 
+  pt3dadd(-57.08,180.5,28.98,0.3) 
+  pt3dadd(-62.25,187.96,24.85,0.3) 
+  pt3dadd(-67.54,193.81,22.17,0.3) 
+  pt3dadd(-73.73,201.48,20.41,0.3) 
+  pt3dadd(-79.43,208.85,19.74,0.3) 
+  pt3dadd(-81.78,213.28,19.5,0.3) 
+  pt3dadd(-84.44,220.85,19.8,0.3) 
+
+} // end of points list
+
+{apical_dendrite[1] connect apical_dendrite[19](0), 1}
+
+apical_dendrite[19] {
+  pt3dclear()
+  pt3dadd(-3.74,37.94,12.58,2.1) 
+  pt3dadd(-7.96,44.42,15.15,0.8) 
+  pt3dadd(-10,51.33,20.08,0.8) 
+  pt3dadd(-12.2,57.11,25.46,0.7) 
+  pt3dadd(-13.6,62.64,29.95,0.7) 
+  pt3dadd(-16.52,66.48,34.67,0.7) 
+  pt3dadd(-18.34,71.34,40.08,0.7) 
+  pt3dadd(-19.4,76.55,46.64,0.7) 
+  pt3dadd(-20.69,80.51,51.1,0.7) 
+  pt3dadd(-22.7,84.73,55.97,0.7) 
+  pt3dadd(-24.06,89.77,61.46,0.5) 
+  pt3dadd(-23.94,93.81,67.15,0.5) 
+  pt3dadd(-25.61,97.6,71.05,0.5) 
+  pt3dadd(-25.45,98.95,76.67,0.5) 
+  pt3dadd(-25.37,104.58,81.9,0.5) 
+  pt3dadd(-25.06,110.25,85.64,0.3) 
+  pt3dadd(-24.6,119.25,90,0.3) 
+  pt3dadd(-26.23,122.54,94.9,0.3) 
+  pt3dadd(-29.38,127.33,98.59,0.3) 
+  pt3dadd(-30.7,131.78,102.05,0.3) 
+  pt3dadd(-33.06,139.63,106.45,0.3) 
+  pt3dadd(-31.72,148.39,109.42,0.3) 
+  pt3dadd(-31.79,154.99,113.13,0.3) 
+  pt3dadd(-31.67,162.22,117.39,0.3) 
+  pt3dadd(-31.25,165.22,120.57,0.3) 
+  pt3dadd(-31.59,168.96,123.15,0.3) 
+  pt3dadd(-30.44,172.79,126.47,0.3) 
+  pt3dadd(-29.6,174.37,130.68,0.3) 
+  pt3dadd(-30.4,176.93,135.69,0.3) 
+  pt3dadd(-31.46,180.93,138.67,0.3) 
+
+} // end of points list
+
+{apical_dendrite[0] connect apical_dendrite[20](0), 1}
+
+apical_dendrite[20] {
+  pt3dclear()
+  pt3dadd(-9.87,22.72,5.16,4.1) 
+  pt3dadd(-15.61,28.37,2.41,2.7) 
+  pt3dadd(-18.35,31.75,7.14,2.7) 
+  pt3dadd(-21,35.14,11.38,2.7) 
+
+} // end of points list
+
+{apical_dendrite[20] connect apical_dendrite[21](0), 1}
+
+apical_dendrite[21] {
+  pt3dclear()
+  pt3dadd(-21,35.14,11.38,2.7) 
+  pt3dadd(-21.12,37.7,8.9,2.2) 
+
+} // end of points list
+
+{apical_dendrite[21] connect apical_dendrite[22](0), 1}
+
+apical_dendrite[22] {
+  pt3dclear()
+  pt3dadd(-21.12,37.7,8.9,2.2) 
+  pt3dadd(-20.05,40.2,6.1,1.7) 
+
+} // end of points list
+
+{apical_dendrite[22] connect apical_dendrite[23](0), 1}
+
+apical_dendrite[23] {
+  pt3dclear()
+  pt3dadd(-20.05,40.2,6.1,1.7) 
+  pt3dadd(-20.05,43.4,4.66,0.9) 
+  pt3dadd(-18.46,53.59,-0.88,0.9) 
+  pt3dadd(-16.33,64.09,-3.81,0.9) 
+  pt3dadd(-14.01,69.84,-5.83,0.9) 
+  pt3dadd(-13.13,78.2,-9.02,0.9) 
+  pt3dadd(-11.91,85.24,-7.63,0.9) 
+  pt3dadd(-12.29,93.76,-6.95,0.9) 
+
+} // end of points list
+
+{apical_dendrite[23] connect apical_dendrite[24](0), 1}
+
+apical_dendrite[24] {
+  pt3dclear()
+  pt3dadd(-12.29,93.76,-6.95,0.9) 
+  pt3dadd(-12.55,98.62,-4.33,0.9) 
+
+} // end of points list
+
+{apical_dendrite[24] connect apical_dendrite[25](0), 1}
+
+apical_dendrite[25] {
+  pt3dclear()
+  pt3dadd(-12.55,98.62,-4.33,0.9) 
+  pt3dadd(-12.92,107.14,-3.66,0.7) 
+  pt3dadd(-13.91,118.64,-3.5,0.5) 
+  pt3dadd(-13.18,131.27,-6.59,0.5) 
+  pt3dadd(-12.95,138.79,-10.4,0.5) 
+  pt3dadd(-11.17,147.53,-13.44,0.5) 
+  pt3dadd(-9.49,155.75,-14.48,0.5) 
+  pt3dadd(-8.27,162.69,-16.13,0.5) 
+  pt3dadd(-4.43,171.23,-17.84,0.5) 
+  pt3dadd(-0.67,178.67,-19.6,0.5) 
+  pt3dadd(2.56,185.9,-20.93,0.5) 
+  pt3dadd(4.12,192.39,-23.55,0.5) 
+  pt3dadd(5.14,197.58,-26.29,0.5) 
+  pt3dadd(6.4,202.81,-30.52,0.5) 
+  pt3dadd(7.5,208.01,-33.75,0.5) 
+  pt3dadd(8.87,213.87,-36.93,0.5) 
+  pt3dadd(9.02,219.18,-41.31,0.5) 
+  pt3dadd(10.05,225.47,-43.52,0.5) 
+  pt3dadd(12.06,232.16,-46.07,0.5) 
+  pt3dadd(13.62,238.66,-48.69,0.5) 
+
+} // end of points list
+
+{apical_dendrite[25] connect apical_dendrite[26](0), 1}
+
+apical_dendrite[26] {
+  pt3dclear()
+  pt3dadd(13.62,238.66,-48.69,0.5) 
+  pt3dadd(16.59,245.23,-50.08,0.3) 
+  pt3dadd(17.47,255.9,-49.16,0.3) 
+  pt3dadd(19.71,261.75,-47.64,0.3) 
+  pt3dadd(20.93,267.69,-46.79,0.3) 
+  pt3dadd(22.49,273.19,-46.91,0.3) 
+  pt3dadd(24.77,277.34,-47.97,0.3) 
+  pt3dadd(29.18,282.3,-50.7,0.3) 
+  pt3dadd(33.82,286.3,-52.41,0.3) 
+  pt3dadd(39.45,291.92,-50.9,0.3) 
+  pt3dadd(43.83,296.48,-49.09,0.3) 
+  pt3dadd(47.1,297.94,-46.02,0.3) 
+  pt3dadd(49.08,296.63,-44.74,0.3) 
+
+} // end of points list
+
+{apical_dendrite[25] connect apical_dendrite[27](0), 1}
+
+apical_dendrite[27] {
+  pt3dclear()
+  pt3dadd(13.62,238.66,-48.69,0.5) 
+  pt3dadd(13.96,245.71,-51.99,0.3) 
+  pt3dadd(16.13,254.62,-54.45,0.3) 
+  pt3dadd(18.03,262.88,-56.98,0.3) 
+  pt3dadd(21.64,269.08,-61.32,0.3) 
+  pt3dadd(25.48,274.32,-64.64,0.3) 
+  pt3dadd(30.31,278.86,-68.84,0.3) 
+  pt3dadd(33.54,284.99,-70.71,0.3) 
+  pt3dadd(37.61,293.68,-70.86,0.3) 
+  pt3dadd(39.97,298.94,-71.88,0.3) 
+  pt3dadd(40.32,307.21,-71.6,0.3) 
+
+} // end of points list
+
+{apical_dendrite[27] connect apical_dendrite[28](0), 1}
+
+apical_dendrite[28] {
+  pt3dclear()
+  pt3dadd(40.32,307.21,-71.6,0.3) 
+  pt3dadd(42.68,312.58,-69.58,0.3) 
+  pt3dadd(43.97,320.73,-68.15,0.3) 
+  pt3dadd(47.21,329.17,-65.91,0.3) 
+  pt3dadd(50.26,340.28,-62.62,0.3) 
+  pt3dadd(53.49,347.62,-60.91,0.3) 
+  pt3dadd(53.12,352.95,-58.8,0.3) 
+  pt3dadd(49.43,357.43,-57.73,0.3) 
+
+} // end of points list
+
+{apical_dendrite[27] connect apical_dendrite[29](0), 1}
+
+apical_dendrite[29] {
+  pt3dclear()
+  pt3dadd(40.32,307.21,-71.6,0.3) 
+  pt3dadd(39.86,316.71,-72.94,0.3) 
+  pt3dadd(41.04,324.13,-75.59,0.3) 
+  pt3dadd(43.17,331.44,-77.1,0.3) 
+  pt3dadd(44.77,339.65,-77.64,0.3) 
+  pt3dadd(42.99,345.89,-79.27,0.3) 
+  pt3dadd(44.28,351.73,-81.95,0.3) 
+  pt3dadd(44.21,357,-84.85,0.3) 
+  pt3dadd(47.7,362.68,-87.2,0.3) 
+  pt3dadd(48.81,364.69,-89,0.3) 
+
+} // end of points list
+
+{apical_dendrite[24] connect apical_dendrite[30](0), 1}
+
+apical_dendrite[30] {
+  pt3dclear()
+  pt3dadd(-12.55,98.62,-4.33,0.9) 
+  pt3dadd(-10.57,103.59,-8.96,0.3) 
+  pt3dadd(-7.76,107.83,-13.47,0.3) 
+  pt3dadd(-6.17,112.62,-18.67,0.3) 
+  pt3dadd(-5.48,118.14,-23.48,0.3) 
+  pt3dadd(-2.67,122.37,-27.99,0.3) 
+  pt3dadd(1.12,127.99,-35.35,0.3) 
+  pt3dadd(4,134.34,-42.33,0.3) 
+  pt3dadd(4.27,141.38,-45.14,0.3) 
+  pt3dadd(5.94,148.39,-49.76,0.3) 
+  pt3dadd(6.13,156.51,-51.53,0.3) 
+  pt3dadd(6.4,164.65,-53.8,0.3) 
+  pt3dadd(7.31,170.32,-57.05,0.3) 
+  pt3dadd(8.04,179.75,-58.71,0.3) 
+  pt3dadd(8.84,189.2,-60.87,0.3) 
+  pt3dadd(8.04,194.73,-63.37,0.3) 
+  pt3dadd(7.74,200.95,-67.3,0.3) 
+  pt3dadd(6.79,207.45,-71.32,0.3) 
+  pt3dadd(7.24,212.92,-74.64,0.3) 
+  pt3dadd(6.37,217.45,-74.15,0.3) 
+  pt3dadd(6.64,223.5,-74.45,0.3) 
+
+} // end of points list
+
+{apical_dendrite[23] connect apical_dendrite[31](0), 1}
+
+apical_dendrite[31] {
+  pt3dclear()
+  pt3dadd(-12.29,93.76,-6.95,0.9) 
+  pt3dadd(-19.58,101.62,-5.84,0.4) 
+  pt3dadd(-27.45,112.96,-6.74,0.4) 
+  pt3dadd(-31.93,118.67,-7.27,0.4) 
+
+} // end of points list
+
+{apical_dendrite[31] connect apical_dendrite[32](0), 1}
+
+apical_dendrite[32] {
+  pt3dclear()
+  pt3dadd(-31.93,118.67,-7.27,0.4) 
+  pt3dadd(-33.68,127.62,-9.32,0.3) 
+  pt3dadd(-35.99,135.74,-12.5,0.3) 
+  pt3dadd(-38.24,143.88,-16.16,0.3) 
+  pt3dadd(-41.24,151.67,-20.97,0.3) 
+  pt3dadd(-45.42,158.54,-22.94,0.3) 
+  pt3dadd(-47.4,165.24,-24.58,0.3) 
+  pt3dadd(-49.14,173.08,-27.17,0.3) 
+  pt3dadd(-50.85,179.33,-29.29,0.3) 
+  pt3dadd(-50.39,188.11,-31.01,0.3) 
+  pt3dadd(-51.42,194.59,-34.53,0.3) 
+  pt3dadd(-52.63,203.74,-37,0.3) 
+  pt3dadd(-54.69,212.52,-40.12,0.3) 
+  pt3dadd(-57.35,219.98,-42.86,0.3) 
+  pt3dadd(-61.41,231.77,-44.68,0.3) 
+  pt3dadd(-63.92,238.27,-45.9,0.3) 
+  pt3dadd(-66.54,245.24,-47.64,0.3) 
+  pt3dadd(-68.82,249.69,-48.37,0.3) 
+
+} // end of points list
+
+{apical_dendrite[31] connect apical_dendrite[33](0), 1}
+
+apical_dendrite[33] {
+  pt3dclear()
+  pt3dadd(-31.93,118.67,-7.27,0.4) 
+  pt3dadd(-42.64,135.84,-8.96,0.3) 
+  pt3dadd(-50.66,148.15,-11.37,0.3) 
+  pt3dadd(-56.29,155.53,-12.54,0.3) 
+  pt3dadd(-63.89,164.22,-14.99,0.3) 
+  pt3dadd(-70.16,171.87,-16.25,0.3) 
+  pt3dadd(-78.9,180.25,-14.33,0.3) 
+  pt3dadd(-81.51,184.14,-11.59,0.3) 
+  pt3dadd(-85.5,195.06,-8.37,0.3) 
+  pt3dadd(-88.99,204.47,-7.64,0.3) 
+  pt3dadd(-91.76,215.82,-6.24,0.3) 
+  pt3dadd(-95.14,221.45,-6.61,0.3) 
+
+} // end of points list
+
+{apical_dendrite[22] connect apical_dendrite[34](0), 1}
+
+apical_dendrite[34] {
+  pt3dclear()
+  pt3dadd(-20.05,40.2,6.1,1.7) 
+  pt3dadd(-22.25,50.5,16.66,1) 
+  pt3dadd(-22.66,56.43,20.81,1) 
+  pt3dadd(-22.46,64.67,22.07,1) 
+  pt3dadd(-24.89,74.59,25,1) 
+  pt3dadd(-28.12,82.56,27.76,1) 
+  pt3dadd(-29.97,87.91,32.17,1) 
+  pt3dadd(-31.23,92.37,35.13,1) 
+  pt3dadd(-32.93,96.64,38.02,1) 
+
+} // end of points list
+
+{apical_dendrite[34] connect apical_dendrite[35](0), 1}
+
+apical_dendrite[35] {
+  pt3dclear()
+  pt3dadd(-32.93,96.64,38.02,1) 
+  pt3dadd(-35.02,101.84,40.88,0.8) 
+  pt3dadd(-37.29,110.8,45.32,0.8) 
+  pt3dadd(-40.25,119.42,48.14,0.8) 
+  pt3dadd(-40.55,126.96,50.82,0.8) 
+
+} // end of points list
+
+{apical_dendrite[35] connect apical_dendrite[36](0), 1}
+
+apical_dendrite[36] {
+  pt3dclear()
+  pt3dadd(-40.55,126.96,50.82,0.8) 
+  pt3dadd(-41.53,134.28,54.92,0.8) 
+
+} // end of points list
+
+{apical_dendrite[36] connect apical_dendrite[37](0), 1}
+
+apical_dendrite[37] {
+  pt3dclear()
+  pt3dadd(-41.53,134.28,54.92,0.8) 
+  pt3dadd(-40.62,139.07,57.21,0.5) 
+
+} // end of points list
+
+{apical_dendrite[37] connect apical_dendrite[38](0), 1}
+
+apical_dendrite[38] {
+  pt3dclear()
+  pt3dadd(-40.62,139.07,57.21,0.5) 
+  pt3dadd(-40.04,144.29,60.47,0.3) 
+  pt3dadd(-40.31,149.14,63.09,0.3) 
+  pt3dadd(-41.21,154.27,65.62,0.3) 
+  pt3dadd(-43.11,157.9,67.96,0.3) 
+  pt3dadd(-47.21,163.79,67.99,0.3) 
+
+} // end of points list
+
+{apical_dendrite[38] connect apical_dendrite[39](0), 1}
+
+apical_dendrite[39] {
+  pt3dclear()
+  pt3dadd(-47.21,163.79,67.99,0.3) 
+  pt3dadd(-51.58,170.35,74.59,0.3) 
+  pt3dadd(-54.35,175.31,78.85,0.3) 
+  pt3dadd(-56.4,180.02,82.71,0.3) 
+  pt3dadd(-60.04,186.21,85.86,0.3) 
+  pt3dadd(-61.56,191.12,89.3,0.3) 
+  pt3dadd(-62.62,196.22,92.82,0.3) 
+  pt3dadd(-64.17,202.72,95.79,0.3) 
+  pt3dadd(-63.71,209.52,99.08,0.3) 
+  pt3dadd(-64.66,213.04,102.57,0.3) 
+  pt3dadd(-66.25,217.94,106.5,0.3) 
+  pt3dadd(-68.03,223.29,110.42,0.3) 
+  pt3dadd(-69.74,227.57,113.31,0.3) 
+  pt3dadd(-70.8,233.77,117.36,0.3) 
+  pt3dadd(-70.18,238.5,121.63,0.3) 
+  pt3dadd(-72.01,241.04,122.94,0.3) 
+
+} // end of points list
+
+{apical_dendrite[38] connect apical_dendrite[40](0), 1}
+
+apical_dendrite[40] {
+  pt3dclear()
+  pt3dadd(-47.21,163.79,67.99,0.3) 
+  pt3dadd(-52.99,171.15,67.81,0.3) 
+  pt3dadd(-55.91,181.37,69.66,0.3) 
+  pt3dadd(-59.1,192.04,71.99,0.3) 
+  pt3dadd(-60.88,199.49,73.94,0.3) 
+  pt3dadd(-63.39,210.4,74.86,0.3) 
+  pt3dadd(-67.41,223.9,75.11,0.3) 
+  pt3dadd(-72.15,234.46,77.2,0.3) 
+  pt3dadd(-75.42,241.82,78.42,0.3) 
+  pt3dadd(-77.92,252.72,79.34,0.3) 
+  pt3dadd(-81.04,261.21,80.1,0.3) 
+  pt3dadd(-82.17,267.28,81.61,0.3) 
+  pt3dadd(-85.74,274.48,81.76,0.3) 
+
+} // end of points list
+
+{apical_dendrite[37] connect apical_dendrite[41](0), 1}
+
+apical_dendrite[41] {
+  pt3dclear()
+  pt3dadd(-40.62,139.07,57.21,0.5) 
+  pt3dadd(-40.35,146.11,54.4,0.3) 
+  pt3dadd(-37.69,153.62,52.48,0.3) 
+  pt3dadd(-31.18,165.5,52.79,0.3) 
+  pt3dadd(-29.16,175.49,51.84,0.3) 
+  pt3dadd(-29.31,184.05,51.04,0.3) 
+  pt3dadd(-30.68,190.97,48.48,0.3) 
+  pt3dadd(-32.24,197.25,45.38,0.3) 
+  pt3dadd(-36,204.79,42.47,0.3) 
+  pt3dadd(-38.7,210.65,40.7,0.3) 
+  pt3dadd(-42.62,215.97,37.71,0.3) 
+  pt3dadd(-45.32,218.52,34.33,0.3) 
+  pt3dadd(-46.72,221.63,31.67,0.3) 
+
+} // end of points list
+
+{apical_dendrite[36] connect apical_dendrite[42](0), 1}
+
+apical_dendrite[42] {
+  pt3dclear()
+  pt3dadd(-41.53,134.28,54.92,0.8) 
+  pt3dadd(-46.25,136.76,57.3,0.3) 
+  pt3dadd(-50.99,139.84,61.71,0.3) 
+  pt3dadd(-53.53,142.75,66.46,0.3) 
+  pt3dadd(-57.71,146.64,72,0.3) 
+  pt3dadd(-61.47,152.2,74.1,0.3) 
+  pt3dadd(-64.96,155.23,77.7,0.3) 
+  pt3dadd(-68.8,157.58,81.73,0.3) 
+  pt3dadd(-72.22,160.62,84.83,0.3) 
+  pt3dadd(-75.37,163.31,90.49,0.3) 
+  pt3dadd(-78.79,166.35,93.59,0.3) 
+  pt3dadd(-80.07,170.31,98.05,0.3) 
+  pt3dadd(-84.82,173.38,102.47,0.3) 
+  pt3dadd(-88.88,179.99,107.08,0.3) 
+  pt3dadd(-92.76,183.94,110.64,0.3) 
+  pt3dadd(-97.58,187.99,113.05,0.3) 
+  pt3dadd(-102.25,189.98,116.43,0.3) 
+  pt3dadd(-106.55,192.04,117.35,0.3) 
+
+} // end of points list
+
+{apical_dendrite[35] connect apical_dendrite[43](0), 1}
+
+apical_dendrite[43] {
+  pt3dclear()
+  pt3dadd(-40.55,126.96,50.82,0.8) 
+  pt3dadd(-42.79,139.51,49.3,0.3) 
+  pt3dadd(-47.08,155.55,48.06,0.3) 
+  pt3dadd(-51.26,172.22,47.87,0.3) 
+  pt3dadd(-55.51,185.57,46.56,0.3) 
+  pt3dadd(-57.25,196.71,45.58,0.3) 
+  pt3dadd(-60.06,207.45,45.44,0.3) 
+  pt3dadd(-63.67,216.24,45.12,0.3) 
+  pt3dadd(-67.24,223.43,45.27,0.3) 
+  pt3dadd(-71.88,229.11,45.73,0.3) 
+  pt3dadd(-76.97,236.7,44.14,0.3) 
+
+} // end of points list
+
+{apical_dendrite[34] connect apical_dendrite[44](0), 1}
+
+apical_dendrite[44] {
+  pt3dclear()
+  pt3dadd(-32.93,96.64,38.02,1) 
+  pt3dadd(-29.74,103.37,38.19,0.3) 
+  pt3dadd(-26,113.71,42.58,0.3) 
+  pt3dadd(-23.68,120.78,47.17,0.3) 
+  pt3dadd(-22,125.92,50.6,0.3) 
+  pt3dadd(-23.1,131.51,53.11,0.3) 
+  pt3dadd(-22.41,140.55,55.99,0.3) 
+  pt3dadd(-22.25,149.39,59.29,0.3) 
+  pt3dadd(-21.37,159.07,62.72,0.3) 
+  pt3dadd(-22.01,167.05,66.38,0.3) 
+  pt3dadd(-21.36,173.39,69.68,0.3) 
+  pt3dadd(-18.96,178.27,72.71,0.3) 
+  pt3dadd(-17.02,184.06,76.2,0.3) 
+  pt3dadd(-13.32,192.69,78.51,0.3) 
+  pt3dadd(-8.42,203.96,80.07,0.3) 
+  pt3dadd(-4.23,211.19,82.93,0.3) 
+  pt3dadd(-5.82,214.99,86.33,0.3) 
+  pt3dadd(-6.42,220.28,89.92,0.3) 
+  pt3dadd(-6.53,224.17,94.06,0.3) 
+  pt3dadd(-6.99,228.39,96.13,0.3) 
+  pt3dadd(-7.52,232.59,98.69,0.3) 
+
+} // end of points list
+
+{apical_dendrite[21] connect apical_dendrite[45](0), 1}
+
+apical_dendrite[45] {
+  pt3dclear()
+  pt3dadd(-21.12,37.7,8.9,2.2) 
+  pt3dadd(-29.55,48.34,9.92,0.7) 
+  pt3dadd(-35.47,56.88,14.3,0.7) 
+  pt3dadd(-39.88,63.93,19.89,0.7) 
+  pt3dadd(-45.08,71.11,23.33,0.7) 
+  pt3dadd(-48.8,76.18,26.44,0.7) 
+  pt3dadd(-51.8,84.3,30.75,0.7) 
+  pt3dadd(-54.38,93.1,34.14,0.7) 
+  pt3dadd(-58.89,102.82,40.28,0.7) 
+  pt3dadd(-61.55,108.3,42.55,0.7) 
+  pt3dadd(-62.95,113.73,44,0.7) 
+
+} // end of points list
+
+{apical_dendrite[45] connect apical_dendrite[46](0), 1}
+
+apical_dendrite[46] {
+  pt3dclear()
+  pt3dadd(-62.95,113.73,44,0.7) 
+  pt3dadd(-64.39,121.85,45.52,0.3) 
+  pt3dadd(-66.82,131.77,48.45,0.3) 
+
+} // end of points list
+
+{apical_dendrite[46] connect apical_dendrite[47](0), 1}
+
+apical_dendrite[47] {
+  pt3dclear()
+  pt3dadd(-66.82,131.77,48.45,0.3) 
+  pt3dadd(-65.26,140.58,49.93,0.3) 
+  pt3dadd(-67,150.85,54.5,0.3) 
+  pt3dadd(-66.8,161.29,56.83,0.3) 
+  pt3dadd(-67.86,168.48,58.38,0.3) 
+  pt3dadd(-72.53,179.06,59.97,0.3) 
+  pt3dadd(-74.96,186.78,61.83,0.3) 
+  pt3dadd(-77.35,195.12,65.23,0.3) 
+  pt3dadd(-78.98,203.7,66.73,0.3) 
+  pt3dadd(-81.41,212.52,69.12,0.3) 
+  pt3dadd(-82.81,216.96,73.08,0.3) 
+  pt3dadd(-84.93,221.65,77.43,0.3) 
+  pt3dadd(-87.85,226.59,82.68,0.3) 
+  pt3dadd(-89.07,230.56,86.65,0.3) 
+  pt3dadd(-89.63,233.16,90.17,0.3) 
+
+} // end of points list
+
+{apical_dendrite[46] connect apical_dendrite[48](0), 1}
+
+apical_dendrite[48] {
+  pt3dclear()
+  pt3dadd(-66.82,131.77,48.45,0.3) 
+  pt3dadd(-76.01,145.25,46.89,0.3) 
+  pt3dadd(-83.19,155.82,47.09,0.3) 
+  pt3dadd(-87.53,160.57,48.07,0.3) 
+  pt3dadd(-94.82,165.13,47.58,0.3) 
+  pt3dadd(-105.5,171.02,47.62,0.3) 
+  pt3dadd(-112.08,175.43,49.77,0.3) 
+  pt3dadd(-117.59,177.05,52.51,0.3) 
+  pt3dadd(-123.59,181.17,55.24,0.3) 
+  pt3dadd(-127.27,185.76,59.36,0.3) 
+  pt3dadd(-130.84,188.76,63.44,0.3) 
+  pt3dadd(-135.74,192.8,66.34,0.3) 
+  pt3dadd(-142.35,197.7,67.49,0.3) 
+  pt3dadd(-146.91,200.09,65.84,0.3) 
+  pt3dadd(-153.34,201.22,65.39,0.3) 
+
+} // end of points list
+
+{apical_dendrite[45] connect apical_dendrite[49](0), 1}
+
+apical_dendrite[49] {
+  pt3dclear()
+  pt3dadd(-62.95,113.73,44,0.7) 
+  pt3dadd(-71.2,118.51,45.4,0.3) 
+  pt3dadd(-77.16,124.23,47.17,0.3) 
+  pt3dadd(-84.5,131.59,49.78,0.3) 
+  pt3dadd(-89.32,135.64,52.19,0.3) 
+  pt3dadd(-95.28,140.38,56.46,0.3) 
+  pt3dadd(-100.83,144.8,62.31,0.3) 
+  pt3dadd(-108.5,152.6,65.9,0.3) 
+  pt3dadd(-112.07,159.9,69.09,0.3) 
+  pt3dadd(-114.95,164.24,72.3,0.3) 
+  pt3dadd(-118.56,169.83,73.42,0.3) 
+
+} // end of points list
+
+{apical_dendrite[20] connect apical_dendrite[50](0), 1}
+
+apical_dendrite[50] {
+  pt3dclear()
+  pt3dadd(-21,35.14,11.38,2.7) 
+  pt3dadd(-29.44,39.27,12.22,1.2) 
+  pt3dadd(-35.74,42.24,16.4,1.2) 
+  pt3dadd(-40.26,47.56,20.4,1.2) 
+  pt3dadd(-44.71,52.89,23.91,1.2) 
+  pt3dadd(-47.29,55.08,24.08,1.2) 
+
+} // end of points list
+
+{apical_dendrite[50] connect apical_dendrite[51](0), 1}
+
+apical_dendrite[51] {
+  pt3dclear()
+  pt3dadd(-47.29,55.08,24.08,1.2) 
+  pt3dadd(-47.59,57.23,27.13,1.2) 
+
+} // end of points list
+
+{apical_dendrite[51] connect apical_dendrite[52](0), 1}
+
+apical_dendrite[52] {
+  pt3dclear()
+  pt3dadd(-47.59,57.23,27.13,1.2) 
+  pt3dadd(-49.41,62.09,32.55,0.4) 
+  pt3dadd(-51.88,67.22,37.87,0.4) 
+  pt3dadd(-55.33,71.95,43.54,0.4) 
+  pt3dadd(-59.35,75.87,48.09,0.4) 
+  pt3dadd(-62.66,80.64,52.77,0.4) 
+  pt3dadd(-64.86,82.01,56.02,0.4) 
+  pt3dadd(-71.81,85.25,60.1,0.4) 
+  pt3dadd(-76.37,86.77,63.99,0.4) 
+  pt3dadd(-80.93,89.38,68.43,0.4) 
+  pt3dadd(-84.69,91.75,71.96,0.4) 
+  pt3dadd(-86.85,92.64,76.21,0.4) 
+  pt3dadd(-92.81,94.07,78.87,0.4) 
+  pt3dadd(-99.27,98,81.53,0.3) 
+  pt3dadd(-106.26,102.83,85.15,0.3) 
+  pt3dadd(-112.42,108.03,89.4,0.3) 
+  pt3dadd(-117.51,111.43,91.75,0.3) 
+  pt3dadd(-124.31,115.8,95.38,0.3) 
+  pt3dadd(-130.01,119.98,96.14,0.3) 
+  pt3dadd(-134.57,123.58,98.07,0.3) 
+  pt3dadd(-136.99,128.11,101.36,0.3) 
+
+} // end of points list
+
+{apical_dendrite[51] connect apical_dendrite[53](0), 1}
+
+apical_dendrite[53] {
+  pt3dclear()
+  pt3dadd(-47.59,57.23,27.13,1.2) 
+  pt3dadd(-53.14,61.44,26.9,0.3) 
+  pt3dadd(-58.76,65.74,30.2,0.3) 
+
+} // end of points list
+
+{apical_dendrite[53] connect apical_dendrite[54](0), 1}
+
+apical_dendrite[54] {
+  pt3dclear()
+  pt3dadd(-58.76,65.74,30.2,0.3) 
+  pt3dadd(-63.32,69.45,35.17,0.3) 
+  pt3dadd(-66.77,74.19,40.84,0.3) 
+  pt3dadd(-70.61,76.54,44.87,0.3) 
+  pt3dadd(-75.35,81.82,50.35,0.3) 
+  pt3dadd(-79.11,85.4,57.47,0.3) 
+  pt3dadd(-81.8,88.29,63.2,0.3) 
+  pt3dadd(-87.01,93.38,68.61,0.3) 
+  pt3dadd(-91.91,97.42,71.51,0.3) 
+  pt3dadd(-96.69,103.19,76,0.3) 
+  pt3dadd(-102.12,108.13,79.85,0.3) 
+  pt3dadd(-106.26,114.61,81.92,0.3) 
+  pt3dadd(-110.97,120.4,85.91,0.3) 
+  pt3dadd(-114.42,126.12,89.07,0.3) 
+  pt3dadd(-118.91,130.84,91.04,0.3) 
+  pt3dadd(-125.25,136.39,92.25,0.3) 
+  pt3dadd(-128.48,142.16,93.93,0.3) 
+  pt3dadd(-131.17,146.03,97.16,0.3) 
+  pt3dadd(-133,148.58,98.47,0.3) 
+
+} // end of points list
+
+{apical_dendrite[53] connect apical_dendrite[55](0), 1}
+
+apical_dendrite[55] {
+  pt3dclear()
+  pt3dadd(-58.76,65.74,30.2,0.3) 
+  pt3dadd(-68.3,70.94,28.37,0.3) 
+  pt3dadd(-77.16,77.37,22.63,0.3) 
+  pt3dadd(-90.16,85.88,16.82,0.3) 
+  pt3dadd(-103.43,93.85,13.99,0.3) 
+  pt3dadd(-112.78,100.69,10.21,0.3) 
+  pt3dadd(-120.65,107.52,4.13,0.3) 
+  pt3dadd(-130.42,114.67,-1.21,0.3) 
+  pt3dadd(-144.52,125.57,-3.08,0.3) 
+  pt3dadd(-150.37,130.71,-3.84,0.3) 
+  pt3dadd(-156.53,135.8,-2.62,0.3) 
+  pt3dadd(-160.82,140.06,-0.63,0.3) 
+
+} // end of points list
+
+{apical_dendrite[50] connect apical_dendrite[56](0), 1}
+
+apical_dendrite[56] {
+  pt3dclear()
+  pt3dadd(-47.29,55.08,24.08,1.2) 
+  pt3dadd(-54.13,66.33,23.84,0.3) 
+  pt3dadd(-67.13,78.25,22.68,0.3) 
+  pt3dadd(-77.12,87.79,25.96,0.3) 
+  pt3dadd(-85.21,94.9,30.47,0.3) 
+  pt3dadd(-92.54,105.46,31.66,0.3) 
+  pt3dadd(-98.92,114.8,33.46,0.3) 
+  pt3dadd(-103.82,124.23,36,0.3) 
+  pt3dadd(-110.27,135.77,39.37,0.3) 
+  pt3dadd(-116.28,144.18,41.2,0.3) 
+  pt3dadd(-127.71,156.22,40.28,0.3) 
+  pt3dadd(-133.94,166.69,41.63,0.3) 
+  pt3dadd(-139.03,176.59,44.15,0.3) 
+  pt3dadd(-141.92,184.12,45.94,0.3) 
+
+} // end of points list
+
+{soma[0] connect apical_dendrite[57](0), 0.5}
+
+apical_dendrite[57] {
+  pt3dclear()
+
+  //  Note: not adding point: (0,0,0,30.974) on parent, as this is a connection to the soma.
+  //  connect statement above means that this section is connected by a zero resistance wire to that point.
+
+  pt3dadd(-10.87,14.28,-7.35,3.4) 
+  pt3dadd(-13.08,20.83,-10.55,3.4) 
+  pt3dadd(-14.83,26.47,-14.21,2.3) 
+  pt3dadd(-15.63,30.9,-17.25,2.3) 
+  pt3dadd(-16,39.43,-16.57,2.3) 
+
+} // end of points list
+
+{apical_dendrite[57] connect apical_dendrite[58](0), 1}
+
+apical_dendrite[58] {
+  pt3dclear()
+  pt3dadd(-16,39.43,-16.57,2.3) 
+  pt3dadd(-15.81,56.25,-17.1,2.2) 
+  pt3dadd(-15.92,62.13,-17.97,2.1) 
+
+} // end of points list
+
+{apical_dendrite[58] connect apical_dendrite[59](0), 1}
+
+apical_dendrite[59] {
+  pt3dclear()
+  pt3dadd(-15.92,62.13,-17.97,2.1) 
+  pt3dadd(-14.97,67.41,-17.18,1.7) 
+  pt3dadd(-15.27,71.66,-16.1,1.7) 
+
+} // end of points list
+
+{apical_dendrite[59] connect apical_dendrite[60](0), 1}
+
+apical_dendrite[60] {
+  pt3dclear()
+  pt3dadd(-15.27,71.66,-16.1,1.7) 
+  pt3dadd(-13.21,74.66,-16.21,1.6) 
+  pt3dadd(-11.69,80.76,-14.3,1.6) 
+
+} // end of points list
+
+{apical_dendrite[60] connect apical_dendrite[61](0), 1}
+
+apical_dendrite[61] {
+  pt3dclear()
+  pt3dadd(-11.69,80.76,-14.3,1.6) 
+  pt3dadd(-6.1,87.85,-16.29,1.3) 
+  pt3dadd(-0.4,95.46,-20.27,1.3) 
+  pt3dadd(4.54,102.83,-22.35,1.3) 
+  pt3dadd(7.05,107.01,-24.89,1.3) 
+  pt3dadd(13.02,112.19,-24.34,1.3) 
+  pt3dadd(19.82,117.62,-26.19,1.2) 
+  pt3dadd(29.06,125.13,-28.12,1.2) 
+  pt3dadd(37.05,132.7,-29.22,1.2) 
+  pt3dadd(44.77,142.92,-28.77,1.2) 
+  pt3dadd(51.8,153.9,-29.43,1.2) 
+  pt3dadd(55.46,162.91,-31.16,1.2) 
+  pt3dadd(57.93,171.99,-32.56,1.2) 
+  pt3dadd(62.46,179.77,-33.17,1) 
+  pt3dadd(64.93,187.75,-35.11,1) 
+
+} // end of points list
+
+{apical_dendrite[61] connect apical_dendrite[62](0), 1}
+
+apical_dendrite[62] {
+  pt3dclear()
+  pt3dadd(64.93,187.75,-35.11,1) 
+  pt3dadd(66.38,199.24,-33.06,1) 
+  pt3dadd(66.46,210.04,-34.28,1) 
+  pt3dadd(66.61,215.47,-35.63,1) 
+
+} // end of points list
+
+{apical_dendrite[62] connect apical_dendrite[63](0), 1}
+
+apical_dendrite[63] {
+  pt3dclear()
+  pt3dadd(66.61,215.47,-35.63,1) 
+  pt3dadd(67.11,227.06,-34.73,1) 
+  pt3dadd(68.26,236.18,-34.82,1) 
+  pt3dadd(69.7,241.17,-32.95,1) 
+
+} // end of points list
+
+{apical_dendrite[63] connect apical_dendrite[64](0), 1}
+
+apical_dendrite[64] {
+  pt3dclear()
+  pt3dadd(69.7,241.17,-32.95,1) 
+  pt3dadd(75.75,248.56,-31.82,1) 
+  pt3dadd(81.95,258.19,-30.61,1) 
+  pt3dadd(85.83,263.05,-29.89,1) 
+
+} // end of points list
+
+{apical_dendrite[64] connect apical_dendrite[65](0), 1}
+
+apical_dendrite[65] {
+  pt3dclear()
+  pt3dadd(85.83,263.05,-29.89,1) 
+  pt3dadd(89.68,268.52,-27.13,1) 
+  pt3dadd(93.56,273.38,-26.41,1) 
+
+} // end of points list
+
+{apical_dendrite[65] connect apical_dendrite[66](0), 1}
+
+apical_dendrite[66] {
+  pt3dclear()
+  pt3dadd(93.56,273.38,-26.41,1) 
+  pt3dadd(100.4,279.43,-26.71,0.6) 
+  pt3dadd(104.93,287.21,-27.33,0.6) 
+  pt3dadd(107.9,295.99,-27.65,0.6) 
+  pt3dadd(110.22,301.74,-29.67,0.6) 
+  pt3dadd(115.73,309.92,-30.63,0.6) 
+  pt3dadd(120.67,315.19,-30.75,0.6) 
+  pt3dadd(125.39,323.62,-30.81,0.6) 
+  pt3dadd(132.39,335.2,-29.43,0.5) 
+  pt3dadd(137.68,343.34,-28.9,0.5) 
+  pt3dadd(145.82,352.15,-27.42,0.5) 
+  pt3dadd(154.45,360.65,-24.86,0.5) 
+  pt3dadd(160.05,367.86,-23.81,0.5) 
+  pt3dadd(160.96,372.64,-21.52,0.5) 
+  pt3dadd(161.92,379.03,-20.19,0.5) 
+  pt3dadd(162.95,388.74,-17.75,0.5) 
+  pt3dadd(166.68,396.77,-17.46,0.3) 
+  pt3dadd(171.58,401.54,-16.08,0.3) 
+  pt3dadd(175.27,411.16,-16.27,0.3) 
+  pt3dadd(178.2,417.24,-16.16,0.3) 
+  pt3dadd(181.44,422.38,-15.53,0.3) 
+  pt3dadd(184.71,423.72,-15.5,0.3) 
+  pt3dadd(193.61,426.38,-13.05,0.3) 
+  pt3dadd(201.4,429.13,-10.77,0.3) 
+  pt3dadd(205.28,436.08,-12.02,0.3) 
+  pt3dadd(212.13,445.43,-10.72,0.3) 
+  pt3dadd(220,455.79,-8.22,0.3) 
+  pt3dadd(228.87,466.54,-6.07,0.3) 
+  pt3dadd(234.46,477.05,-3.41,0.3) 
+  pt3dadd(238.95,482.13,-3.6,0.3) 
+  pt3dadd(244.2,489.77,-1.58,0.3) 
+  pt3dadd(254.54,498.19,-5.84,0.3) 
+  pt3dadd(268.57,511.06,-3.85,0.3) 
+  pt3dadd(279.72,519.45,-2.93,0.3) 
+  pt3dadd(285.31,524.45,-2.96,0.3) 
+  pt3dadd(287.81,528.64,-5.49,0.3) 
+  pt3dadd(295.8,535.1,-7.13,0.3) 
+  pt3dadd(301.12,545.95,-7.04,0.3) 
+  pt3dadd(304.93,550.69,-8.86,0.3) 
+  pt3dadd(314.97,553.88,-4.71,0.3) 
+  pt3dadd(327.1,559.59,0.33,0.3) 
+  pt3dadd(337.14,565.98,3.05,0.3) 
+  pt3dadd(346.23,573.46,2.11,0.3) 
+  pt3dadd(354.74,576.94,1.49,0.3) 
+  pt3dadd(359.99,584.58,3.51,0.3) 
+  pt3dadd(368.51,589.15,3.42,0.3) 
+
+} // end of points list
+
+{apical_dendrite[65] connect apical_dendrite[67](0), 1}
+
+apical_dendrite[67] {
+  pt3dclear()
+  pt3dadd(93.56,273.38,-26.41,1) 
+  pt3dadd(98.16,280.3,-21.97,0.3) 
+  pt3dadd(102.54,286.08,-16.59,0.3) 
+  pt3dadd(106.23,293.72,-11.77,0.3) 
+  pt3dadd(109.58,300.59,-9.56,0.3) 
+  pt3dadd(112.14,310.89,-7.88,0.3) 
+  pt3dadd(114.88,321.83,-5.65,0.3) 
+  pt3dadd(118.19,328.2,-1.93,0.3) 
+  pt3dadd(126.49,339.34,2.66,0.3) 
+  pt3dadd(129.12,349.77,6.88,0.3) 
+  pt3dadd(135.05,358.85,11.07,0.3) 
+  pt3dadd(141.75,368.28,16.4,0.3) 
+  pt3dadd(149.21,380.16,20.9,0.3) 
+  pt3dadd(154.43,389.5,25.49,0.3) 
+  pt3dadd(160.97,397.7,28.23,0.3) 
+  pt3dadd(165.19,406.42,27.09,0.3) 
+  pt3dadd(169.57,416.39,28.53,0.3) 
+  pt3dadd(169.88,426.24,28.33,0.3) 
+  pt3dadd(172.54,431.55,25.34,0.3) 
+  pt3dadd(182.05,443.02,25.08,0.3) 
+  pt3dadd(190.68,451.53,27.64,0.3) 
+  pt3dadd(198.17,458.52,31,0.3) 
+  pt3dadd(211.49,467.35,34.29,0.3) 
+  pt3dadd(223.73,476.87,38.95,0.3) 
+  pt3dadd(227.58,480.14,40.64,0.3) 
+  pt3dadd(229.33,486.39,44.11,0.3) 
+  pt3dadd(236.9,496.58,45.55,0.3) 
+  pt3dadd(246.03,506.88,47.22,0.3) 
+  pt3dadd(259.15,519.48,52.1,0.3) 
+  pt3dadd(265.77,528.79,54.88,0.3) 
+  pt3dadd(273.6,535.23,54.23,0.3) 
+  pt3dadd(280.57,543.01,55.5,0.3) 
+  pt3dadd(287.41,549.16,58.24,0.3) 
+  pt3dadd(294.75,554.91,59.01,0.3) 
+  pt3dadd(298.55,558.55,56.65,0.3) 
+  pt3dadd(305.29,566.28,59.41,0.3) 
+
+} // end of points list
+
+{apical_dendrite[64] connect apical_dendrite[68](0), 1}
+
+apical_dendrite[68] {
+  pt3dclear()
+  pt3dadd(85.83,263.05,-29.89,1) 
+  pt3dadd(84.96,271.87,-30.29,0.3) 
+  pt3dadd(86.37,278.34,-31.93,0.3) 
+  pt3dadd(90.33,291.81,-33.49,0.3) 
+  pt3dadd(92.88,303.11,-34.32,0.3) 
+  pt3dadd(94.74,308.66,-36.41,0.3) 
+  pt3dadd(95.5,313.2,-39.21,0.3) 
+
+} // end of points list
+
+{apical_dendrite[63] connect apical_dendrite[69](0), 1}
+
+apical_dendrite[69] {
+  pt3dclear()
+  pt3dadd(69.7,241.17,-32.95,1) 
+  pt3dadd(66.1,253.26,-31.66,0.3) 
+  pt3dadd(65.88,266.32,-26.79,0.3) 
+  pt3dadd(63.87,274.84,-22.82,0.3) 
+  pt3dadd(62.43,281.96,-18.8,0.3) 
+  pt3dadd(61.9,288.37,-15.17,0.3) 
+  pt3dadd(62.67,295.33,-10.81,0.3) 
+  pt3dadd(60.89,303.99,-5.29,0.3) 
+  pt3dadd(63.22,316.57,1.97,0.3) 
+  pt3dadd(61.9,328.62,6.14,0.3) 
+  pt3dadd(63.05,340.05,10.17,0.3) 
+  pt3dadd(63.81,348,12.01,0.3) 
+  pt3dadd(67.61,353.85,10.73,0.3) 
+
+} // end of points list
+
+{apical_dendrite[62] connect apical_dendrite[70](0), 1}
+
+apical_dendrite[70] {
+  pt3dclear()
+  pt3dadd(66.61,215.47,-35.63,1) 
+  pt3dadd(69.96,216.71,-39.13,0.3) 
+  pt3dadd(76.27,221.34,-42.59,0.3) 
+  pt3dadd(82.96,228.35,-44.42,0.3) 
+  pt3dadd(88.96,236.12,-47.34,0.3) 
+  pt3dadd(95.43,244.09,-50.18,0.3) 
+  pt3dadd(100.98,247.26,-55.32,0.3) 
+  pt3dadd(107.55,250.34,-59.79,0.3) 
+  pt3dadd(112.38,256.09,-60.42,0.3) 
+
+} // end of points list
+
+{apical_dendrite[61] connect apical_dendrite[71](0), 1}
+
+apical_dendrite[71] {
+  pt3dclear()
+  pt3dadd(64.93,187.75,-35.11,1) 
+  pt3dadd(68.8,189.2,-39.03,0.3) 
+  pt3dadd(74.35,190.28,-42.2,0.3) 
+  pt3dadd(79.82,193.34,-49.88,0.3) 
+  pt3dadd(81.95,196.13,-56.57,0.3) 
+  pt3dadd(84.07,198.93,-63.25,0.3) 
+  pt3dadd(87.3,201.64,-69.77,0.3) 
+  pt3dadd(89.28,206.61,-74.39,0.3) 
+  pt3dadd(90.38,211.81,-77.63,0.3) 
+  pt3dadd(88.82,214.9,-79.3,0.3) 
+
+} // end of points list
+
+{apical_dendrite[60] connect apical_dendrite[72](0), 1}
+
+apical_dendrite[72] {
+  pt3dclear()
+  pt3dadd(-11.69,80.76,-14.3,1.6) 
+  pt3dadd(-13.96,87.52,-10.92,0.5) 
+  pt3dadd(-13.88,94.14,-8.2,0.5) 
+  pt3dadd(-11.75,101.56,-6.66,0.5) 
+  pt3dadd(-10.3,108.76,-3.72,0.5) 
+  pt3dadd(-10.14,117.59,-0.42,0.5) 
+  pt3dadd(-11.47,126.34,2.13,0.5) 
+  pt3dadd(-12.19,138.49,2.35,0.5) 
+  pt3dadd(-12.41,152.44,1.67,0.5) 
+  pt3dadd(-13.17,159.68,1.25,0.5) 
+
+} // end of points list
+
+{apical_dendrite[72] connect apical_dendrite[73](0), 1}
+
+apical_dendrite[73] {
+  pt3dclear()
+  pt3dadd(-13.17,159.68,1.25,0.5) 
+  pt3dadd(-11.87,167.73,-0.35,0.4) 
+  pt3dadd(-12.06,178.98,-1.09,0.4) 
+  pt3dadd(-12.81,190.52,-2.42,0.4) 
+  pt3dadd(-11.1,198.26,-2.45,0.4) 
+
+} // end of points list
+
+{apical_dendrite[73] connect apical_dendrite[74](0), 1}
+
+apical_dendrite[74] {
+  pt3dclear()
+  pt3dadd(-11.1,198.26,-2.45,0.4) 
+  pt3dadd(-9.01,202.97,-0.49,0.4) 
+  pt3dadd(-9.34,206.71,2.08,0.4) 
+  pt3dadd(-10.86,213.71,3.55,0.3) 
+  pt3dadd(-13.55,222.99,6.43,0.3) 
+  pt3dadd(-16.74,229.37,9.65,0.3) 
+  pt3dadd(-17.04,238.01,12.87,0.3) 
+  pt3dadd(-17.26,246.68,15.6,0.3) 
+  pt3dadd(-15.17,255.8,19.71,0.3) 
+  pt3dadd(-12.2,263.59,21.89,0.3) 
+  pt3dadd(-10.06,274.31,25.03,0.3) 
+  pt3dadd(-8.5,279.93,27.95,0.3) 
+  pt3dadd(-5.75,288.89,35.19,0.3) 
+  pt3dadd(-5.29,296.79,39.02,0.3) 
+
+} // end of points list
+
+{apical_dendrite[73] connect apical_dendrite[75](0), 1}
+
+apical_dendrite[75] {
+  pt3dclear()
+  pt3dadd(-11.1,198.26,-2.45,0.4) 
+  pt3dadd(-12.01,206.46,-4.4,0.3) 
+  pt3dadd(-10.91,214.97,-6.02,0.3) 
+  pt3dadd(-10.14,221.71,-7.75,0.3) 
+  pt3dadd(-10.37,233.46,-9.49,0.3) 
+  pt3dadd(-11.32,243.26,-11.91,0.3) 
+  pt3dadd(-12.07,252.59,-14.3,0.3) 
+  pt3dadd(-10.02,263.09,-16.74,0.3) 
+  pt3dadd(-6.75,273.02,-18.5,0.3) 
+  pt3dadd(-3.47,281.96,-17.76,0.3) 
+  pt3dadd(-0.54,290.24,-16.59,0.3) 
+  pt3dadd(0.78,301.1,-15.59,0.3) 
+  pt3dadd(1.13,310.47,-14.78,0.3) 
+  pt3dadd(2.73,321.87,-16.75,0.3) 
+  pt3dadd(2.12,331.35,-17.1,0.3) 
+  pt3dadd(2.17,338.46,-15.38,0.3) 
+
+} // end of points list
+
+{apical_dendrite[72] connect apical_dendrite[76](0), 1}
+
+apical_dendrite[76] {
+  pt3dclear()
+  pt3dadd(-13.17,159.68,1.25,0.5) 
+  pt3dadd(-18.86,170.35,2.18,0.3) 
+  pt3dadd(-26.19,182.01,3.9,0.3) 
+  pt3dadd(-32.19,191.53,6.27,0.3) 
+  pt3dadd(-39.98,202.99,7.91,0.3) 
+  pt3dadd(-45.98,218.9,7.42,0.3) 
+  pt3dadd(-50.12,226.37,6.99,0.3) 
+  pt3dadd(-55.97,235.92,8.37,0.3) 
+  pt3dadd(-58.51,240.93,11.15,0.3) 
+  pt3dadd(-62.35,244.27,12.68,0.3) 
+
+} // end of points list
+
+{apical_dendrite[59] connect apical_dendrite[77](0), 1}
+
+apical_dendrite[77] {
+  pt3dclear()
+  pt3dadd(-15.27,71.66,-16.1,1.7) 
+  pt3dadd(-20.7,77.58,-14.75,0.3) 
+  pt3dadd(-26.43,89.96,-11.25,0.3) 
+  pt3dadd(-33.92,101.48,-11.58,0.3) 
+  pt3dadd(-39.73,111.63,-8.65,0.3) 
+  pt3dadd(-45.69,120.55,-8.32,0.3) 
+  pt3dadd(-54.2,131.17,-6.81,0.3) 
+  pt3dadd(-61.87,141.06,-5.19,0.3) 
+  pt3dadd(-71.83,157.48,-6.27,0.3) 
+  pt3dadd(-76.35,166.99,-6.2,0.3) 
+  pt3dadd(-81.93,179.28,-6.73,0.3) 
+  pt3dadd(-87.06,185.26,-7.35,0.3) 
+  pt3dadd(-94.24,192.65,-5.72,0.3) 
+  pt3dadd(-98.8,197.35,-3.26,0.3) 
+  pt3dadd(-101.84,203.76,-1.02,0.3) 
+  pt3dadd(-103.92,211.05,-0.14,0.3) 
+  pt3dadd(-104.76,212.88,0.28,0.3) 
+
+} // end of points list
+
+{apical_dendrite[58] connect apical_dendrite[78](0), 1}
+
+apical_dendrite[78] {
+  pt3dclear()
+  pt3dadd(-15.92,62.13,-17.97,2.1) 
+  pt3dadd(-17.67,68.76,-24.14,1.4) 
+  pt3dadd(-18.85,74.11,-27.21,0.9) 
+  pt3dadd(-19.95,75.29,-26.84,0.9) 
+
+} // end of points list
+
+{apical_dendrite[78] connect apical_dendrite[79](0), 1}
+
+apical_dendrite[79] {
+  pt3dclear()
+  pt3dadd(-19.95,75.29,-26.84,0.9) 
+  pt3dadd(-21.47,77.89,-27.51,0.6) 
+
+} // end of points list
+
+{apical_dendrite[79] connect apical_dendrite[80](0), 1}
+
+apical_dendrite[80] {
+  pt3dclear()
+  pt3dadd(-21.47,77.89,-27.51,0.6) 
+  pt3dadd(-25.88,83.61,-28.54,0.6) 
+
+} // end of points list
+
+{apical_dendrite[80] connect apical_dendrite[81](0), 1}
+
+apical_dendrite[81] {
+  pt3dclear()
+  pt3dadd(-25.88,83.61,-28.54,0.6) 
+  pt3dadd(-34.16,89.98,-27.61,0.6) 
+  pt3dadd(-42.1,96.02,-24.62,0.6) 
+  pt3dadd(-51.49,103.57,-23.32,0.5) 
+  pt3dadd(-56.81,109.02,-21.46,0.5) 
+  pt3dadd(-58.32,112.72,-21.59,0.4) 
+  pt3dadd(-63.15,119.97,-20.62,0.4) 
+  pt3dadd(-67.4,131.23,-19.96,0.4) 
+  pt3dadd(-75.11,152.5,-17.03,0.4) 
+  pt3dadd(-79.82,163.57,-16.44,0.4) 
+  pt3dadd(-83.54,172.94,-14.23,0.4) 
+  pt3dadd(-89,182.66,-12.27,0.4) 
+  pt3dadd(-92.19,190.03,-11.55,0.4) 
+  pt3dadd(-98.61,199.86,-10.76,0.4) 
+  pt3dadd(-102.07,203.39,-8.66,0.4) 
+  pt3dadd(-105.53,206.91,-6.57,0.3) 
+
+} // end of points list
+
+{apical_dendrite[80] connect apical_dendrite[82](0), 1}
+
+apical_dendrite[82] {
+  pt3dclear()
+  pt3dadd(-25.88,83.61,-28.54,0.6) 
+  pt3dadd(-27.4,90.5,-30.1,0.3) 
+  pt3dadd(-32.34,97.02,-33.21,0.3) 
+  pt3dadd(-36.71,105.33,-37.71,0.3) 
+  pt3dadd(-42.64,114.64,-41.91,0.3) 
+  pt3dadd(-47.58,123.36,-43.95,0.3) 
+  pt3dadd(-51.04,131.07,-45.79,0.3) 
+  pt3dadd(-53.01,137.77,-47.43,0.3) 
+  pt3dadd(-55.52,146.36,-50.62,0.3) 
+  pt3dadd(-59.85,156.39,-53.04,0.3) 
+  pt3dadd(-63.04,164.75,-54.82,0.3) 
+  pt3dadd(-67.18,172.23,-55.26,0.3) 
+  pt3dadd(-71.55,179.66,-54.21,0.3) 
+  pt3dadd(-75.5,188.88,-53.56,0.3) 
+  pt3dadd(-78.08,197.57,-53.21,0.3) 
+  pt3dadd(-80.4,205.81,-53.35,0.3) 
+  pt3dadd(-85.18,215.76,-52.8,0.3) 
+  pt3dadd(-89.06,223.89,-53.18,0.3) 
+  pt3dadd(-92.06,228.6,-53.51,0.3) 
+  pt3dadd(-93.46,230.72,-53.67,0.3) 
+
+} // end of points list
+
+{apical_dendrite[79] connect apical_dendrite[83](0), 1}
+
+apical_dendrite[83] {
+  pt3dclear()
+  pt3dadd(-21.47,77.89,-27.51,0.6) 
+  pt3dadd(-23.49,79.57,-32.83,0.3) 
+  pt3dadd(-25.77,81.7,-37.68,0.3) 
+  pt3dadd(-29.42,84.37,-42.22,0.3) 
+  pt3dadd(-32.69,86.11,-46.72,0.3) 
+  pt3dadd(-35.13,88.21,-50.58,0.3) 
+  pt3dadd(-37.6,91.91,-54.9,0.3) 
+  pt3dadd(-39.54,93.6,-60.72,0.3) 
+  pt3dadd(-41.41,96.41,-66.5,0.3) 
+  pt3dadd(-42.4,98,-71.16,0.3) 
+  pt3dadd(-45.02,100.57,-75.04,0.3) 
+  pt3dadd(-47.38,103.79,-78.85,0.3) 
+  pt3dadd(-49.32,103.39,-82.7,0.3) 
+  pt3dadd(-51,104.75,-85.96,0.3) 
+  pt3dadd(-52.83,108.17,-90.2,0.3) 
+  pt3dadd(-54.61,111.11,-93.43,0.3) 
+  pt3dadd(-57.81,115.06,-97.35,0.3) 
+  pt3dadd(-58.76,118.25,-102.98,0.3) 
+  pt3dadd(-61.42,122.41,-107.32,0.3) 
+  pt3dadd(-63.33,124.72,-111.6,0.3) 
+  pt3dadd(-63.67,127.14,-115.64,0.3) 
+  pt3dadd(-64.82,128.59,-122.35,0.3) 
+  pt3dadd(-63.34,129.56,-127.16,0.3) 
+  pt3dadd(-66.34,134.16,-130.53,0.3) 
+
+} // end of points list
+
+{apical_dendrite[78] connect apical_dendrite[84](0), 1}
+
+apical_dendrite[84] {
+  pt3dclear()
+  pt3dadd(-19.95,75.29,-26.84,0.9) 
+  pt3dadd(-18.16,79.74,-28.98,0.3) 
+  pt3dadd(-16.45,85.16,-33.12,0.3) 
+  pt3dadd(-16.15,95.89,-38.86,0.3) 
+  pt3dadd(-17.67,103.77,-42.93,0.3) 
+  pt3dadd(-19.8,110.34,-46.62,0.3) 
+  pt3dadd(-20.44,115.89,-50.12,0.3) 
+
+} // end of points list
+
+{apical_dendrite[84] connect apical_dendrite[85](0), 1}
+
+apical_dendrite[85] {
+  pt3dclear()
+  pt3dadd(-20.44,115.89,-50.12,0.3) 
+  pt3dadd(-22.61,128.45,-52.13,0.3) 
+  pt3dadd(-25.57,137.96,-54.86,0.3) 
+  pt3dadd(-29.6,144.85,-57.83,0.3) 
+  pt3dadd(-32.64,151.03,-61.67,0.3) 
+  pt3dadd(-34.66,156.02,-65.38,0.3) 
+  pt3dadd(-36.41,163.75,-71.01,0.3) 
+
+} // end of points list
+
+{apical_dendrite[85] connect apical_dendrite[86](0), 1}
+
+apical_dendrite[86] {
+  pt3dclear()
+  pt3dadd(-36.41,163.75,-71.01,0.3) 
+  pt3dadd(-39.67,169.89,-73.37,0.3) 
+  pt3dadd(-45.75,178.19,-74.08,0.3) 
+  pt3dadd(-53.16,187.51,-75.98,0.3) 
+  pt3dadd(-61.3,197.1,-77.47,0.3) 
+  pt3dadd(-68.33,203.41,-77.37,0.3) 
+  pt3dadd(-75.55,212.27,-79.25,0.3) 
+  pt3dadd(-81.13,216.96,-80.48,0.3) 
+  pt3dadd(-87.02,219.4,-80.82,0.3) 
+  pt3dadd(-91.02,221.51,-81.88,0.3) 
+  pt3dadd(-96.03,223.71,-83.6,0.3) 
+
+} // end of points list
+
+{apical_dendrite[85] connect apical_dendrite[87](0), 1}
+
+apical_dendrite[87] {
+  pt3dclear()
+  pt3dadd(-36.41,163.75,-71.01,0.3) 
+  pt3dadd(-34.58,166.49,-75.72,0.3) 
+  pt3dadd(-33.41,170.61,-79.98,0.3) 
+  pt3dadd(-32.34,172,-83.32,0.3) 
+
+} // end of points list
+
+{apical_dendrite[87] connect apical_dendrite[88](0), 1}
+
+apical_dendrite[88] {
+  pt3dclear()
+  pt3dadd(-32.34,172,-83.32,0.3) 
+  pt3dadd(-32.76,176.61,-85.79,0.3) 
+  pt3dadd(-33.79,181.99,-89.86,0.3) 
+  pt3dadd(-33.71,188.39,-93.21,0.3) 
+  pt3dadd(-34.81,197.06,-95.18,0.3) 
+  pt3dadd(-35.72,207.48,-96.05,0.3) 
+  pt3dadd(-36.06,215.4,-97.4,0.3) 
+  pt3dadd(-37.81,225.44,-98.92,0.3) 
+  pt3dadd(-37.31,231.53,-100.71,0.3) 
+  pt3dadd(-37.08,238.07,-102.01,0.3) 
+  pt3dadd(-37.57,244.87,-102.92,0.3) 
+  pt3dadd(-37.95,249.98,-106.89,0.3) 
+  pt3dadd(-37.84,254.79,-109.78,0.3) 
+  pt3dadd(-38.94,256.96,-111.91,0.3) 
+
+} // end of points list
+
+{apical_dendrite[87] connect apical_dendrite[89](0), 1}
+
+apical_dendrite[89] {
+  pt3dclear()
+  pt3dadd(-32.34,172,-83.32,0.3) 
+  pt3dadd(-30.86,180.69,-84.38,0.3) 
+  pt3dadd(-31.35,191.78,-86.18,0.3) 
+  pt3dadd(-32.26,202.19,-87.06,0.3) 
+  pt3dadd(-33.17,210.51,-85.96,0.3) 
+  pt3dadd(-33.28,222.88,-86.66,0.3) 
+  pt3dadd(-32.82,231.66,-88.38,0.3) 
+  pt3dadd(-31.75,245.06,-88.86,0.3) 
+  pt3dadd(-31.63,255.38,-89.08,0.3) 
+  pt3dadd(-31.4,263.02,-89.85,0.3) 
+  pt3dadd(-30.6,267.18,-88.6,0.3) 
+
+} // end of points list
+
+{apical_dendrite[84] connect apical_dendrite[90](0), 1}
+
+apical_dendrite[90] {
+  pt3dclear()
+  pt3dadd(-20.44,115.89,-50.12,0.3) 
+  pt3dadd(-17.52,121.86,-53.05,0.3) 
+  pt3dadd(-15.05,126.53,-56.59,0.3) 
+  pt3dadd(-12.69,129.48,-61.72,0.3) 
+  pt3dadd(-10.53,131.78,-67.4,0.3) 
+  pt3dadd(-8.97,132.77,-72.7,0.3) 
+  pt3dadd(-6.62,137.92,-76.76,0.3) 
+  pt3dadd(-3.58,142.2,-82.75,0.3) 
+  pt3dadd(-1.38,147.21,-88.86,0.3) 
+  pt3dadd(0.21,149.8,-95.12,0.3) 
+  pt3dadd(2.75,154.49,-99.16,0.3) 
+  pt3dadd(3.78,157.47,-102.97,0.3) 
+  pt3dadd(3.82,160.07,-106.44,0.3) 
+
+} // end of points list
+
+{apical_dendrite[57] connect apical_dendrite[91](0), 1}
+
+apical_dendrite[91] {
+  pt3dclear()
+  pt3dadd(-16,39.43,-16.57,2.3) 
+  pt3dadd(-20.91,44.13,-25.29,0.3) 
+  pt3dadd(-24.56,52.07,-33.23,0.3) 
+  pt3dadd(-24.71,59.42,-37.61,0.3) 
+  pt3dadd(-25.86,63.08,-43.25,0.3) 
+  pt3dadd(-26.31,68.17,-46.73,0.3) 
+  pt3dadd(-28.67,72.38,-53.05,0.3) 
+  pt3dadd(-32.86,77.93,-61.64,0.3) 
+  pt3dadd(-36.93,82,-67.21,0.3) 
+  pt3dadd(-39.63,85.55,-73.1,0.3) 
+  pt3dadd(-42.48,89.07,-77.99,0.3) 
+  pt3dadd(-44.27,94.09,-83.19,0.3) 
+  pt3dadd(-48.53,97.64,-86.28,0.3) 
+  pt3dadd(-51.46,100.16,-88.18,0.3) 
+  pt3dadd(-58,101.65,-92.18,0.3) 
+  pt3dadd(-62.56,105.03,-96.33,0.3) 
+  pt3dadd(-68.53,108.34,-101.71,0.3) 
+  pt3dadd(-73.02,112.84,-105.82,0.3) 
+  pt3dadd(-77.13,117.4,-112.39,0.3) 
+  pt3dadd(-81.65,123.49,-116.97,0.3) 
+  pt3dadd(-85.04,126.8,-121.45,0.3) 
+  pt3dadd(-88.99,130.51,-123.47,0.3) 
+  pt3dadd(-92.68,134.88,-125.44,0.3) 
+  pt3dadd(-95.84,138.23,-131.4,0.3) 
+  pt3dadd(-99.26,142.04,-136.88,0.3) 
+  pt3dadd(-101.93,143.99,-142.3,0.3) 
+  pt3dadd(-99.76,145.2,-148.51,0.3) 
+  pt3dadd(-98.21,145.19,-151.31,0.3) 
+
+} // end of points list
+
+{soma[0] connect dendrite[0](0), 0.5}
+
+dendrite[0] {
+  pt3dclear()
+
+  //  Note: not adding point: (0,0,0,30.974) on parent, as this is a connection to the soma.
+  //  connect statement above means that this section is connected by a zero resistance wire to that point.
+
+  pt3dadd(3.09,-15.63,-6.52,3.3) 
+  pt3dadd(2.33,-23.58,-8.37,2.5) 
+  pt3dadd(1.79,-33.48,-6.69,2.1) 
+  pt3dadd(0.99,-42.04,-10.08,1.9) 
+  pt3dadd(1.94,-44.36,-9.99,1.9) 
+
+} // end of points list
+
+{dendrite[0] connect dendrite[1](0), 1}
+
+dendrite[1] {
+  pt3dclear()
+  pt3dadd(1.94,-44.36,-9.99,1.9) 
+  pt3dadd(2.77,-49.5,-12.03,1.4) 
+  pt3dadd(5.01,-56.87,-16.94,1.2) 
+  pt3dadd(7.21,-63.64,-19.82,1.2) 
+
+} // end of points list
+
+{dendrite[1] connect dendrite[2](0), 1}
+
+dendrite[2] {
+  pt3dclear()
+  pt3dadd(7.21,-63.64,-19.82,1.2) 
+  pt3dadd(10.51,-68.29,-21.47,1) 
+  pt3dadd(12.56,-70.79,-24.26,1) 
+  pt3dadd(14.08,-74.6,-27.16,1) 
+  pt3dadd(14.53,-80.91,-27.26,1) 
+  pt3dadd(16.35,-87.75,-27.67,1) 
+  pt3dadd(16.54,-90.41,-28.73,1) 
+
+} // end of points list
+
+{dendrite[2] connect dendrite[3](0), 1}
+
+dendrite[3] {
+  pt3dclear()
+  pt3dadd(16.54,-90.41,-28.73,1) 
+  pt3dadd(16.43,-95.33,-28.88,0.7) 
+  pt3dadd(16.16,-100.28,-28.04,0.7) 
+
+} // end of points list
+
+{dendrite[3] connect dendrite[4](0), 1}
+
+dendrite[4] {
+  pt3dclear()
+  pt3dadd(16.16,-100.28,-28.04,0.7) 
+  pt3dadd(17.6,-114.79,-26.69,0.5) 
+  pt3dadd(19.08,-124.49,-27.73,0.5) 
+  pt3dadd(20.67,-136.88,-29.34,0.5) 
+  pt3dadd(22.64,-149.09,-30.38,0.3) 
+  pt3dadd(24.99,-165.41,-29.95,0.3) 
+  pt3dadd(25.78,-176.45,-30.12,0.3) 
+  pt3dadd(24.14,-186.37,-31.65,0.3) 
+  pt3dadd(24.9,-194.72,-31.76,0.3) 
+  pt3dadd(24.1,-203.17,-32.11,0.3) 
+  pt3dadd(24.51,-212.19,-31.78,0.3) 
+  pt3dadd(23.71,-217.45,-33.56,0.3) 
+  pt3dadd(25.08,-224.48,-34.05,0.3) 
+  pt3dadd(25.95,-229,-34.54,0.3) 
+  pt3dadd(25.94,-235.5,-34.72,0.3) 
+  pt3dadd(23.89,-239.61,-35.14,0.3) 
+  pt3dadd(22.33,-240.82,-35.92,0.3) 
+
+} // end of points list
+
+{dendrite[3] connect dendrite[5](0), 1}
+
+dendrite[5] {
+  pt3dclear()
+  pt3dadd(16.16,-100.28,-28.04,0.7) 
+  pt3dadd(17.6,-105.21,-30.99,0.3) 
+  pt3dadd(18.2,-111.6,-35.11,0.3) 
+  pt3dadd(17.66,-118.41,-37.91,0.3) 
+  pt3dadd(19.37,-128.08,-40.44,0.3) 
+  pt3dadd(22.52,-138.26,-43.77,0.3) 
+  pt3dadd(23.2,-146.73,-46.42,0.3) 
+  pt3dadd(25.63,-155.56,-48.82,0.3) 
+  pt3dadd(26.27,-161.33,-51.4,0.3) 
+  pt3dadd(28.28,-170.84,-52.87,0.3) 
+  pt3dadd(30.7,-179.66,-55.26,0.3) 
+  pt3dadd(32.64,-189.29,-59.27,0.3) 
+  pt3dadd(35.03,-196.52,-62.14,0.3) 
+  pt3dadd(36.81,-207.28,-65.69,0.3) 
+  pt3dadd(37.94,-213.36,-67.2,0.3) 
+  pt3dadd(40.52,-219.95,-69.51,0.3) 
+  pt3dadd(43.45,-223.79,-74.23,0.3) 
+  pt3dadd(44.39,-231.61,-76.82,0.3) 
+  pt3dadd(44.99,-238,-80.95,0.3) 
+  pt3dadd(46.36,-240.84,-85.37,0.3) 
+  pt3dadd(47.95,-243.54,-88.24,0.3) 
+
+} // end of points list
+
+{dendrite[2] connect dendrite[6](0), 1}
+
+dendrite[6] {
+  pt3dclear()
+  pt3dadd(16.54,-90.41,-28.73,1) 
+  pt3dadd(24.11,-94.32,-28.18,0.3) 
+  pt3dadd(30.07,-101.15,-30.48,0.3) 
+  pt3dadd(35.12,-107.25,-32.4,0.3) 
+  pt3dadd(41.62,-114.87,-32.63,0.3) 
+  pt3dadd(49.07,-125.78,-30.26,0.3) 
+  pt3dadd(58.45,-138.62,-28.15,0.3) 
+  pt3dadd(66.13,-147.29,-26.2,0.3) 
+  pt3dadd(71.15,-154.89,-24.12,0.3) 
+  pt3dadd(81.33,-170.29,-27.02,0.3) 
+  pt3dadd(89.19,-179.53,-28.08,0.3) 
+  pt3dadd(96.75,-186.74,-29.14,0.3) 
+  pt3dadd(102.07,-192.19,-31,0.3) 
+  pt3dadd(108.72,-200.77,-29.71,0.3) 
+  pt3dadd(112.48,-207.33,-29.31,0.3) 
+  pt3dadd(114.34,-213.66,-31.22,0.3) 
+  pt3dadd(114.53,-217.43,-32.81,0.3) 
+  pt3dadd(117.34,-223.87,-33.56,0.3) 
+  pt3dadd(120.41,-227.58,-36.23,0.3) 
+
+} // end of points list
+
+{dendrite[1] connect dendrite[7](0), 1}
+
+dendrite[7] {
+  pt3dclear()
+  pt3dadd(7.21,-63.64,-19.82,1.2) 
+  pt3dadd(5.99,-69.58,-20.68,0.7) 
+  pt3dadd(5.11,-77.17,-26.08,0.7) 
+  pt3dadd(4.19,-83.06,-28.9,0.6) 
+
+} // end of points list
+
+{dendrite[7] connect dendrite[8](0), 1}
+
+dendrite[8] {
+  pt3dclear()
+  pt3dadd(4.19,-83.06,-28.9,0.6) 
+  pt3dadd(1.34,-87.02,-31.47,0.4) 
+  pt3dadd(-0.14,-93.62,-32.38,0.4) 
+  pt3dadd(-6.11,-103.2,-35.07,0.4) 
+  pt3dadd(-8.63,-113,-38.25,0.4) 
+  pt3dadd(-9.28,-119.34,-41.56,0.4) 
+  pt3dadd(-10.01,-124.59,-43.83,0.4) 
+  pt3dadd(-10.54,-130.3,-46.09,0.4) 
+  pt3dadd(-13.55,-137.6,-49.28,0.4) 
+  pt3dadd(-16.26,-143.74,-53.9,0.4) 
+  pt3dadd(-18.85,-149.26,-57.48,0.4) 
+  pt3dadd(-23.68,-158.43,-61.51,0.4) 
+  pt3dadd(-27.07,-168.11,-66.33,0.4) 
+  pt3dadd(-31.03,-173.09,-69.6,0.4) 
+  pt3dadd(-32.86,-179.36,-72.58,0.4) 
+  pt3dadd(-34.35,-186.07,-76.53,0.4) 
+  pt3dadd(-36.33,-191.37,-81.03,0.4) 
+  pt3dadd(-39.11,-195.33,-84.09,0.4) 
+  pt3dadd(-37.97,-196.01,-85.96,0.4) 
+
+} // end of points list
+
+{dendrite[7] connect dendrite[9](0), 1}
+
+dendrite[9] {
+  pt3dclear()
+  pt3dadd(4.19,-83.06,-28.9,0.6) 
+  pt3dadd(7.19,-88.86,-29.11,0.4) 
+  pt3dadd(10.04,-98.11,-32.97,0.4) 
+  pt3dadd(12.96,-104.04,-35.71,0.4) 
+  pt3dadd(13.79,-110.28,-38.28,0.4) 
+  pt3dadd(16.03,-120.84,-41.77,0.4) 
+  pt3dadd(18.99,-129.46,-44.58,0.4) 
+  pt3dadd(21.83,-141.91,-47.01,0.3) 
+  pt3dadd(23.69,-151.55,-50.52,0.3) 
+  pt3dadd(24.55,-161.58,-53.7,0.3) 
+  pt3dadd(26.15,-169.67,-56.2,0.3) 
+  pt3dadd(28.69,-180.07,-58.62,0.3) 
+  pt3dadd(31.19,-187.78,-60.97,0.3) 
+  pt3dadd(33.13,-194.1,-63.37,0.3) 
+  pt3dadd(34.34,-201.27,-65.91,0.3) 
+  pt3dadd(35.24,-208.6,-69.51,0.3) 
+  pt3dadd(37.06,-215.55,-72.96,0.3) 
+  pt3dadd(39.11,-219.15,-76.29,0.3) 
+  pt3dadd(41.01,-224.99,-79.69,0.3) 
+  pt3dadd(43.47,-229.02,-84.48,0.3) 
+  pt3dadd(46.06,-232.42,-88.23,0.3) 
+
+} // end of points list
+
+{dendrite[0] connect dendrite[10](0), 1}
+
+dendrite[10] {
+  pt3dclear()
+  pt3dadd(1.94,-44.36,-9.99,1.9) 
+  pt3dadd(-2.8,-51.08,-7.36,0.6) 
+  pt3dadd(-8.39,-61.37,-3.94,0.6) 
+  pt3dadd(-10.11,-70.09,-1.4,0.6) 
+  pt3dadd(-10.94,-73.65,-0.61,0.6) 
+
+} // end of points list
+
+{dendrite[10] connect dendrite[11](0), 1}
+
+dendrite[11] {
+  pt3dclear()
+  pt3dadd(-10.94,-73.65,-0.61,0.6) 
+  pt3dadd(-10.41,-82.04,0.75,0.3) 
+  pt3dadd(-11.79,-96.7,-0.35,0.3) 
+  pt3dadd(-10.84,-103.42,-2.4,0.3) 
+  pt3dadd(-10.01,-107.46,-3.9,0.3) 
+
+} // end of points list
+
+{dendrite[11] connect dendrite[12](0), 1}
+
+dendrite[12] {
+  pt3dclear()
+  pt3dadd(-10.01,-107.46,-3.9,0.3) 
+  pt3dadd(-10.43,-111.44,-4.58,0.3) 
+
+} // end of points list
+
+{dendrite[12] connect dendrite[13](0), 1}
+
+dendrite[13] {
+  pt3dclear()
+  pt3dadd(-10.43,-111.44,-4.58,0.3) 
+  pt3dadd(-11.76,-119.11,-7.01,0.3) 
+  pt3dadd(-11.81,-131.62,-8.37,0.3) 
+  pt3dadd(-12.49,-136.25,-9.1,0.3) 
+  pt3dadd(-14.21,-141.89,-11.04,0.3) 
+  pt3dadd(-16.8,-150.61,-13.18,0.3) 
+  pt3dadd(-20.15,-158.57,-15.94,0.3) 
+  pt3dadd(-22.66,-167.27,-18.58,0.3) 
+  pt3dadd(-23.54,-173.65,-20.4,0.3) 
+  pt3dadd(-24.84,-182.91,-22.37,0.3) 
+  pt3dadd(-24.92,-189.42,-22.05,0.3) 
+  pt3dadd(-26.36,-195.4,-21.42,0.3) 
+  pt3dadd(-29.07,-201.32,-19.96,0.3) 
+  pt3dadd(-30.25,-206.65,-19.28,0.3) 
+  pt3dadd(-31.46,-210.39,-19.06,0.3) 
+
+} // end of points list
+
+{dendrite[12] connect dendrite[14](0), 1}
+
+dendrite[14] {
+  pt3dclear()
+  pt3dadd(-10.43,-111.44,-4.58,0.3) 
+  pt3dadd(-8.03,-115.26,-2.8,0.3) 
+  pt3dadd(-6.36,-126.42,-1.32,0.3) 
+  pt3dadd(-3.74,-135.49,2.37,0.3) 
+  pt3dadd(-2.03,-144.93,5.92,0.3) 
+  pt3dadd(-1.12,-153.14,7.86,0.3) 
+  pt3dadd(1.37,-166.14,8.91,0.3) 
+  pt3dadd(4.98,-179.22,10.12,0.3) 
+  pt3dadd(6.84,-193.04,10.54,0.3) 
+  pt3dadd(7.78,-206.14,11.35,0.3) 
+  pt3dadd(8.31,-219.93,13.08,0.3) 
+  pt3dadd(9.14,-229.25,14.99,0.3) 
+  pt3dadd(8.99,-234.78,13.29,0.3) 
+  pt3dadd(9.6,-239.85,15.78,0.3) 
+  pt3dadd(11.27,-243.41,17.97,0.3) 
+
+} // end of points list
+
+{dendrite[11] connect dendrite[15](0), 1}
+
+dendrite[15] {
+  pt3dclear()
+  pt3dadd(-10.01,-107.46,-3.9,0.3) 
+  pt3dadd(-5.3,-109.83,-3.25,0.3) 
+  pt3dadd(4.88,-122.91,-2.04,0.3) 
+  pt3dadd(9.86,-131.12,-1.49,0.3) 
+  pt3dadd(13.65,-143.56,0.26,0.3) 
+  pt3dadd(19.77,-159.83,4.31,0.3) 
+  pt3dadd(27.48,-173.29,8.16,0.3) 
+  pt3dadd(31.51,-180.18,11.12,0.3) 
+  pt3dadd(34.06,-186.17,10.85,0.3) 
+  pt3dadd(39.76,-197.84,12.42,0.3) 
+  pt3dadd(44.24,-205.64,14.92,0.3) 
+  pt3dadd(50.13,-217.77,16.51,0.3) 
+  pt3dadd(53.01,-226.29,17.23,0.3) 
+
+} // end of points list
+
+{dendrite[10] connect dendrite[16](0), 1}
+
+dendrite[16] {
+  pt3dclear()
+  pt3dadd(-10.94,-73.65,-0.61,0.6) 
+  pt3dadd(-11.1,-77.2,-7.31,0.3) 
+  pt3dadd(-13.05,-85.2,-11.87,0.3) 
+  pt3dadd(-16.28,-93.53,-11.07,0.3) 
+  pt3dadd(-17,-95.47,-11.74,0.3) 
+  pt3dadd(-21.3,-98.93,-13.5,0.3) 
+  pt3dadd(-28.6,-105.16,-13.27,0.3) 
+  pt3dadd(-36.09,-110.94,-13.05,0.3) 
+  pt3dadd(-41.88,-116.57,-13.58,0.3) 
+  pt3dadd(-46.48,-122.28,-14.44,0.3) 
+  pt3dadd(-51.95,-132.05,-13.01,0.3) 
+  pt3dadd(-57.2,-141.78,-13.06,0.3) 
+  pt3dadd(-60.86,-147.6,-12.77,0.3) 
+  pt3dadd(-64.47,-157.21,-13.07,0.3) 
+  pt3dadd(-69.79,-163.65,-11.03,0.3) 
+  pt3dadd(-74.13,-173,-10.93,0.3) 
+  pt3dadd(-79.19,-182.09,-10.43,0.3) 
+  pt3dadd(-80.6,-188.56,-8.79,0.3) 
+  pt3dadd(-81.89,-192.31,-8.08,0.3) 
+
+} // end of points list
+
+{soma[0] connect dendrite[17](0), 0.5}
+
+dendrite[17] {
+  pt3dclear()
+
+  //  Note: not adding point: (0,0,0,30.974) on parent, as this is a connection to the soma.
+  //  connect statement above means that this section is connected by a zero resistance wire to that point.
+
+  pt3dadd(15.76,-13.9,2.04,1.5) 
+  pt3dadd(18.5,-19.15,5.35,1.5) 
+  pt3dadd(23.25,-28.39,9.88,1) 
+  pt3dadd(25,-34.03,13.54,1) 
+  pt3dadd(27.81,-41.36,18.33,1) 
+
+} // end of points list
+
+{dendrite[17] connect dendrite[18](0), 1}
+
+dendrite[18] {
+  pt3dclear()
+  pt3dadd(27.81,-41.36,18.33,1) 
+  pt3dadd(29.37,-47.64,21.43,1) 
+  pt3dadd(31.27,-51.05,25.18,1) 
+
+} // end of points list
+
+{dendrite[18] connect dendrite[19](0), 1}
+
+dendrite[19] {
+  pt3dclear()
+  pt3dadd(31.27,-51.05,25.18,1) 
+  pt3dadd(35.19,-57.46,27.63,0.7) 
+  pt3dadd(39.67,-65.27,30.13,0.7) 
+
+} // end of points list
+
+{dendrite[19] connect dendrite[20](0), 1}
+
+dendrite[20] {
+  pt3dclear()
+  pt3dadd(39.67,-65.27,30.13,0.7) 
+  pt3dadd(42.9,-70.7,37.56,0.5) 
+  pt3dadd(45.15,-74.54,40.33,0.5) 
+  pt3dadd(48,-79.16,44.69,0.5) 
+  pt3dadd(51.27,-84.21,47.59,0.5) 
+  pt3dadd(56.17,-90.23,49.7,0.3) 
+  pt3dadd(61.65,-93.34,50.96,0.3) 
+  pt3dadd(65.18,-95.64,51.94,0.3) 
+  pt3dadd(70.92,-102.4,54.16,0.3) 
+  pt3dadd(78.29,-110.14,55.59,0.3) 
+  pt3dadd(84.56,-116.69,57.39,0.3) 
+  pt3dadd(91.94,-123.32,59.35,0.3) 
+  pt3dadd(98.06,-127.7,63.21,0.3) 
+  pt3dadd(108.25,-134.17,67.63,0.3) 
+  pt3dadd(113.15,-137.99,70.81,0.3) 
+  pt3dadd(119.42,-141.24,74.21,0.3) 
+  pt3dadd(126.42,-142.55,78.28,0.3) 
+  pt3dadd(131.75,-143.48,81.6,0.3) 
+  pt3dadd(138.86,-146.37,85.65,0.3) 
+  pt3dadd(144.14,-147.92,87.43,0.3) 
+  pt3dadd(146.31,-150.79,88.19,0.3) 
+
+} // end of points list
+
+{dendrite[19] connect dendrite[21](0), 1}
+
+dendrite[21] {
+  pt3dclear()
+  pt3dadd(39.67,-65.27,30.13,0.7) 
+  pt3dadd(47.5,-76.12,30.02,0.3) 
+  pt3dadd(54.37,-84.66,29.84,0.3) 
+  pt3dadd(62.09,-93.93,29.76,0.3) 
+  pt3dadd(75.84,-113.1,31.35,0.3) 
+  pt3dadd(83.71,-123.34,32.79,0.3) 
+  pt3dadd(88.91,-132.5,34.35,0.3) 
+
+} // end of points list
+
+{dendrite[21] connect dendrite[22](0), 1}
+
+dendrite[22] {
+  pt3dclear()
+  pt3dadd(88.91,-132.5,34.35,0.3) 
+  pt3dadd(89.79,-139.01,38.86,0.3) 
+  pt3dadd(92.14,-147.63,43.04,0.3) 
+  pt3dadd(92.6,-157.02,47.42,0.3) 
+  pt3dadd(94.95,-166.73,51.06,0.3) 
+  pt3dadd(96.66,-175.19,52.1,0.3) 
+  pt3dadd(97.95,-180.03,53.18,0.3) 
+  pt3dadd(101.9,-184.95,51.63,0.3) 
+  pt3dadd(106.04,-194.63,51,0.3) 
+  pt3dadd(108.82,-197.28,50.84,0.3) 
+
+} // end of points list
+
+{dendrite[21] connect dendrite[23](0), 1}
+
+dendrite[23] {
+  pt3dclear()
+  pt3dadd(88.91,-132.5,34.35,0.3) 
+  pt3dadd(96.09,-140.99,32.19,0.3) 
+  pt3dadd(102.32,-151.46,30.84,0.3) 
+  pt3dadd(109.46,-160.45,30.17,0.3) 
+  pt3dadd(115.09,-167.94,28.3,0.3) 
+  pt3dadd(121.92,-175.99,27.11,0.3) 
+  pt3dadd(125.57,-182.18,23.96,0.3) 
+  pt3dadd(128.49,-188.11,21.21,0.3) 
+  pt3dadd(131.79,-196.06,17.96,0.3) 
+  pt3dadd(133.84,-200.77,14.1,0.3) 
+  pt3dadd(134.6,-203.83,10.59,0.3) 
+
+} // end of points list
+
+{dendrite[18] connect dendrite[24](0), 1}
+
+dendrite[24] {
+  pt3dclear()
+  pt3dadd(31.27,-51.05,25.18,1) 
+  pt3dadd(30.21,-55.64,29.95,0.3) 
+  pt3dadd(29.87,-62.47,39.33,0.3) 
+  pt3dadd(31.92,-66.84,44.59,0.3) 
+  pt3dadd(35.01,-70.21,51.04,0.3) 
+  pt3dadd(37.03,-71.78,59.4,0.3) 
+  pt3dadd(40.38,-74.5,65.92,0.3) 
+  pt3dadd(41.79,-78.49,74.12,0.3) 
+  pt3dadd(40.08,-82.7,81.84,0.3) 
+  pt3dadd(38.75,-84.64,88.17,0.3) 
+  pt3dadd(39.94,-87.68,95.35,0.3) 
+  pt3dadd(39.29,-92.58,101.7,0.3) 
+  pt3dadd(38.19,-97.67,107.97,0.3) 
+  pt3dadd(37.93,-101.41,112.38,0.3) 
+  pt3dadd(38.54,-107.47,117.38,0.3) 
+  pt3dadd(40.36,-110.89,121.61,0.3) 
+  pt3dadd(43.22,-116.61,125.44,0.3) 
+  pt3dadd(46.94,-122.57,127.87,0.3) 
+  pt3dadd(45.99,-126.64,130.65,0.3) 
+
+} // end of points list
+
+{dendrite[17] connect dendrite[25](0), 1}
+
+dendrite[25] {
+  pt3dclear()
+  pt3dadd(27.81,-41.36,18.33,1) 
+  pt3dadd(29.28,-54.48,12.63,0.3) 
+  pt3dadd(31.79,-62.19,10.28,0.3) 
+  pt3dadd(37.26,-70.81,8.86,0.3) 
+  pt3dadd(41.97,-79.79,6.31,0.3) 
+  pt3dadd(46.18,-89.45,5.18,0.3) 
+  pt3dadd(51.12,-100.48,3.11,0.3) 
+  pt3dadd(55.48,-109.02,1.52,0.3) 
+  pt3dadd(58.44,-120.83,0.14,0.3) 
+  pt3dadd(60.34,-128.76,-1.29,0.3) 
+  pt3dadd(63.26,-136.78,-2.07,0.3) 
+  pt3dadd(66.07,-148.62,-2.46,0.3) 
+  pt3dadd(69.71,-159.11,-4.71,0.3) 
+  pt3dadd(72.14,-171.12,-5.68,0.3) 
+  pt3dadd(73.81,-182.39,-7.24,0.3) 
+  pt3dadd(76.27,-191.71,-8.63,0.3) 
+  pt3dadd(78.09,-200.75,-10.11,0.3) 
+  pt3dadd(81.43,-211.4,-13.43,0.3) 
+  pt3dadd(83.44,-221.01,-17.93,0.3) 
+  pt3dadd(84.39,-228.83,-20.53,0.3) 
+
+} // end of points list
+
+{soma[0] connect dendrite[26](0), 0.5}
+
+dendrite[26] {
+  pt3dclear()
+
+  //  Note: not adding point: (0,0,0,30.974) on parent, as this is a connection to the soma.
+  //  connect statement above means that this section is connected by a zero resistance wire to that point.
+
+  pt3dadd(15.3,-12,0,1.6) 
+  pt3dadd(28.34,-13.62,1.44,1.6) 
+  pt3dadd(42.94,-16.24,2.6,1.5) 
+  pt3dadd(53.2,-19.5,5.09,1.5) 
+  pt3dadd(60.01,-22.55,8.08,1.2) 
+  pt3dadd(63.81,-25.3,8.59,1.2) 
+
+} // end of points list
+
+{dendrite[26] connect dendrite[27](0), 1}
+
+dendrite[27] {
+  pt3dclear()
+  pt3dadd(63.81,-25.3,8.59,1.2) 
+  pt3dadd(69.97,-32.37,12.38,1.2) 
+  pt3dadd(74.91,-36.79,13.52,1.2) 
+  pt3dadd(81.33,-44.3,16.83,1.2) 
+  pt3dadd(85.13,-48.15,16.81,1.2) 
+
+} // end of points list
+
+{dendrite[27] connect dendrite[28](0), 1}
+
+dendrite[28] {
+  pt3dclear()
+  pt3dadd(85.13,-48.15,16.81,1.2) 
+  pt3dadd(90.42,-53.89,22.52,1.1) 
+  pt3dadd(96.73,-60.93,25.32,1.1) 
+  pt3dadd(103.3,-69.52,27.11,1.1) 
+
+} // end of points list
+
+{dendrite[28] connect dendrite[29](0), 1}
+
+dendrite[29] {
+  pt3dclear()
+  pt3dadd(103.3,-69.52,27.11,1.1) 
+  pt3dadd(108.97,-72,28.92,0.9) 
+
+} // end of points list
+
+{dendrite[29] connect dendrite[30](0), 1}
+
+dendrite[30] {
+  pt3dclear()
+  pt3dadd(108.97,-72,28.92,0.9) 
+  pt3dadd(113.61,-73.16,33.65,0.3) 
+  pt3dadd(117.49,-74.68,37.24,0.3) 
+  pt3dadd(123.91,-76.7,43.23,0.3) 
+  pt3dadd(131.79,-80.33,47.88,0.3) 
+  pt3dadd(137.49,-82.19,51.24,0.3) 
+  pt3dadd(144.48,-87.79,56.21,0.3) 
+  pt3dadd(148.48,-89.78,60.31,0.3) 
+  pt3dadd(155.93,-93.1,63.38,0.3) 
+  pt3dadd(160.68,-94.86,65.58,0.3) 
+  pt3dadd(164.75,-94.75,67.22,0.3) 
+  pt3dadd(169.62,-95.88,70.47,0.3) 
+  pt3dadd(172.85,-98.23,73.43,0.3) 
+  pt3dadd(175.13,-100.47,75.24,0.3) 
+  pt3dadd(178.63,-103.27,77.72,0.3) 
+  pt3dadd(181.6,-106.27,80.62,0.3) 
+  pt3dadd(183.01,-107.18,84.36,0.3) 
+  pt3dadd(183.24,-108.02,88.42,0.3) 
+  pt3dadd(183.92,-107.68,90.05,0.3) 
+
+} // end of points list
+
+{dendrite[29] connect dendrite[31](0), 1}
+
+dendrite[31] {
+  pt3dclear()
+  pt3dadd(108.97,-72,28.92,0.9) 
+  pt3dadd(114.67,-74.08,26.2,0.3) 
+  pt3dadd(121.31,-78.47,23.56,0.3) 
+  pt3dadd(125.8,-83.19,21.59,0.3) 
+  pt3dadd(132.33,-88.1,20.94,0.3) 
+  pt3dadd(139.13,-94.56,19.28,0.3) 
+  pt3dadd(142.82,-99.04,18.2,0.3) 
+  pt3dadd(149.81,-106.95,19.06,0.3) 
+  pt3dadd(152.97,-111.52,21.45,0.3) 
+  pt3dadd(158.06,-115.91,21.6,0.3) 
+  pt3dadd(163.34,-116.47,20.88,0.3) 
+  pt3dadd(165.21,-117.19,24.69,0.3) 
+  pt3dadd(169.16,-119.8,27.25,0.3) 
+  pt3dadd(173.27,-121.28,29.36,0.3) 
+  pt3dadd(174.25,-124.08,30.44,0.3) 
+
+} // end of points list
+
+{dendrite[28] connect dendrite[32](0), 1}
+
+dendrite[32] {
+  pt3dclear()
+  pt3dadd(103.3,-69.52,27.11,1.1) 
+  pt3dadd(105.31,-80.01,28.15,0.3) 
+  pt3dadd(111.28,-93.23,28.71,0.3) 
+  pt3dadd(115.8,-103.72,31.14,0.3) 
+  pt3dadd(120.85,-112.91,33.7,0.3) 
+  pt3dadd(127.27,-122.63,35.94,0.3) 
+  pt3dadd(136.2,-133.45,39.04,0.3) 
+  pt3dadd(139.44,-138.01,40.93,0.3) 
+  pt3dadd(144.72,-143.96,40.57,0.3) 
+  pt3dadd(148.75,-148.76,41.56,0.3) 
+  pt3dadd(151.44,-153.52,43.87,0.3) 
+  pt3dadd(151.25,-157.35,44.75,0.3) 
+  pt3dadd(150.42,-160.91,45.54,0.3) 
+
+} // end of points list
+
+{dendrite[27] connect dendrite[33](0), 1}
+
+dendrite[33] {
+  pt3dclear()
+  pt3dadd(85.13,-48.15,16.81,1.2) 
+  pt3dadd(96.61,-57.59,14.26,0.3) 
+  pt3dadd(102.46,-62.84,11.98,0.3) 
+  pt3dadd(109.94,-67.97,9.45,0.3) 
+  pt3dadd(121.04,-75.39,7.41,0.3) 
+  pt3dadd(128.3,-80.55,6.36,0.3) 
+  pt3dadd(137.72,-87.49,6.6,0.3) 
+  pt3dadd(146.39,-93.68,6.24,0.3) 
+  pt3dadd(155.92,-103.18,8.97,0.3) 
+  pt3dadd(162.54,-111.16,12.3,0.3) 
+  pt3dadd(166.87,-115.91,11.32,0.3) 
+  pt3dadd(170.9,-121.81,11.78,0.3) 
+  pt3dadd(175.5,-126.89,13.36,0.3) 
+  pt3dadd(179.1,-132.48,12.24,0.3) 
+  pt3dadd(183.93,-135.55,7.33,0.3) 
+
+} // end of points list
+
+{dendrite[26] connect dendrite[34](0), 1}
+
+dendrite[34] {
+  pt3dclear()
+  pt3dadd(63.81,-25.3,8.59,1.2) 
+  pt3dadd(71.42,-25.28,12.28,0.3) 
+  pt3dadd(79.25,-26.33,13.96,0.3) 
+  pt3dadd(82.29,-27.23,14.4,0.3) 
+
+} // end of points list
+
+{dendrite[34] connect dendrite[35](0), 1}
+
+dendrite[35] {
+  pt3dclear()
+  pt3dadd(82.29,-27.23,14.4,0.3) 
+  pt3dadd(91.07,-31.69,15.63,0.3) 
+  pt3dadd(104.29,-40.27,16.92,0.3) 
+  pt3dadd(112.28,-46.58,21.01,0.3) 
+  pt3dadd(119.2,-50.1,24.5,0.3) 
+
+} // end of points list
+
+{dendrite[35] connect dendrite[36](0), 1}
+
+dendrite[36] {
+  pt3dclear()
+  pt3dadd(119.2,-50.1,24.5,0.3) 
+  pt3dadd(126.19,-57.91,28.4,0.3) 
+  pt3dadd(132.77,-66.39,33.23,0.3) 
+  pt3dadd(139.5,-72.64,38.14,0.3) 
+  pt3dadd(143.64,-78.91,42.15,0.3) 
+  pt3dadd(148.32,-84.97,45.74,0.3) 
+  pt3dadd(154.51,-91.53,48.03,0.3) 
+  pt3dadd(161.54,-99.94,49.89,0.3) 
+  pt3dadd(176.25,-110.63,50.85,0.3) 
+  pt3dadd(179.98,-113.28,54.89,0.3) 
+  pt3dadd(184.96,-113.78,59.18,0.3) 
+  pt3dadd(193.74,-115.05,58.97,0.3) 
+  pt3dadd(196.25,-118.35,58.76,0.3) 
+  pt3dadd(198.19,-120.16,61.54,0.3) 
+  pt3dadd(204.27,-125.26,60.82,0.3) 
+
+} // end of points list
+
+{dendrite[35] connect dendrite[37](0), 1}
+
+dendrite[37] {
+  pt3dclear()
+  pt3dadd(119.2,-50.1,24.5,0.3) 
+  pt3dadd(128.25,-50.61,27.39,0.3) 
+  pt3dadd(134.64,-53.23,31.84,0.3) 
+  pt3dadd(141.75,-57.22,35.35,0.3) 
+  pt3dadd(150.49,-59.98,39.15,0.3) 
+  pt3dadd(164.48,-67.1,42.11,0.3) 
+  pt3dadd(172.12,-67.69,43.77,0.3) 
+  pt3dadd(180.63,-71.81,42.44,0.3) 
+  pt3dadd(187.02,-74.66,40.81,0.3) 
+  pt3dadd(196.82,-77.12,40.73,0.3) 
+  pt3dadd(206.9,-77.83,41.24,0.3) 
+  pt3dadd(211.38,-77.04,41.95,0.3) 
+  pt3dadd(217.2,-78.39,43.31,0.3) 
+  pt3dadd(219.06,-79.22,44.08,0.3) 
+
+} // end of points list
+
+{dendrite[34] connect dendrite[38](0), 1}
+
+dendrite[38] {
+  pt3dclear()
+  pt3dadd(82.29,-27.23,14.4,0.3) 
+  pt3dadd(88.56,-24.09,14.94,0.3) 
+  pt3dadd(93.97,-21.6,22.41,0.3) 
+  pt3dadd(100.02,-20.49,29.44,0.3) 
+  pt3dadd(107.47,-19.29,37.7,0.3) 
+  pt3dadd(113.94,-16.61,38.25,0.3) 
+  pt3dadd(120.9,-13.13,40.43,0.3) 
+
+} // end of points list
+
+{soma[0] connect axon[0](0), 0.5}
+
+axon[0] {
+  pt3dclear()
+
+  //  Note: not adding point: (0,0,0,30.974) on parent, as this is a connection to the soma.
+  //  connect statement above means that this section is connected by a zero resistance wire to that point.
+
+  pt3dadd(10.59,-11.84,-1.73,2) 
+  pt3dadd(13.24,-17.32,-4,2) 
+  pt3dadd(16.7,-25.14,-5.19,2) 
+  pt3dadd(22.17,-34.86,-7.15,1.2) 
+  pt3dadd(26.65,-41.78,-10.19,1.2) 
+  pt3dadd(30.64,-46.2,-13.24,1.2) 
+  pt3dadd(38.12,-53.54,-16.84,1.2) 
+
+} // end of points list
+
+{axon[0] connect axon[1](0), 1}
+
+axon[1] {
+  pt3dclear()
+  pt3dadd(38.12,-53.54,-16.84,1.2) 
+  pt3dadd(41.92,-56.39,-19.37,1.2) 
+  pt3dadd(45.41,-59.42,-22.97,1.2) 
+  pt3dadd(50.31,-62.47,-28.37,1.2) 
+  pt3dadd(53.99,-62.76,-33.38,1.2) 
+  pt3dadd(59.43,-62.3,-37.6,1.2) 
+  pt3dadd(67.29,-61.97,-42.96,1.2) 
+  pt3dadd(71.28,-60.99,-46.37,1.2) 
+  pt3dadd(72.69,-60.03,-50.69,1.2) 
+
+} // end of points list
+
+{axon[1] connect axon[2](0), 1}
+
+axon[2] {
+  pt3dclear()
+  pt3dadd(72.69,-60.03,-50.69,1.2) 
+  pt3dadd(73.03,-55.07,-52.02,0.3) 
+  pt3dadd(77.33,-51.73,-53.29,0.3) 
+
+} // end of points list
+
+{axon[2] connect axon[3](0), 1}
+
+axon[3] {
+  pt3dclear()
+  pt3dadd(77.33,-51.73,-53.29,0.3) 
+  pt3dadd(76.03,-51.18,-53.48,0.3) 
+  pt3dadd(76.49,-50.99,-53.4,0.3) 
+  pt3dadd(76.68,-51.46,-53.39,0.3) 
+
+} // end of points list
+
+{axon[3] connect axon[4](0), 1}
+
+axon[4] {
+  pt3dclear()
+  pt3dadd(76.68,-51.46,-53.39,0.3) 
+  pt3dadd(76.91,-48.11,-53.26,0.3) 
+
+} // end of points list
+
+{axon[4] connect axon[5](0), 1}
+
+axon[5] {
+  pt3dclear()
+  pt3dadd(76.91,-48.11,-53.26,0.3) 
+  pt3dadd(78.85,-49.7,-44.4,0.3) 
+  pt3dadd(81.37,-49.48,-36.93,0.3) 
+  pt3dadd(80.76,-50.57,-30.47,0.3) 
+  pt3dadd(75.98,-53.28,-21.16,0.3) 
+  pt3dadd(80.66,-54.83,-12.39,0.3) 
+  pt3dadd(82.83,-54.39,-10.02,0.3) 
+  pt3dadd(86.44,-56.57,-6.49,0.3) 
+  pt3dadd(91.35,-56.97,1.33,0.3) 
+  pt3dadd(92.88,-59.35,8.08,0.3) 
+  pt3dadd(93.15,-59.57,13.68,0.3) 
+  pt3dadd(87.87,-64.19,20.84,0.3) 
+  pt3dadd(84.07,-65.63,24.27,0.3) 
+  pt3dadd(81.44,-67.13,27.37,0.3) 
+  pt3dadd(80.15,-67.58,29.69,0.3) 
+  pt3dadd(78.07,-67.78,32.91,0.3) 
+  pt3dadd(74.19,-67.14,34.86,0.3) 
+  pt3dadd(69.14,-65.33,37.68,0.3) 
+  pt3dadd(66.74,-63.49,40.9,0.3) 
+  pt3dadd(65.07,-61.91,43.72,0.3) 
+  pt3dadd(63.4,-63.63,44.94,0.3) 
+  pt3dadd(60.59,-65.78,47.49,0.3) 
+  pt3dadd(57.51,-68.58,49.98,0.3) 
+  pt3dadd(52.04,-71.74,54.62,0.3) 
+  pt3dadd(48.39,-77.44,57.96,0.3) 
+  pt3dadd(45.46,-81.21,61.96,0.3) 
+  pt3dadd(42.69,-86.04,64.44,0.3) 
+  pt3dadd(41.78,-88.51,66.26,0.3) 
+  pt3dadd(40.33,-92.29,67.96,0.3) 
+  pt3dadd(37.1,-98.42,69.83,0.3) 
+  pt3dadd(35.35,-100.16,71.54,0.3) 
+  pt3dadd(32.23,-103.57,72.49,0.3) 
+  pt3dadd(28.66,-107.17,73.37,0.3) 
+  pt3dadd(26.57,-110.67,74.98,0.3) 
+  pt3dadd(23.34,-116.69,79.89,0.3) 
+  pt3dadd(19.95,-132.43,87.04,0.3) 
+  pt3dadd(18.89,-140.32,90.21,0.3) 
+  pt3dadd(18.36,-142.62,92.6,0.3) 
+  pt3dadd(17.37,-146.2,94.37,0.3) 
+  pt3dadd(15.32,-149.1,97.52,0.3) 
+  pt3dadd(11.71,-154.3,99.36,0.3) 
+  pt3dadd(8.44,-156.63,101.83,0.3) 
+  pt3dadd(3.99,-162.2,103.03,0.3) 
+  pt3dadd(2.28,-164.43,105.74,0.3) 
+  pt3dadd(-1.51,-168.07,108.1,0.3) 
+  pt3dadd(-6.61,-175.46,111.17,0.3) 
+  pt3dadd(-13.07,-183.42,114.01,0.3) 
+
+} // end of points list
+
+{axon[4] connect axon[6](0), 1}
+
+axon[6] {
+  pt3dclear()
+  pt3dadd(76.91,-48.11,-53.26,0.3) 
+  pt3dadd(76.64,-48.76,-53.32,0.3) 
+
+} // end of points list
+
+{axon[3] connect axon[7](0), 1}
+
+axon[7] {
+  pt3dclear()
+  pt3dadd(76.68,-51.46,-53.39,0.3) 
+  pt3dadd(79.19,-52.56,-52.52,0.3) 
+  pt3dadd(96.14,-66.1,-51.3,0.3) 
+  pt3dadd(98.61,-72.11,-51.09,0.3) 
+  pt3dadd(101.38,-77.85,-46.77,0.3) 
+  pt3dadd(103.74,-85.36,-42.05,0.3) 
+  pt3dadd(107.08,-90.39,-39.65,0.3) 
+  pt3dadd(109.32,-95.45,-40.46,0.3) 
+  pt3dadd(114.19,-101.09,-42.39,0.3) 
+  pt3dadd(116.09,-105.71,-42.23,0.3) 
+  pt3dadd(116.92,-112.95,-42.29,0.3) 
+  pt3dadd(118.9,-119.54,-37.61,0.3) 
+  pt3dadd(128.73,-140.99,-39.72,0.3) 
+  pt3dadd(129.95,-142.65,-39.57,0.3) 
+  pt3dadd(136.74,-165.3,-40.15,0.3) 
+
+} // end of points list
+
+{axon[7] connect axon[8](0), 1}
+
+axon[8] {
+  pt3dclear()
+  pt3dadd(136.74,-165.3,-40.15,0.3) 
+  pt3dadd(140.09,-173.63,-39.36,0.3) 
+  pt3dadd(143.28,-179.9,-39.54,0.3) 
+  pt3dadd(150.95,-186.48,-39.56,0.3) 
+
+} // end of points list
+
+{axon[7] connect axon[9](0), 1}
+
+axon[9] {
+  pt3dclear()
+  pt3dadd(136.74,-165.3,-40.15,0.3) 
+  pt3dadd(136.37,-167.35,-32.68,0.3) 
+  pt3dadd(136.6,-172.26,-21.64,0.3) 
+  pt3dadd(138.85,-174.9,-15.29,0.3) 
+  pt3dadd(154.62,-196.74,-5.87,0.3) 
+  pt3dadd(158.62,-200.72,3.22,0.3) 
+  pt3dadd(164.25,-200.06,17.26,0.3) 
+  pt3dadd(171.33,-202.23,26.38,0.3) 
+  pt3dadd(173.69,-208.53,34.67,0.3) 
+  pt3dadd(175.56,-210.24,40.99,0.3) 
+  pt3dadd(170.43,-207.23,47.87,0.3) 
+  pt3dadd(164.7,-204.55,52.63,0.3) 
+  pt3dadd(161.59,-202.23,62.34,0.3) 
+  pt3dadd(162.39,-202.14,70.56,0.3) 
+  pt3dadd(158.37,-198.23,75.11,0.3) 
+  pt3dadd(156.82,-194.81,82.55,0.3) 
+  pt3dadd(150.63,-191.1,90.81,0.3) 
+  pt3dadd(148.5,-189.6,96.6,0.3) 
+  pt3dadd(143.49,-189.27,102.92,0.3) 
+  pt3dadd(137.22,-191.2,105.96,0.3) 
+  pt3dadd(135.06,-189.1,113.78,0.3) 
+  pt3dadd(132.63,-191.07,116.9,0.3) 
+  pt3dadd(132.67,-187.04,123.08,0.3) 
+  pt3dadd(133.7,-184.82,127.85,0.3) 
+  pt3dadd(131.62,-182.71,135.18,0.3) 
+  pt3dadd(131.05,-181.1,141.21,0.3) 
+  pt3dadd(127.45,-178.59,146.8,0.3) 
+  pt3dadd(126.62,-177.53,155.81,0.3) 
+  pt3dadd(125.36,-177.36,159.67,0.3) 
+
+} // end of points list
+
+{axon[2] connect axon[10](0), 1}
+
+axon[10] {
+  pt3dclear()
+  pt3dadd(77.33,-51.73,-53.29,0.3) 
+  pt3dadd(77.33,-49.52,-52.22,0.3) 
+
+} // end of points list
+
+{axon[10] connect axon[11](0), 1}
+
+axon[11] {
+  pt3dclear()
+  pt3dadd(77.33,-49.52,-52.22,0.3) 
+  pt3dadd(80.67,-42.77,-53.05,0.3) 
+  pt3dadd(89.01,-25.62,-47.26,0.3) 
+  pt3dadd(90.5,-18.8,-40.27,0.3) 
+  pt3dadd(90.17,-9.44,-31.98,0.3) 
+  pt3dadd(94.29,14.4,-17.55,0.3) 
+  pt3dadd(96.73,23.08,-14.41,0.3) 
+  pt3dadd(91.42,36.14,-11.84,0.3) 
+  pt3dadd(86.07,48.8,-4.73,0.3) 
+  pt3dadd(83.87,62.07,-1.68,0.3) 
+  pt3dadd(80,72.51,2.05,0.3) 
+  pt3dadd(76.85,77.3,5.74,0.3) 
+  pt3dadd(75.9,84.02,7.8,0.3) 
+
+} // end of points list
+
+{axon[11] connect axon[12](0), 1}
+
+axon[12] {
+  pt3dclear()
+  pt3dadd(75.9,84.02,7.8,0.3) 
+  pt3dadd(75.34,93.11,11.5,0.3) 
+  pt3dadd(75.8,102.11,15.86,0.3) 
+  pt3dadd(75.31,107.92,17.46,0.3) 
+  pt3dadd(74.25,115,15.97,0.3) 
+  pt3dadd(75.2,118.2,18.73,0.3) 
+  pt3dadd(84.18,125.28,22.83,0.3) 
+  pt3dadd(90.46,134.8,20.5,0.3) 
+  pt3dadd(99.96,143.96,16.13,0.3) 
+  pt3dadd(107.26,151.07,10.35,0.3) 
+  pt3dadd(112.69,158.14,9.35,0.3) 
+  pt3dadd(123.68,162.1,9.12,0.3) 
+  pt3dadd(129.8,165.11,7.61,0.3) 
+  pt3dadd(134.56,168.75,9.44,0.3) 
+  pt3dadd(140.49,173.31,8.45,0.3) 
+  pt3dadd(145.96,175.48,6.31,0.3) 
+
+} // end of points list
+
+{axon[12] connect axon[13](0), 1}
+
+axon[13] {
+  pt3dclear()
+  pt3dadd(145.96,175.48,6.31,0.3) 
+  pt3dadd(147.71,180.42,3.17,0.3) 
+  pt3dadd(146.38,186.84,1.62,0.3) 
+  pt3dadd(146.12,198.31,7.45,0.3) 
+  pt3dadd(146.74,208.44,11.36,0.3) 
+  pt3dadd(148.19,216.62,11.8,0.3) 
+  pt3dadd(152.83,226.13,12.77,0.3) 
+  pt3dadd(154.84,231.72,9.69,0.3) 
+  pt3dadd(155.42,242.22,9.55,0.3) 
+  pt3dadd(156.3,251.79,9.94,0.3) 
+  pt3dadd(156.61,259.56,11.71,0.3) 
+
+} // end of points list
+
+{axon[13] connect axon[14](0), 1}
+
+axon[14] {
+  pt3dclear()
+  pt3dadd(156.61,259.56,11.71,0.3) 
+  pt3dadd(158.44,267.04,18.27,0.3) 
+  pt3dadd(159.59,285.08,25.5,0.3) 
+  pt3dadd(160.85,291.74,30.94,0.3) 
+  pt3dadd(165.61,297.7,36.89,0.3) 
+  pt3dadd(171.59,304.2,44.05,0.3) 
+  pt3dadd(184.22,313.9,49.28,0.3) 
+  pt3dadd(189.73,321.2,53.86,0.3) 
+  pt3dadd(194.49,331.45,58.91,0.3) 
+  pt3dadd(202.63,337.06,61.83,0.3) 
+  pt3dadd(216.86,346.39,68.3,0.3) 
+  pt3dadd(228.77,353.16,75.37,0.3) 
+  pt3dadd(242.42,363.98,84.84,0.3) 
+  pt3dadd(250.76,371.44,91.88,0.3) 
+  pt3dadd(256.05,375.4,96.34,0.3) 
+  pt3dadd(260,379.18,96.03,0.3) 
+
+} // end of points list
+
+{axon[14] connect axon[15](0), 1}
+
+axon[15] {
+  pt3dclear()
+  pt3dadd(260,379.18,96.03,0.3) 
+  pt3dadd(265.44,386.35,98.07,0.3) 
+  pt3dadd(267.42,388.35,100.96,0.3) 
+  pt3dadd(270.54,389.67,101.98,0.3) 
+
+} // end of points list
+
+{axon[15] connect axon[16](0), 1}
+
+axon[16] {
+  pt3dclear()
+  pt3dadd(270.54,389.67,101.98,0.3) 
+  pt3dadd(278.6,393.18,107.35,0.3) 
+  pt3dadd(285.94,396.83,110.09,0.3) 
+  pt3dadd(291.88,402.5,109.64,0.3) 
+  pt3dadd(301.65,408.23,112.3,0.3) 
+  pt3dadd(306.9,417.08,117.9,0.3) 
+  pt3dadd(312.16,423.73,122.42,0.3) 
+  pt3dadd(317.03,430.2,126.38,0.3) 
+  pt3dadd(323.04,438.3,132.57,0.3) 
+  pt3dadd(328.9,447.37,137.26,0.3) 
+  pt3dadd(332.67,458.22,140.15,0.3) 
+  pt3dadd(337.32,467.84,144.15,0.3) 
+  pt3dadd(341.58,476.3,150.09,0.3) 
+  pt3dadd(346.34,482.15,153,0.3) 
+  pt3dadd(353.6,490.08,155.34,0.3) 
+  pt3dadd(359.08,495.67,157.85,0.3) 
+  pt3dadd(361.56,499.46,159.85,0.3) 
+  pt3dadd(365.66,498.09,164.99,0.3) 
+  pt3dadd(372.25,499.41,171.6,0.3) 
+  pt3dadd(379.09,502.37,175.77,0.3) 
+  pt3dadd(386.4,506.63,180.54,0.3) 
+  pt3dadd(389.48,511.85,185.2,0.3) 
+  pt3dadd(397.77,517.6,190.17,0.3) 
+  pt3dadd(405.15,521.87,194.45,0.3) 
+  pt3dadd(409.83,524.51,199.29,0.3) 
+  pt3dadd(414.59,527.16,203.63,0.3) 
+  pt3dadd(416.53,530.86,209.08,0.3) 
+  pt3dadd(420.04,536.87,215.85,0.3) 
+  pt3dadd(423.85,539.74,222.08,0.3) 
+  pt3dadd(431.3,544.13,228.91,0.3) 
+  pt3dadd(436.17,547.41,234.3,0.3) 
+  pt3dadd(443.1,551.6,241.54,0.3) 
+  pt3dadd(448.88,555.26,247.08,0.3) 
+
+} // end of points list
+
+{axon[15] connect axon[17](0), 1}
+
+axon[17] {
+  pt3dclear()
+  pt3dadd(270.54,389.67,101.98,0.3) 
+  pt3dadd(265.91,389.08,108.33,0.3) 
+  pt3dadd(262.57,386.95,117.38,0.3) 
+  pt3dadd(263.71,386.6,124.63,0.3) 
+  pt3dadd(263.79,384.74,132.18,0.3) 
+  pt3dadd(266,382.71,140.56,0.3) 
+  pt3dadd(265.09,383.65,147.03,0.3) 
+  pt3dadd(264.84,384.43,156.62,0.3) 
+  pt3dadd(266.71,385.04,167.05,0.3) 
+  pt3dadd(270.63,383.14,174.68,0.3) 
+  pt3dadd(272.95,381.62,181.07,0.3) 
+  pt3dadd(271.47,380.75,188.91,0.3) 
+  pt3dadd(270.99,384.8,201.6,0.3) 
+  pt3dadd(270.76,384.87,206.12,0.3) 
+
+} // end of points list
+
+{axon[14] connect axon[18](0), 1}
+
+axon[18] {
+  pt3dclear()
+  pt3dadd(260,379.18,96.03,0.3) 
+  pt3dadd(258.94,379.98,100.45,0.3) 
+  pt3dadd(260.89,382.69,108.41,0.3) 
+  pt3dadd(262.87,382.71,116.3,0.3) 
+  pt3dadd(262.87,381.83,121.84,0.3) 
+  pt3dadd(257.14,380.44,133.58,0.3) 
+  pt3dadd(255.25,376.91,147.36,0.3) 
+  pt3dadd(252.71,381.04,155.69,0.3) 
+  pt3dadd(249.44,384.21,160.84,0.3) 
+  pt3dadd(244.51,387.97,171.31,0.3) 
+  pt3dadd(241.44,389.58,175.95,0.3) 
+  pt3dadd(238.21,392.26,182.1,0.3) 
+  pt3dadd(232.85,395.12,187.43,0.3) 
+  pt3dadd(225.75,395.25,196.97,0.3) 
+  pt3dadd(223.85,395.58,197.7,0.3) 
+  pt3dadd(219.26,395.49,202.56,0.3) 
+
+} // end of points list
+
+{axon[13] connect axon[19](0), 1}
+
+axon[19] {
+  pt3dclear()
+  pt3dadd(156.61,259.56,11.71,0.3) 
+  pt3dadd(151.4,264.31,8.01,0.3) 
+  pt3dadd(145.35,270.8,1.69,0.3) 
+  pt3dadd(144.47,274,-4.42,0.3) 
+  pt3dadd(145.12,277.8,-11.31,0.3) 
+  pt3dadd(142.91,281.05,-16.11,0.3) 
+  pt3dadd(147.72,279.63,-35.15,0.3) 
+  pt3dadd(148.97,282.33,-49.56,0.3) 
+  pt3dadd(146.87,284.88,-59.93,0.3) 
+  pt3dadd(145.84,287.07,-62.56,0.3) 
+  pt3dadd(140.97,291.17,-73.32,0.3) 
+  pt3dadd(140.02,294.36,-78.94,0.3) 
+  pt3dadd(133.29,298.3,-87.96,0.3) 
+  pt3dadd(131.26,304.05,-100.26,0.3) 
+  pt3dadd(129.89,307.45,-110.5,0.3) 
+  pt3dadd(128.86,310.51,-118.68,0.3) 
+  pt3dadd(127.18,316.05,-125.87,0.3) 
+  pt3dadd(130.52,318.29,-131.87,0.3) 
+  pt3dadd(128.73,320.01,-138.68,0.3) 
+  pt3dadd(128.01,321.26,-140.78,0.3) 
+  pt3dadd(125.84,318.4,-150.3,0.3) 
+  pt3dadd(128.99,315.71,-155.96,0.3) 
+  pt3dadd(129.44,313.7,-156.96,0.3) 
+  pt3dadd(131.91,311.87,-160.68,0.3) 
+  pt3dadd(131.82,313.62,-171.27,0.3) 
+  pt3dadd(133.03,315.92,-181.14,0.3) 
+
+} // end of points list
+
+{axon[12] connect axon[20](0), 1}
+
+axon[20] {
+  pt3dclear()
+  pt3dadd(145.96,175.48,6.31,0.3) 
+  pt3dadd(146.27,178.07,14.52,0.3) 
+  pt3dadd(148.49,182.53,23.08,0.3) 
+  pt3dadd(150.36,187.43,32.61,0.3) 
+  pt3dadd(151.96,194.87,40.64,0.3) 
+  pt3dadd(154.02,204.6,46.78,0.3) 
+  pt3dadd(152.17,216.44,51.37,0.3) 
+  pt3dadd(152.33,223.18,56.64,0.3) 
+  pt3dadd(150.13,233.26,61.12,0.3) 
+  pt3dadd(149.34,241.22,65.77,0.3) 
+  pt3dadd(148.17,246.9,71.81,0.3) 
+  pt3dadd(142.89,255.28,79.33,0.3) 
+  pt3dadd(140.85,261.2,86.76,0.3) 
+  pt3dadd(138.42,265.84,93.09,0.3) 
+  pt3dadd(138.04,265.67,92.52,0.3) 
+
+} // end of points list
+
+{axon[20] connect axon[21](0), 1}
+
+axon[21] {
+  pt3dclear()
+  pt3dadd(138.04,265.67,92.52,0.3) 
+  pt3dadd(133.64,270.62,100.08,0.3) 
+  pt3dadd(131.17,275.86,108.44,0.3) 
+  pt3dadd(129.2,280.69,114.85,0.3) 
+  pt3dadd(127.61,284.6,121.29,0.3) 
+  pt3dadd(126.63,288.83,129.86,0.3) 
+  pt3dadd(127.67,292.15,135.16,0.3) 
+  pt3dadd(131.47,289.51,138.71,0.3) 
+  pt3dadd(134.29,290.89,144.74,0.3) 
+  pt3dadd(137.03,290.05,150.2,0.3) 
+  pt3dadd(141.02,291.36,155.91,0.3) 
+  pt3dadd(143.73,291.11,163.4,0.3) 
+  pt3dadd(146.93,296.96,169.11,0.3) 
+  pt3dadd(153.13,300.31,176.22,0.3) 
+  pt3dadd(161.95,298.66,180.06,0.3) 
+  pt3dadd(173.28,294.92,187.26,0.3) 
+
+} // end of points list
+
+{axon[20] connect axon[22](0), 1}
+
+axon[22] {
+  pt3dclear()
+  pt3dadd(138.04,265.67,92.52,0.3) 
+  pt3dadd(135.95,274.93,88.4,0.3) 
+  pt3dadd(136.79,281.69,86.18,0.3) 
+  pt3dadd(134.39,287.71,85.47,0.3) 
+  pt3dadd(130.98,298.12,83.2,0.3) 
+  pt3dadd(129.76,302.97,81.63,0.3) 
+  pt3dadd(128.96,307.52,81.63,0.3) 
+  pt3dadd(129.31,309.28,81.73,0.3) 
+  pt3dadd(127.98,312.52,81.61,0.3) 
+  pt3dadd(125.55,325.64,83.11,0.3) 
+  pt3dadd(125.4,329.91,83.2,0.3) 
+  pt3dadd(124.91,333.51,83.73,0.3) 
+  pt3dadd(122.86,339.09,82.05,0.3) 
+  pt3dadd(121.91,341.41,81.96,0.3) 
+  pt3dadd(121.83,346.79,82.1,0.3) 
+  pt3dadd(122.37,350.3,83.28,0.3) 
+  pt3dadd(122.14,354.55,83.87,0.3) 
+  pt3dadd(122.03,359.43,85.5,0.3) 
+  pt3dadd(120.82,363.29,86.43,0.3) 
+  pt3dadd(119.87,365.61,86.35,0.3) 
+  pt3dadd(116.52,368.54,85.91,0.3) 
+  pt3dadd(113.1,370.37,85.44,0.3) 
+  pt3dadd(111.01,375.45,85.26,0.3) 
+  pt3dadd(109.23,378.5,85.06,0.3) 
+  pt3dadd(107.59,383.77,84.96,0.3) 
+  pt3dadd(105.05,387.67,87.2,0.3) 
+  pt3dadd(103.11,391.79,88.53,0.3) 
+  pt3dadd(102.01,395.18,89.97,0.3) 
+  pt3dadd(98.45,399.29,94.6,0.3) 
+  pt3dadd(97.96,403,98.16,0.3) 
+  pt3dadd(94.09,409.26,105.83,0.3) 
+  pt3dadd(92.23,412.41,109.18,0.3) 
+  pt3dadd(90.14,416.61,114.53,0.3) 
+  pt3dadd(88.85,418.26,114.89,0.3) 
+  pt3dadd(88.63,424.82,119.58,0.3) 
+  pt3dadd(88.02,426.81,121.57,0.3) 
+  pt3dadd(86.28,431.57,123.45,0.3) 
+  pt3dadd(84.04,435.64,126.76,0.3) 
+  pt3dadd(87.28,440.89,130.43,0.3) 
+  pt3dadd(86.9,447.32,133.08,0.3) 
+  pt3dadd(86.45,449.55,140.15,0.3) 
+  pt3dadd(87.93,446.56,145.36,0.3) 
+  pt3dadd(90.86,444.05,147.26,0.3) 
+  pt3dadd(92.84,443.84,149.07,0.3) 
+  pt3dadd(93.07,442.01,155.64,0.3) 
+  pt3dadd(88.29,444.59,161.55,0.3) 
+  pt3dadd(87,443.15,166.38,0.3) 
+  pt3dadd(87.49,442.96,170.5,0.3) 
+  pt3dadd(93.5,440.16,174.38,0.3) 
+  pt3dadd(92.55,438.29,178.23,0.3) 
+  pt3dadd(93.09,438.6,180.85,0.3) 
+
+} // end of points list
+
+{axon[11] connect axon[23](0), 1}
+
+axon[23] {
+  pt3dclear()
+  pt3dadd(75.9,84.02,7.8,0.3) 
+  pt3dadd(68.04,85.78,11.2,0.3) 
+  pt3dadd(63.9,87.97,14.17,0.3) 
+  pt3dadd(63.3,88.08,24.2,0.3) 
+  pt3dadd(55.93,87.56,33.68,0.3) 
+  pt3dadd(50.15,88.64,39.4,0.3) 
+  pt3dadd(42.63,92.28,45.94,0.3) 
+  pt3dadd(40.39,92.05,50.14,0.3) 
+  pt3dadd(28.72,94.24,48.92,0.3) 
+  pt3dadd(22,95.54,56.53,0.3) 
+  pt3dadd(17.18,95.3,59.83,0.3) 
+  pt3dadd(8.33,97.99,70.19,0.3) 
+  pt3dadd(-0.4,97.89,76.94,0.3) 
+  pt3dadd(-5.27,100.23,77.27,0.3) 
+  pt3dadd(-10.86,99.52,76.39,0.3) 
+  pt3dadd(-29.47,99.89,88.73,0.3) 
+  pt3dadd(-34.37,99.64,92.53,0.3) 
+  pt3dadd(-36.65,99.9,95.73,0.3) 
+  pt3dadd(-52.69,103.26,101.46,0.3) 
+  pt3dadd(-58.5,105.93,106.71,0.3) 
+  pt3dadd(-61.73,109.6,110.37,0.3) 
+  pt3dadd(-69.55,109.88,117.27,0.3) 
+  pt3dadd(-72.93,110.22,120.3,0.3) 
+  pt3dadd(-76.43,111.04,122.83,0.3) 
+  pt3dadd(-81.41,114.96,123.18,0.3) 
+  pt3dadd(-84.14,116.02,123.8,0.3) 
+  pt3dadd(-83.95,115.56,123.82,0.3) 
+
+} // end of points list
+
+{axon[23] connect axon[24](0), 1}
+
+axon[24] {
+  pt3dclear()
+  pt3dadd(-83.95,115.56,123.82,0.3) 
+  pt3dadd(-86.12,119.64,126.63,0.3) 
+  pt3dadd(-90.79,120.52,129.48,0.3) 
+  pt3dadd(-94.21,122.35,129.01,0.3) 
+  pt3dadd(-99.11,124.19,130.84,0.3) 
+  pt3dadd(-101.58,124.8,130.98,0.3) 
+  pt3dadd(-104.28,126.47,133.14,0.3) 
+  pt3dadd(-109.03,126.25,135.95,0.3) 
+  pt3dadd(-110.81,126.21,140.23,0.3) 
+
+} // end of points list
+
+{axon[23] connect axon[25](0), 1}
+
+axon[25] {
+  pt3dclear()
+  pt3dadd(-83.95,115.56,123.82,0.3) 
+  pt3dadd(-84.75,113.6,123.64,0.3) 
+  pt3dadd(-89.85,112.49,120.81,0.3) 
+  pt3dadd(-93.01,111.66,118.79,0.3) 
+  pt3dadd(-96.31,110.8,117.75,0.3) 
+  pt3dadd(-102.74,108.63,115.7,0.3) 
+  pt3dadd(-105.4,107.5,114.75,0.3) 
+  pt3dadd(-109.97,106.7,114.54,0.3) 
+  pt3dadd(-112.48,104.61,115.11,0.3) 
+  pt3dadd(-114.3,103.85,114.81,0.3) 
+  pt3dadd(-119.43,99.04,114.91,0.3) 
+  pt3dadd(-124.19,97.6,114.14,0.3) 
+  pt3dadd(-128.48,96.35,113.45,0.3) 
+  pt3dadd(-132.33,93.09,111.76,0.3) 
+  pt3dadd(-136.78,88.51,110.45,0.3) 
+  pt3dadd(-142.18,87.34,109.59,0.3) 
+  pt3dadd(-143.28,87.42,109.42,0.3) 
+  pt3dadd(-145.6,83.76,109.48,0.3) 
+  pt3dadd(-149.94,80.8,106.71,0.3) 
+  pt3dadd(-151.65,77.36,105.85,0.3) 
+  pt3dadd(-155.95,71.71,103.01,0.3) 
+  pt3dadd(-159.41,71.93,103.5,0.3) 
+  pt3dadd(-161.61,70.99,102.63,0.3) 
+  pt3dadd(-163.55,69.6,101.29,0.3) 
+  pt3dadd(-166.29,68.46,100.84,0.3) 
+  pt3dadd(-174.39,63.46,99.46,0.3) 
+  pt3dadd(-176.94,59.66,97.96,0.3) 
+  pt3dadd(-181.01,57.46,98.29,0.3) 
+  pt3dadd(-184.05,57.25,97.31,0.3) 
+  pt3dadd(-188.88,53.6,95.97,0.3) 
+  pt3dadd(-190.06,52.56,95.76,0.3) 
+  pt3dadd(-193.67,50.55,96.16,0.3) 
+  pt3dadd(-201.51,45.1,94.31,0.3) 
+  pt3dadd(-205.42,42.93,93.65,0.3) 
+  pt3dadd(-208.96,42.04,94.1,0.3) 
+  pt3dadd(-210.33,40.36,93.34,0.3) 
+  pt3dadd(-212.42,37.85,92.44,0.3) 
+  pt3dadd(-214.55,34.83,93.05,0.3) 
+  pt3dadd(-219.31,30.09,90.68,0.3) 
+  pt3dadd(-224.78,28.91,90.31,0.3) 
+  pt3dadd(-237.48,25.58,82.71,0.3) 
+  pt3dadd(-240.94,26.79,80.69,0.3) 
+  pt3dadd(-239.69,27.83,80.41,0.3) 
+
+} // end of points list
+
+{axon[25] connect axon[26](0), 1}
+
+axon[26] {
+  pt3dclear()
+  pt3dadd(-239.69,27.83,80.41,0.3) 
+  pt3dadd(-251.97,29.81,80.1,0.3) 
+  pt3dadd(-257.94,31.02,76.69,0.3) 
+  pt3dadd(-264.25,34.76,72.28,0.3) 
+  pt3dadd(-271.17,43.45,62.34,0.3) 
+  pt3dadd(-275.47,45.29,57.18,0.3) 
+  pt3dadd(-279.96,47.58,52,0.3) 
+  pt3dadd(-283.34,48.81,49.49,0.3) 
+  pt3dadd(-284.75,49.83,48.8,0.3) 
+  pt3dadd(-287.9,52.3,48.38,0.3) 
+  pt3dadd(-294.94,56.41,47.41,0.3) 
+  pt3dadd(-303.83,59.03,41.56,0.3) 
+  pt3dadd(-307.22,60.25,39.06,0.3) 
+  pt3dadd(-312.66,60.68,37.73,0.3) 
+  pt3dadd(-315.24,61.77,37.36,0.3) 
+
+} // end of points list
+
+{axon[25] connect axon[27](0), 1}
+
+axon[27] {
+  pt3dclear()
+  pt3dadd(-239.69,27.83,80.41,0.3) 
+  pt3dadd(-244.71,25.63,76.54,0.3) 
+  pt3dadd(-256.61,22.17,71.09,0.3) 
+  pt3dadd(-259.62,22.47,68.61,0.3) 
+  pt3dadd(-262.13,21.36,66.68,0.3) 
+  pt3dadd(-272.9,19.31,57.38,0.3) 
+  pt3dadd(-282.83,13.33,49.63,0.3) 
+  pt3dadd(-285.53,11.59,47.15,0.3) 
+  pt3dadd(-296.48,3.61,40.7,0.3) 
+  pt3dadd(-302.72,0.86,35.62,0.3) 
+  pt3dadd(-306.15,-3.91,31.93,0.3) 
+  pt3dadd(-310.33,-6.74,31.22,0.3) 
+  pt3dadd(-317.71,-7.81,25.5,0.3) 
+  pt3dadd(-321.94,-10.37,17.7,0.3) 
+  pt3dadd(-324.33,-11.95,16.28,0.3) 
+  pt3dadd(-327.07,-14.3,12.26,0.3) 
+  pt3dadd(-328.48,-17.69,9.42,0.3) 
+  pt3dadd(-333.05,-19.59,8.67,0.3) 
+  pt3dadd(-336.13,-22.5,8.12,0.3) 
+  pt3dadd(-338.3,-27.23,6.65,0.3) 
+  pt3dadd(-347.58,-37.78,-0.11,0.3) 
+  pt3dadd(-351.28,-44.32,-4.39,0.3) 
+  pt3dadd(-357.17,-55.98,-5.61,0.3) 
+  pt3dadd(-359.11,-62.65,-3.55,0.3) 
+  pt3dadd(-355.85,-68.8,-1.19,0.3) 
+  pt3dadd(-360.52,-77.71,-0.12,0.3) 
+  pt3dadd(-364.37,-81.08,-4.85,0.3) 
+  pt3dadd(-365.21,-85.86,-7.64,0.3) 
+  pt3dadd(-367,-90.41,-8.54,0.3) 
+  pt3dadd(-364.68,-95.56,-12.88,0.3) 
+  pt3dadd(-359.63,-103.87,-15.87,0.3) 
+  pt3dadd(-358.61,-110.58,-18.42,0.3) 
+  pt3dadd(-357.74,-113.01,-20.88,0.3) 
+  pt3dadd(-356.61,-120.3,-25.96,0.3) 
+  pt3dadd(-353.69,-126.34,-31.75,0.3) 
+  pt3dadd(-349.21,-131.17,-36.76,0.3) 
+  pt3dadd(-348.95,-143.96,-49.21,0.3) 
+  pt3dadd(-346.94,-144.98,-55.51,0.3) 
+  pt3dadd(-341.59,-148.94,-61.37,0.3) 
+  pt3dadd(-340.57,-164.46,-68.21,0.3) 
+  pt3dadd(-340.27,-170.9,-70.36,0.3) 
+  pt3dadd(-345.26,-175.91,-77.33,0.3) 
+  pt3dadd(-347.36,-180.63,-79.3,0.3) 
+  pt3dadd(-347.96,-183.05,-79.45,0.3) 
+  pt3dadd(-352.64,-189.87,-80.35,0.3) 
+  pt3dadd(-355.12,-194.76,-82.89,0.3) 
+  pt3dadd(-355.61,-198.76,-83.07,0.3) 
+  pt3dadd(-357.94,-201.42,-85.52,0.3) 
+  pt3dadd(-361.13,-208.26,-88.73,0.3) 
+  pt3dadd(-361.74,-209.58,-88.35,0.3) 
+  pt3dadd(-364.03,-212.84,-92.83,0.3) 
+  pt3dadd(-365.13,-214.96,-94.07,0.3) 
+  pt3dadd(-365.06,-216.05,-95.1,0.3) 
+  pt3dadd(-366.28,-218.8,-97.39,0.3) 
+  pt3dadd(-367.53,-218.85,-99.6,0.3) 
+  pt3dadd(-373.81,-225.41,-104.79,0.3) 
+  pt3dadd(-371.38,-230.93,-105.58,0.3) 
+  pt3dadd(-371.19,-234.69,-107.17,0.3) 
+  pt3dadd(-370.93,-236.24,-108.18,0.3) 
+  pt3dadd(-374.89,-237.93,-109.84,0.3) 
+  pt3dadd(-379.71,-240.48,-110.65,0.3) 
+  pt3dadd(-384.43,-240.32,-112.38,0.3) 
+  pt3dadd(-388.61,-241.05,-115.07,0.3) 
+  pt3dadd(-392.91,-242.3,-115.76,0.3) 
+
+} // end of points list
+
+{axon[10] connect axon[28](0), 1}
+
+axon[28] {
+  pt3dclear()
+  pt3dadd(77.33,-49.52,-52.22,0.3) 
+  pt3dadd(77.52,-47.78,-51.13,0.3) 
+
+} // end of points list
+
+{axon[1] connect axon[29](0), 1}
+
+axon[29] {
+  pt3dclear()
+  pt3dadd(72.69,-60.03,-50.69,1.2) 
+  pt3dadd(72.64,-61.85,-55.8,1.2) 
+  pt3dadd(73.55,-62.8,-62.26,1.2) 
+  pt3dadd(74.69,-63.7,-70.21,1.2) 
+  pt3dadd(75.48,-63.94,-71.11,1.2) 
+
+} // end of points list
+
+{axon[29] connect axon[30](0), 1}
+
+axon[30] {
+  pt3dclear()
+  pt3dadd(75.48,-63.94,-71.11,1.2) 
+  pt3dadd(78.41,-63.49,-76.72,1.2) 
+  pt3dadd(78.06,-63.16,-78.79,0.7) 
+  pt3dadd(82.77,-64.65,-83.67,0.7) 
+
+} // end of points list
+
+{axon[30] connect axon[31](0), 1}
+
+axon[31] {
+  pt3dclear()
+  pt3dadd(82.77,-64.65,-83.67,0.7) 
+  pt3dadd(94.2,-66.67,-104.75,0.7) 
+  pt3dadd(117.75,-72.67,-119.52,0.7) 
+  pt3dadd(124.71,-72.6,-121.99,0.7) 
+  pt3dadd(137.06,-72.36,-121.1,0.7) 
+  pt3dadd(158.61,-78.22,-124.03,0.7) 
+  pt3dadd(179.14,-79.46,-122.44,0.7) 
+  pt3dadd(205.67,-85.82,-121.08,0.7) 
+  pt3dadd(222.7,-90.76,-122.14,0.7) 
+  pt3dadd(239.24,-93.09,-120.18,0.7) 
+  pt3dadd(258.59,-93.17,-117.72,0.7) 
+  pt3dadd(270.45,-93.62,-115.41,0.7) 
+  pt3dadd(276.84,-95.25,-113.46,0.7) 
+
+} // end of points list
+
+{axon[31] connect axon[32](0), 1}
+
+axon[32] {
+  pt3dclear()
+  pt3dadd(276.84,-95.25,-113.46,0.7) 
+  pt3dadd(294.29,-98.41,-114.92,0.7) 
+  pt3dadd(306.6,-102.2,-120.22,0.7) 
+  pt3dadd(324.04,-104.37,-124.19,0.7) 
+  pt3dadd(331.11,-105.88,-126.69,0.7) 
+  pt3dadd(338.78,-110.48,-131.71,0.7) 
+  pt3dadd(349.95,-118,-137.28,0.7) 
+
+} // end of points list
+
+{axon[31] connect axon[33](0), 1}
+
+axon[33] {
+  pt3dclear()
+  pt3dadd(276.84,-95.25,-113.46,0.7) 
+  pt3dadd(279.62,-93.39,-108.43,0.3) 
+  pt3dadd(285.44,-92.42,-102.96,0.3) 
+  pt3dadd(291.03,-88.3,-97.44,0.3) 
+  pt3dadd(293.89,-86.42,-92.91,0.3) 
+  pt3dadd(297.28,-83.24,-88.25,0.3) 
+
+} // end of points list
+
+{axon[33] connect axon[34](0), 1}
+
+axon[34] {
+  pt3dclear()
+  pt3dadd(297.28,-83.24,-88.25,0.3) 
+  pt3dadd(298.65,-80.36,-83.92,0.3) 
+  pt3dadd(299.95,-77.48,-79.09,0.3) 
+  pt3dadd(306.07,-74.15,-71.48,0.3) 
+  pt3dadd(306.34,-72.29,-67.85,0.3) 
+
+} // end of points list
+
+{axon[34] connect axon[35](0), 1}
+
+axon[35] {
+  pt3dclear()
+  pt3dadd(306.34,-72.29,-67.85,0.3) 
+  pt3dadd(306.99,-69.26,-66.15,0.3) 
+  pt3dadd(309.28,-66.98,-59.16,0.3) 
+  pt3dadd(310.54,-65.71,-53.37,0.3) 
+  pt3dadd(317.04,-61.21,-47.7,0.3) 
+  pt3dadd(320.58,-59,-41.53,0.3) 
+  pt3dadd(324.88,-57.64,-37.8,0.3) 
+  pt3dadd(330.74,-53.85,-29.71,0.3) 
+  pt3dadd(334.17,-51.16,-24.06,0.3) 
+  pt3dadd(340.15,-46.86,-17.97,0.3) 
+  pt3dadd(343.04,-44.37,-11.89,0.3) 
+  pt3dadd(345.94,-39.68,-4.74,0.3) 
+  pt3dadd(349.06,-37.15,-0.15,0.3) 
+  pt3dadd(350.7,-35.82,3.16,0.3) 
+  pt3dadd(351.19,-31.71,6.39,0.3) 
+  pt3dadd(351.05,-27.22,12.56,0.3) 
+  pt3dadd(352.68,-26,12.84,0.3) 
+  pt3dadd(352.46,-24.82,17.9,0.3) 
+  pt3dadd(354.13,-24.09,19.19,0.3) 
+  pt3dadd(353.41,-24.93,19.05,0.3) 
+
+} // end of points list
+
+{axon[35] connect axon[36](0), 1}
+
+axon[36] {
+  pt3dclear()
+  pt3dadd(353.41,-24.93,19.05,0.3) 
+  pt3dadd(358.39,-22.24,21.91,0.3) 
+  pt3dadd(362.31,-18.86,26.14,0.3) 
+  pt3dadd(364.98,-17.62,30.13,0.3) 
+  pt3dadd(366.08,-17.59,33.33,0.3) 
+  pt3dadd(367.38,-18.02,36.56,0.3) 
+  pt3dadd(373.77,-16.24,43.15,0.3) 
+  pt3dadd(374.49,-16.39,45.79,0.3) 
+  pt3dadd(374.77,-15.4,54.96,0.3) 
+  pt3dadd(374.7,-12.99,62.61,0.3) 
+  pt3dadd(373.75,-14.75,69.5,0.3) 
+  pt3dadd(378.09,-15.86,79.24,0.3) 
+  pt3dadd(379.73,-16.51,87.57,0.3) 
+  pt3dadd(382.28,-16.89,93.01,0.3) 
+  pt3dadd(387.42,-15.05,100.43,0.3) 
+  pt3dadd(387.46,-14.33,105.01,0.3) 
+  pt3dadd(388.65,-10.87,112.37,0.3) 
+  pt3dadd(387.55,-10.68,115.24,0.3) 
+  pt3dadd(388.05,-8.55,123.47,0.3) 
+  pt3dadd(390.18,-4.1,132.52,0.3) 
+  pt3dadd(391.83,-1.45,142.45,0.3) 
+  pt3dadd(395.64,2.51,149.22,0.3) 
+  pt3dadd(401.65,5.33,158.81,0.3) 
+  pt3dadd(403.63,8.43,162.24,0.3) 
+  pt3dadd(409.3,10.58,172.27,0.3) 
+  pt3dadd(410.86,11.91,176.09,0.3) 
+  pt3dadd(414.29,14.49,178.71,0.3) 
+  pt3dadd(414.71,16.38,181.35,0.3) 
+  pt3dadd(416.43,20.04,188.29,0.3) 
+  pt3dadd(412.97,21.58,195.39,0.3) 
+  pt3dadd(409.82,19.98,201.95,0.3) 
+  pt3dadd(405.8,18.51,206.86,0.3) 
+  pt3dadd(404.51,20.59,219.37,0.3) 
+
+} // end of points list
+
+{axon[35] connect axon[37](0), 1}
+
+axon[37] {
+  pt3dclear()
+  pt3dadd(353.41,-24.93,19.05,0.3) 
+  pt3dadd(352.84,-26.63,23.47,0.3) 
+  pt3dadd(354.29,-29.02,30.72,0.3) 
+  pt3dadd(353.76,-34.28,40.61,0.3) 
+  pt3dadd(355.02,-42.49,53.74,0.3) 
+  pt3dadd(354.38,-56.97,64.39,0.3) 
+  pt3dadd(349.29,-65.13,76.04,0.3) 
+  pt3dadd(349.9,-66.89,80.13,0.3) 
+  pt3dadd(349.52,-70.15,84.04,0.3) 
+  pt3dadd(348.08,-75.91,90.75,0.3) 
+  pt3dadd(347.17,-83.45,102.04,0.3) 
+  pt3dadd(347.25,-90.7,109.96,0.3) 
+  pt3dadd(344.9,-94.75,114.55,0.3) 
+  pt3dadd(344.63,-102.67,122.9,0.3) 
+  pt3dadd(345.13,-108.14,130.42,0.3) 
+  pt3dadd(343.8,-110.19,133.7,0.3) 
+  pt3dadd(343.65,-117.49,143.1,0.3) 
+  pt3dadd(342.93,-122.51,146.9,0.3) 
+  pt3dadd(346.39,-127.03,147.31,0.3) 
+  pt3dadd(347.42,-132.52,148.33,0.3) 
+  pt3dadd(347.79,-140.93,150.69,0.3) 
+  pt3dadd(347.76,-145.73,153.09,0.3) 
+  pt3dadd(350.11,-150.05,156.37,0.3) 
+  pt3dadd(350.11,-152.14,158.34,0.3) 
+  pt3dadd(352.05,-155.05,160.58,0.3) 
+  pt3dadd(351.6,-155.24,160.51,0.3) 
+
+} // end of points list
+
+{axon[34] connect axon[38](0), 1}
+
+axon[38] {
+  pt3dclear()
+  pt3dadd(306.34,-72.29,-67.85,0.3) 
+  pt3dadd(318.02,-71.18,-65.02,0.3) 
+  pt3dadd(327.33,-77.3,-56.17,0.3) 
+  pt3dadd(332.2,-78.43,-52.92,0.3) 
+  pt3dadd(337.75,-81.42,-49.11,0.3) 
+  pt3dadd(337.07,-81.65,-47.71,0.3) 
+
+} // end of points list
+
+{axon[38] connect axon[39](0), 1}
+
+axon[39] {
+  pt3dclear()
+  pt3dadd(337.07,-81.65,-47.71,0.3) 
+  pt3dadd(338.25,-83.81,-46.07,0.3) 
+  pt3dadd(340.23,-85.01,-41.75,0.3) 
+
+} // end of points list
+
+{axon[38] connect axon[40](0), 1}
+
+axon[40] {
+  pt3dclear()
+  pt3dadd(337.07,-81.65,-47.71,0.3) 
+  pt3dadd(346.8,-81.82,-43.18,0.3) 
+  pt3dadd(349.35,-83.41,-41.32,0.3) 
+  pt3dadd(358.93,-86.9,-37.41,0.3) 
+  pt3dadd(363.53,-87.58,-33.69,0.3) 
+  pt3dadd(366.99,-88.79,-31.68,0.3) 
+  pt3dadd(372.17,-88.65,-26.83,0.3) 
+  pt3dadd(373.12,-88.54,-19.6,0.3) 
+
+} // end of points list
+
+{axon[33] connect axon[41](0), 1}
+
+axon[41] {
+  pt3dclear()
+  pt3dadd(297.28,-83.24,-88.25,0.3) 
+  pt3dadd(299.1,-82.37,-84.91,0.3) 
+  pt3dadd(300.02,-88.26,-78.86,0.3) 
+  pt3dadd(302.3,-96.78,-71.15,0.3) 
+  pt3dadd(303.48,-102.14,-68.08,0.3) 
+  pt3dadd(304.39,-107.04,-64.52,0.3) 
+  pt3dadd(311.73,-120.34,-52.12,0.3) 
+  pt3dadd(326.26,-132.33,-40.1,0.3) 
+  pt3dadd(340.56,-128.11,18.87,0.3) 
+  pt3dadd(342.59,-123.96,35.99,0.3) 
+  pt3dadd(342.97,-123.56,42.64,0.3) 
+  pt3dadd(344.3,-124.48,46.87,0.3) 
+  pt3dadd(349.82,-123.46,57.35,0.3) 
+  pt3dadd(353.64,-124.66,70.56,0.3) 
+  pt3dadd(359.88,-115.3,78.85,0.3) 
+  pt3dadd(363.72,-112.04,80.54,0.3) 
+  pt3dadd(365.17,-109.15,84.38,0.3) 
+  pt3dadd(368.1,-105.05,89.49,0.3) 
+  pt3dadd(367.76,-103.4,94.04,0.3) 
+  pt3dadd(368.19,-101.29,102.76,0.3) 
+  pt3dadd(369.83,-98.64,112.7,0.3) 
+  pt3dadd(370.41,-92.09,122.58,0.3) 
+  pt3dadd(369.96,-89.86,129.65,0.3) 
+  pt3dadd(368.75,-88.97,138.09,0.3) 
+  pt3dadd(371.68,-88.18,141.6,0.3) 
+  pt3dadd(371.5,-86.39,148.2,0.3) 
+  pt3dadd(371.39,-83.49,154.83,0.3) 
+  pt3dadd(371.89,-83.68,158.95,0.3) 
+  pt3dadd(373.57,-76.34,163.46,0.3) 
+  pt3dadd(375.55,-74.23,169.38,0.3) 
+  pt3dadd(374.11,-71.4,174.3,0.3) 
+  pt3dadd(374.37,-70.74,174.36,0.3) 
+
+} // end of points list
+
+{axon[41] connect axon[42](0), 1}
+
+axon[42] {
+  pt3dclear()
+  pt3dadd(374.37,-70.74,174.36,0.3) 
+  pt3dadd(374.95,-69.93,175.48,0.3) 
+  pt3dadd(376.16,-67.18,177.76,0.3) 
+  pt3dadd(377.5,-67,182.52,0.3) 
+
+} // end of points list
+
+{axon[41] connect axon[43](0), 1}
+
+axon[43] {
+  pt3dclear()
+  pt3dadd(374.37,-70.74,174.36,0.3) 
+  pt3dadd(371.64,-64.18,177.66,0.3) 
+  pt3dadd(373.09,-63.48,180.43,0.3) 
+  pt3dadd(374.53,-63.89,182.66,0.3) 
+  pt3dadd(375.72,-62.75,185.91,0.3) 
+  pt3dadd(375.53,-60.08,186.96,0.3) 
+  pt3dadd(376.79,-59.91,192.22,0.3) 
+  pt3dadd(379.52,-62.96,196.61,0.3) 
+  pt3dadd(382.72,-62.62,199.63,0.3) 
+  pt3dadd(383.25,-62.3,202.25,0.3) 
+
+} // end of points list
+
+{axon[30] connect axon[44](0), 1}
+
+axon[44] {
+  pt3dclear()
+  pt3dadd(82.77,-64.65,-83.67,0.7) 
+  pt3dadd(83.15,-66.79,-87.21,0.3) 
+  pt3dadd(82.16,-71.47,-85.97,0.3) 
+  pt3dadd(76.95,-76.19,-82.34,0.3) 
+  pt3dadd(72.05,-77.43,-76.04,0.3) 
+  pt3dadd(66.51,-77.3,-69.3,0.3) 
+  pt3dadd(66.51,-77.19,-66.26,0.3) 
+  pt3dadd(65.86,-76.92,-66.35,0.3) 
+
+} // end of points list
+
+{axon[44] connect axon[45](0), 1}
+
+axon[45] {
+  pt3dclear()
+  pt3dadd(65.86,-76.92,-66.35,0.3) 
+  pt3dadd(63.32,-76.1,-59.63,0.3) 
+  pt3dadd(58.73,-75.09,-54.24,0.3) 
+  pt3dadd(50.98,-73.69,-47.29,0.3) 
+  pt3dadd(49.65,-73.54,-42.94,0.3) 
+  pt3dadd(45.28,-71.39,-38.49,0.3) 
+  pt3dadd(42.4,-70.24,-33.84,0.3) 
+  pt3dadd(40.42,-71.91,-27.61,0.3) 
+  pt3dadd(35.52,-73.26,-24.35,0.3) 
+  pt3dadd(33.97,-72.05,-17.98,0.3) 
+  pt3dadd(33.37,-70.94,-10.45,0.3) 
+  pt3dadd(31.05,-72.29,-6.28,0.3) 
+  pt3dadd(27.33,-72.61,-2.82,0.3) 
+  pt3dadd(25.24,-70.72,-1.57,0.3) 
+  pt3dadd(22.58,-67.33,2.66,0.3) 
+  pt3dadd(18.59,-65,7.68,0.3) 
+  pt3dadd(14.34,-63.32,12.64,0.3) 
+  pt3dadd(13.43,-60.29,17.14,0.3) 
+  pt3dadd(14.96,-59.47,22.45,0.3) 
+  pt3dadd(11.66,-54.6,30.17,0.3) 
+  pt3dadd(9.46,-55.31,35.38,0.3) 
+  pt3dadd(8.44,-55.99,43.3,0.3) 
+  pt3dadd(8.21,-49.42,48,0.3) 
+  pt3dadd(4.22,-46.1,50.51,0.3) 
+  pt3dadd(-1.84,-39.79,54.81,0.3) 
+  pt3dadd(-5.18,-35.53,60.99,0.3) 
+  pt3dadd(-11.34,-35.72,65.61,0.3) 
+  pt3dadd(-18.97,-37.12,68.96,0.3) 
+  pt3dadd(-20.46,-35.01,69.29,0.3) 
+  pt3dadd(-21.22,-32.06,69.76,0.3) 
+
+} // end of points list
+
+{axon[44] connect axon[46](0), 1}
+
+axon[46] {
+  pt3dclear()
+  pt3dadd(65.86,-76.92,-66.35,0.3) 
+  pt3dadd(66.93,-81.91,-66.83,0.3) 
+  pt3dadd(67.08,-90.36,-62.98,0.3) 
+  pt3dadd(67.99,-98.57,-61.04,0.3) 
+  pt3dadd(66.2,-110.61,-59.61,0.3) 
+  pt3dadd(63.07,-122.72,-59.91,0.3) 
+  pt3dadd(58.21,-133.27,-56.89,0.3) 
+  pt3dadd(57.71,-139.36,-55.11,0.3) 
+  pt3dadd(54.63,-143.25,-53.15,0.3) 
+  pt3dadd(50.83,-152.4,-53.47,0.3) 
+  pt3dadd(49.57,-154.55,-53.72,0.3) 
+  pt3dadd(48.81,-156.99,-52.89,0.3) 
+  pt3dadd(47.55,-159.14,-53.14,0.3) 
+  pt3dadd(36.98,-171.13,-55.08,0.3) 
+  pt3dadd(34.77,-172.07,-55.95,0.3) 
+  pt3dadd(28.08,-174.89,-58.07,0.3) 
+  pt3dadd(16.07,-176.56,-57.42,0.3) 
+  pt3dadd(6.37,-177.87,-58.44,0.3) 
+  pt3dadd(5.27,-177.79,-58.6,0.3) 
+  pt3dadd(2.72,-178.29,-58.5,0.3) 
+  pt3dadd(-1.6,-180.05,-57.69,0.3) 
+  pt3dadd(-5.75,-184.46,-57.94,0.3) 
+  pt3dadd(-11.03,-187.09,-55.78,0.3) 
+  pt3dadd(-16.92,-191.16,-56.29,0.3) 
+  pt3dadd(-28.37,-198.73,-60.78,0.3) 
+  pt3dadd(-32.59,-199.96,-61.96,0.3) 
+  pt3dadd(-36.81,-201.2,-63.15,0.3) 
+  pt3dadd(-43.66,-205.15,-64.81,0.3) 
+  pt3dadd(-44.46,-206.01,-64.45,0.3) 
+  pt3dadd(-48.68,-209.45,-66.7,0.3) 
+  pt3dadd(-51.76,-211.25,-66.72,0.3) 
+
+} // end of points list
+
+{axon[46] connect axon[47](0), 1}
+
+axon[47] {
+  pt3dclear()
+  pt3dadd(-51.76,-211.25,-66.72,0.3) 
+  pt3dadd(-56.59,-212.71,-66.99,0.3) 
+  pt3dadd(-60.96,-215.07,-67.72,0.3) 
+  pt3dadd(-65.37,-220.14,-68.03,0.3) 
+  pt3dadd(-69.33,-224.03,-70.76,0.3) 
+  pt3dadd(-75.23,-229.19,-71.81,0.3) 
+  pt3dadd(-84.39,-234.82,-78.42,0.3) 
+  pt3dadd(-89.57,-241.34,-80.4,0.3) 
+  pt3dadd(-95.58,-242.84,-83.38,0.3) 
+  pt3dadd(-101.01,-243.52,-85.25,0.3) 
+  pt3dadd(-103.22,-243.35,-85.58,0.3) 
+  pt3dadd(-109.61,-246.01,-86.63,0.3) 
+  pt3dadd(-113.72,-248.83,-87.84,0.3) 
+  pt3dadd(-115.77,-250.73,-87.19,0.3) 
+  pt3dadd(-120.18,-252.6,-88.93,0.3) 
+  pt3dadd(-122.65,-253.09,-89.32,0.3) 
+  pt3dadd(-127.37,-256.12,-89.62,0.3) 
+  pt3dadd(-132.88,-257.92,-91.53,0.3) 
+  pt3dadd(-138.85,-259.9,-93.51,0.3) 
+  pt3dadd(-143.37,-260.09,-92.18,0.3) 
+
+} // end of points list
+
+{axon[47] connect axon[48](0), 1}
+
+axon[48] {
+  pt3dclear()
+  pt3dadd(-143.37,-260.09,-92.18,0.3) 
+  pt3dadd(-146.42,-261.39,-93.69,0.3) 
+  pt3dadd(-150.49,-265.8,-94.43,0.3) 
+  pt3dadd(-152.73,-269.44,-94.88,0.3) 
+  pt3dadd(-159.43,-277.66,-96.63,0.3) 
+  pt3dadd(-164.07,-282.88,-98.49,0.3) 
+  pt3dadd(-169.85,-288.63,-102.06,0.3) 
+  pt3dadd(-173.16,-290.59,-103.63,0.3) 
+  pt3dadd(-178.41,-293.82,-103.51,0.3) 
+  pt3dadd(-180.88,-300.81,-104.08,0.3) 
+  pt3dadd(-191.41,-304.58,-103.77,0.3) 
+  pt3dadd(-192.06,-306.51,-104.93,0.3) 
+  pt3dadd(-198.57,-317.29,-104.7,0.3) 
+  pt3dadd(-204.08,-319.08,-106.6,0.3) 
+  pt3dadd(-208.49,-319.85,-107.8,0.3) 
+  pt3dadd(-210.47,-318.66,-112.12,0.3) 
+  pt3dadd(-213.7,-322.81,-115.26,0.3) 
+  pt3dadd(-215.65,-325.41,-120.18,0.3) 
+  pt3dadd(-218.85,-327.95,-124.28,0.3) 
+  pt3dadd(-220.33,-328.04,-125.02,0.3) 
+  pt3dadd(-231.25,-335.52,-132.96,0.3) 
+  pt3dadd(-234.03,-337.38,-137.99,0.3) 
+  pt3dadd(-241.37,-344.45,-145.38,0.3) 
+  pt3dadd(-254.42,-356.05,-153.25,0.3) 
+  pt3dadd(-256.7,-360.3,-155.24,0.3) 
+  pt3dadd(-262.53,-372.17,-163.03,0.3) 
+  pt3dadd(-263.14,-374.59,-163.18,0.3) 
+  pt3dadd(-267.86,-380.93,-165.09,0.3) 
+  pt3dadd(-274.17,-383.47,-163.59,0.3) 
+  pt3dadd(-279.19,-386.66,-164.95,0.3) 
+  pt3dadd(-287.44,-391.8,-168.38,0.3) 
+  pt3dadd(-297.37,-397.67,-173.09,0.3) 
+  pt3dadd(-309.58,-401.19,-176.58,0.3) 
+  pt3dadd(-313.53,-401.77,-177.7,0.3) 
+  pt3dadd(-324.06,-405.65,-180.43,0.3) 
+  pt3dadd(-327.3,-407.6,-182.5,0.3) 
+  pt3dadd(-337.07,-412.34,-187.66,0.3) 
+  pt3dadd(-341.86,-411.09,-188.36,0.3) 
+  pt3dadd(-346.81,-411.08,-191.65,0.3) 
+  pt3dadd(-351.37,-410.89,-194.37,0.3) 
+  pt3dadd(-359.09,-412.52,-196.61,0.3) 
+  pt3dadd(-362.74,-411.94,-199.18,0.3) 
+  pt3dadd(-359.32,-411.67,-200.67,0.3) 
+
+} // end of points list
+
+{axon[48] connect axon[49](0), 1}
+
+axon[49] {
+  pt3dclear()
+  pt3dadd(-359.32,-411.67,-200.67,0.3) 
+  pt3dadd(-355.82,-410.29,-202.12,0.3) 
+  pt3dadd(-379.25,-414.73,-208.36,0.3) 
+  pt3dadd(-397.58,-418.17,-214.8,0.3) 
+  pt3dadd(-400.62,-418.37,-215.78,0.3) 
+  pt3dadd(-405.33,-420.41,-218.58,0.3) 
+  pt3dadd(-405.18,-421.48,-220.1,0.3) 
+
+} // end of points list
+
+{axon[48] connect axon[50](0), 1}
+
+axon[50] {
+  pt3dclear()
+  pt3dadd(-359.32,-411.67,-200.67,0.3) 
+  pt3dadd(-364.65,-421.53,-203.27,0.3) 
+  pt3dadd(-367.05,-427.51,-206.83,0.3) 
+
+} // end of points list
+
+{axon[47] connect axon[51](0), 1}
+
+axon[51] {
+  pt3dclear()
+  pt3dadd(-143.37,-260.09,-92.18,0.3) 
+  pt3dadd(-141.97,-257.91,-92.92,0.3) 
+  pt3dadd(-141.55,-255.03,-92.78,0.3) 
+  pt3dadd(-143.6,-253.74,-93.56,0.3) 
+  pt3dadd(-142.31,-246.8,-95.71,0.3) 
+  pt3dadd(-144.55,-240.64,-94.37,0.3) 
+  pt3dadd(-151.69,-230.55,-93.17,0.3) 
+  pt3dadd(-150.92,-230.08,-88.99,0.3) 
+  pt3dadd(-154.92,-227.97,-90.05,0.3) 
+  pt3dadd(-167.23,-224.41,-90.83,0.3) 
+  pt3dadd(-171.68,-219.19,-90.36,0.3) 
+  pt3dadd(-173.46,-216.14,-90.55,0.3) 
+  pt3dadd(-175.06,-213.56,-90.73,0.3) 
+  pt3dadd(-178.74,-211.29,-90.72,0.3) 
+  pt3dadd(-180.65,-206.77,-93.93,0.3) 
+  pt3dadd(-189.54,-200.85,-98.17,0.3) 
+  pt3dadd(-192.24,-199.28,-99.05,0.3) 
+  pt3dadd(-201.75,-202.16,-100.58,0.3) 
+  pt3dadd(-212.28,-202.63,-98.66,0.3) 
+  pt3dadd(-215.54,-201.66,-94.58,0.3) 
+  pt3dadd(-225.57,-203.42,-89.08,0.3) 
+  pt3dadd(-231.5,-205.78,-87.02,0.3) 
+  pt3dadd(-235.57,-204.68,-85.08,0.3) 
+  pt3dadd(-242.49,-203.14,-83.57,0.3) 
+  pt3dadd(-252.75,-202.96,-81.6,0.3) 
+  pt3dadd(-261.53,-205.99,-80.49,0.3) 
+  pt3dadd(-265.37,-204.73,-77,0.3) 
+  pt3dadd(-270.42,-207.33,-76.32,0.3) 
+  pt3dadd(-274.91,-208,-73.99,0.3) 
+  pt3dadd(-278.63,-208.43,-73.56,0.3) 
+  pt3dadd(-286.27,-210.93,-70.75,0.3) 
+  pt3dadd(-297.64,-210.56,-65.9,0.3) 
+  pt3dadd(-308.05,-213.7,-64.55,0.3) 
+  pt3dadd(-314.21,-214.01,-62.97,0.3) 
+  pt3dadd(-315.96,-213.66,-63.23,0.3) 
+  pt3dadd(-326.22,-213.48,-61.25,0.3) 
+  pt3dadd(-328.16,-213.65,-59.02,0.3) 
+  pt3dadd(-334.54,-211.91,-57.93,0.3) 
+  pt3dadd(-339.44,-211.17,-56.64,0.3) 
+  pt3dadd(-343.17,-211.61,-56.21,0.3) 
+  pt3dadd(-352.14,-211.97,-54.05,0.3) 
+  pt3dadd(-354.69,-215.77,-55.56,0.3) 
+
+} // end of points list
+
+{axon[46] connect axon[52](0), 1}
+
+axon[52] {
+  pt3dclear()
+  pt3dadd(-51.76,-211.25,-66.72,0.3) 
+  pt3dadd(-51.3,-212.05,-64.14,0.3) 
+  pt3dadd(-53.96,-216.27,-60.61,0.3) 
+  pt3dadd(-58.26,-218.39,-55.76,0.3) 
+  pt3dadd(-60.65,-217.66,-53.07,0.3) 
+  pt3dadd(-63.2,-219.26,-53.5,0.3) 
+  pt3dadd(-67.07,-219.61,-49.05,0.3) 
+  pt3dadd(-75.43,-221.63,-39.75,0.3) 
+  pt3dadd(-82.19,-223.14,-34.76,0.3) 
+  pt3dadd(-86.6,-225.9,-30.95,0.3) 
+  pt3dadd(-90.78,-227.51,-28.1,0.3) 
+  pt3dadd(-95.03,-231.23,-22.78,0.3) 
+  pt3dadd(-97.92,-233.5,-22.77,0.3) 
+  pt3dadd(-99.94,-233.8,-23.09,0.3) 
+  pt3dadd(-102.18,-235.24,-22.46,0.3) 
+  pt3dadd(-109.9,-236.76,-21.66,0.3) 
+  pt3dadd(-111.88,-237.54,-20.97,0.3) 
+  pt3dadd(-126.36,-242.78,-16.24,0.3) 
+  pt3dadd(-137.8,-245.72,-12.51,0.3) 
+  pt3dadd(-138.26,-245.91,-12.58,0.3) 
+  pt3dadd(-147.23,-249.47,-8.99,0.3) 
+  pt3dadd(-150.65,-249.85,-10.54,0.3) 
+  pt3dadd(-160.87,-253.46,-9.17,0.3) 
+  pt3dadd(-170.95,-259.14,-6.81,0.3) 
+  pt3dadd(-175.85,-262.81,-7.66,0.3) 
+  pt3dadd(-182.32,-268.68,-6.79,0.3) 
+  pt3dadd(-188.1,-275.42,-7.85,0.3) 
+  pt3dadd(-191.1,-277.1,-5.32,0.3) 
+  pt3dadd(-201.22,-282.29,-3.98,0.3) 
+  pt3dadd(-204.86,-283.7,-1.54,0.3) 
+  pt3dadd(-210.34,-286.97,0.06,0.3) 
+  pt3dadd(-226.92,-295.93,0.31,0.3) 
+  pt3dadd(-229.88,-298.22,0.81,0.3) 
+  pt3dadd(-238.63,-305.04,1.31,0.3) 
+  pt3dadd(-243.99,-307.79,0.92,0.3) 
+  pt3dadd(-254.79,-311.12,1.71,0.3) 
+  pt3dadd(-257.45,-313.24,3.27,0.3) 
+  pt3dadd(-259.46,-313.54,2.95,0.3) 
+  pt3dadd(-264.82,-317.4,2.03,0.3) 
+  pt3dadd(-268.74,-319.57,1.37,0.3) 
+  pt3dadd(-272.47,-322.2,0.73,0.3) 
+  pt3dadd(-278.93,-325.98,-0.35,0.3) 
+  pt3dadd(-281.18,-328.52,-0.26,0.3) 
+  pt3dadd(-285.78,-337.53,-2.72,0.3) 
+  pt3dadd(-287.91,-344.96,-4.26,0.3) 
+  pt3dadd(-289.06,-348.68,-4.54,0.3) 
+  pt3dadd(-292.14,-358.09,-5.26,0.3) 
+  pt3dadd(-299.56,-366.05,-6.61,0.3) 
+  pt3dadd(-300.09,-367.36,-6.73,0.3) 
+  pt3dadd(-303.7,-371.57,-7.39,0.3) 
+  pt3dadd(-308.61,-375.24,-8.24,0.3) 
+  pt3dadd(-308.91,-375.4,-9.31,0.3) 
+  pt3dadd(-311.69,-379.25,-9.33,0.3) 
+  pt3dadd(-312.45,-385,-10.11,0.3) 
+  pt3dadd(-312.3,-389.26,-10.2,0.3) 
+  pt3dadd(-314.4,-391.78,-11.09,0.3) 
+  pt3dadd(-312.91,-392.79,-10.89,0.3) 
+  pt3dadd(-315.77,-398.85,-11.49,0.3) 
+  pt3dadd(-318.96,-402.38,-13.09,0.3) 
+  pt3dadd(-326.04,-409.68,-14.87,0.3) 
+  pt3dadd(-332.39,-412.83,-14.92,0.3) 
+  pt3dadd(-336.04,-414.35,-15.52,0.3) 
+  pt3dadd(-340.19,-420.97,-16.84,0.3) 
+  pt3dadd(-345.59,-429.63,-15.36,0.3) 
+  pt3dadd(-351.33,-442.25,-15.06,0.3) 
+  pt3dadd(-361.71,-451.4,-15.38,0.3) 
+  pt3dadd(-362.06,-453.16,-15.48,0.3) 
+  pt3dadd(-367.53,-457.65,-17.45,0.3) 
+  pt3dadd(-369.7,-460.18,-17.85,0.3) 
+  pt3dadd(-375.18,-466.75,-17.86,0.3) 
+  pt3dadd(-375.82,-466.48,-17.95,0.3) 
+  pt3dadd(-380.2,-468.84,-18.68,0.3) 
+  pt3dadd(-379.93,-468.19,-18.62,0.3) 
+
+} // end of points list
+
+{axon[52] connect axon[53](0), 1}
+
+axon[53] {
+  pt3dclear()
+  pt3dadd(-379.93,-468.19,-18.62,0.3) 
+  pt3dadd(-386.25,-476.24,-19.81,0.3) 
+  pt3dadd(-392.1,-480.79,-19.31,0.3) 
+  pt3dadd(-395.6,-483.27,-18.39,0.3) 
+  pt3dadd(-408.15,-493.84,-18.57,0.3) 
+  pt3dadd(-412.22,-497.15,-18.78,0.3) 
+  pt3dadd(-425.21,-492.71,-17.61,0.3) 
+  pt3dadd(-426.89,-490.14,-17.3,0.3) 
+
+} // end of points list
+
+{axon[52] connect axon[54](0), 1}
+
+axon[54] {
+  pt3dclear()
+  pt3dadd(-379.93,-468.19,-18.62,0.3) 
+  pt3dadd(-380.69,-467.33,-16.19,0.3) 
+  pt3dadd(-391.71,-464.09,-10.7,0.3) 
+  pt3dadd(-395.16,-462.66,-6.64,0.3) 
+  pt3dadd(-396.95,-461.71,-4.86,0.3) 
+  pt3dadd(-402.46,-463.28,-0.69,0.3) 
+  pt3dadd(-408.12,-461.79,0,0.3) 
+  pt3dadd(-414.54,-456.26,1.69,0.3) 
+  pt3dadd(-415.95,-457.33,2.96,0.3) 
+  pt3dadd(-421,-458.82,4.17,0.3) 
+  pt3dadd(-427.72,-455.32,12.85,0.3) 
+  pt3dadd(-428.18,-452.21,14.38,0.3) 
+  pt3dadd(-432.09,-452.07,17.83,0.3) 
+  pt3dadd(-433.46,-452.64,17.61,0.3) 
+
+} // end of points list
+
+{axon[29] connect axon[55](0), 1}
+
+axon[55] {
+  pt3dclear()
+  pt3dadd(75.48,-63.94,-71.11,1.2) 
+  pt3dadd(77.27,-64.79,-69.84,0.3) 
+  pt3dadd(83.77,-72.4,-70.07,0.3) 
+  pt3dadd(86.24,-75.11,-68.24,0.3) 
+
+} // end of points list
+
+{axon[55] connect axon[56](0), 1}
+
+axon[56] {
+  pt3dclear()
+  pt3dadd(86.24,-75.11,-68.24,0.3) 
+  pt3dadd(91.9,-79.79,-67.5,0.3) 
+  pt3dadd(97.03,-84.56,-63.3,0.3) 
+  pt3dadd(106.62,-89.04,-56.89,0.3) 
+  pt3dadd(113.46,-96.76,-48.97,0.3) 
+  pt3dadd(117.23,-98.91,-46.42,0.3) 
+  pt3dadd(119.74,-98.69,-38.95,0.3) 
+  pt3dadd(121.23,-99.47,-32.67,0.3) 
+  pt3dadd(122.49,-99.31,-27.41,0.3) 
+  pt3dadd(125.04,-98.58,-21.44,0.3) 
+  pt3dadd(127.25,-96.43,-16.99,0.3) 
+  pt3dadd(129.61,-97.45,-12.1,0.3) 
+  pt3dadd(134.06,-98.04,-4.35,0.3) 
+  pt3dadd(140.07,-98.64,0.59,0.3) 
+  pt3dadd(144.1,-102.23,5.16,0.3) 
+  pt3dadd(144.67,-103.5,8.25,0.3) 
+  pt3dadd(147.34,-104.36,14.2,0.3) 
+  pt3dadd(148.9,-104.14,17.48,0.3) 
+  pt3dadd(151.07,-103.7,19.85,0.3) 
+  pt3dadd(151.9,-104.44,19.96,0.3) 
+  pt3dadd(152.82,-104.06,20.11,0.3) 
+
+} // end of points list
+
+{axon[56] connect axon[57](0), 1}
+
+axon[57] {
+  pt3dclear()
+  pt3dadd(152.82,-104.06,20.11,0.3) 
+  pt3dadd(151.87,-102.52,28.61,0.3) 
+  pt3dadd(153.21,-104.43,35.34,0.3) 
+  pt3dadd(155.87,-103.08,42.36,0.3) 
+  pt3dadd(158.88,-102.17,48.41,0.3) 
+  pt3dadd(160.18,-101.5,52.17,0.3) 
+  pt3dadd(163.26,-101.78,54.15,0.3) 
+  pt3dadd(163.75,-100.87,58.81,0.3) 
+  pt3dadd(164.33,-99.94,62.97,0.3) 
+  pt3dadd(166.61,-97.78,66.92,0.3) 
+  pt3dadd(171.56,-96.58,73.78,0.3) 
+  pt3dadd(173.27,-96.23,79.11,0.3) 
+  pt3dadd(175.29,-95.71,85.51,0.3) 
+  pt3dadd(178,-93.85,91.03,0.3) 
+  pt3dadd(182.19,-92.9,99.79,0.3) 
+  pt3dadd(183.75,-92.57,106.12,0.3) 
+  pt3dadd(188.32,-94.63,116.88,0.3) 
+  pt3dadd(194.68,-94.01,136.59,0.3) 
+  pt3dadd(196.81,-94.08,140.46,0.3) 
+
+} // end of points list
+
+{axon[56] connect axon[58](0), 1}
+
+axon[58] {
+  pt3dclear()
+  pt3dadd(152.82,-104.06,20.11,0.3) 
+  pt3dadd(160.87,-106.28,16.73,0.3) 
+  pt3dadd(164.18,-106.64,14.19,0.3) 
+  pt3dadd(170.68,-103.57,10.21,0.3) 
+  pt3dadd(172.84,-103.24,9.53,0.3) 
+  pt3dadd(174.7,-101.98,8.34,0.3) 
+  pt3dadd(182.69,-98.82,5.09,0.3) 
+  pt3dadd(185.23,-96.23,3.02,0.3) 
+  pt3dadd(185.88,-93.3,1.68,0.3) 
+  pt3dadd(185.5,-93.48,1.11,0.3) 
+
+} // end of points list
+
+{axon[58] connect axon[59](0), 1}
+
+axon[59] {
+  pt3dclear()
+  pt3dadd(185.5,-93.48,1.11,0.3) 
+  pt3dadd(186.71,-94.26,-4.28,0.3) 
+  pt3dadd(186.97,-97.13,-11.91,0.3) 
+  pt3dadd(188.26,-98.89,-15.3,0.3) 
+  pt3dadd(189.13,-105.84,-22.95,0.3) 
+  pt3dadd(190.34,-107.61,-25.84,0.3) 
+  pt3dadd(193.26,-109.24,-29.49,0.3) 
+  pt3dadd(194.4,-113.34,-36,0.3) 
+  pt3dadd(199.22,-117.51,-41.45,0.3) 
+  pt3dadd(202.18,-124.03,-46.23,0.3) 
+  pt3dadd(203.73,-126.24,-50.1,0.3) 
+  pt3dadd(205.52,-128.29,-52.41,0.3) 
+  pt3dadd(209.73,-131.57,-56.41,0.3) 
+  pt3dadd(211.29,-134.88,-60.81,0.3) 
+  pt3dadd(214.32,-141.4,-66.09,0.3) 
+  pt3dadd(220.09,-144.68,-72.88,0.3) 
+  pt3dadd(221.19,-148.18,-77.36,0.3) 
+  pt3dadd(224.98,-158.85,-86.68,0.3) 
+  pt3dadd(230.02,-170.03,-108.98,0.3) 
+  pt3dadd(231.64,-173.77,-126.03,0.3) 
+
+} // end of points list
+
+{axon[58] connect axon[60](0), 1}
+
+axon[60] {
+  pt3dclear()
+  pt3dadd(185.5,-93.48,1.11,0.3) 
+  pt3dadd(191.16,-90.56,2.56,0.3) 
+  pt3dadd(196.75,-88.86,0.93,0.3) 
+  pt3dadd(201.08,-87.22,-2.9,0.3) 
+  pt3dadd(203.02,-87.05,-5.13,0.3) 
+  pt3dadd(210.7,-87.24,-8.01,0.3) 
+  pt3dadd(216.93,-87.8,-4.54,0.3) 
+  pt3dadd(221.38,-85.42,-4.3,0.3) 
+  pt3dadd(223.78,-83.96,-5.92,0.3) 
+  pt3dadd(233.47,-78.35,-5.8,0.3) 
+  pt3dadd(241.34,-75.7,-7.06,0.3) 
+  pt3dadd(243.81,-75.21,-6.66,0.3) 
+  pt3dadd(250.85,-72.93,-8.56,0.3) 
+  pt3dadd(252.71,-71.67,-9.76,0.3) 
+  pt3dadd(256.62,-71.7,-10.17,0.3) 
+  pt3dadd(258.9,-71.85,-10.33,0.3) 
+  pt3dadd(261.15,-70.41,-10.96,0.3) 
+  pt3dadd(269.09,-68.74,-10.21,0.3) 
+  pt3dadd(271.45,-67.78,-10.33,0.3) 
+  pt3dadd(275.63,-67.15,-10.68,0.3) 
+  pt3dadd(282.55,-68.58,-9.15,0.3) 
+  pt3dadd(291.94,-65.34,-11.17,0.3) 
+  pt3dadd(292.36,-64.66,-12.1,0.3) 
+  pt3dadd(296.77,-64.11,-16.98,0.3) 
+  pt3dadd(304.4,-65.91,-18.89,0.3) 
+  pt3dadd(309.49,-64.02,-24.64,0.3) 
+  pt3dadd(312.49,-64.65,-31.28,0.3) 
+  pt3dadd(316.82,-67.42,-37.27,0.3) 
+  pt3dadd(320.16,-69.37,-39.34,0.3) 
+  pt3dadd(323.96,-71.12,-41.34,0.3) 
+  pt3dadd(328.48,-75.23,-41.77,0.3) 
+  pt3dadd(336.04,-79.35,-47.3,0.3) 
+  pt3dadd(340.41,-83.6,-49.78,0.3) 
+  pt3dadd(344.25,-86.95,-51.3,0.3) 
+  pt3dadd(354.89,-92.57,-58.43,0.3) 
+  pt3dadd(357.66,-94.34,-64.12,0.3) 
+  pt3dadd(377.13,-106.18,-89.29,0.3) 
+
+} // end of points list
+
+{axon[55] connect axon[61](0), 1}
+
+axon[61] {
+  pt3dclear()
+  pt3dadd(86.24,-75.11,-68.24,0.3) 
+  pt3dadd(89.85,-76.07,-61.14,0.3) 
+  pt3dadd(91.57,-76.7,-53.3,0.3) 
+  pt3dadd(92.18,-78.47,-49.21,0.3) 
+  pt3dadd(92.41,-79.2,-42.1,0.3) 
+  pt3dadd(90.29,-77.7,-36.32,0.3) 
+  pt3dadd(86.72,-85.37,-28.47,0.3) 
+  pt3dadd(86.99,-88.68,-18.4,0.3) 
+  pt3dadd(88.29,-88.89,-9.09,0.3) 
+  pt3dadd(89.02,-88.93,-3.42,0.3) 
+  pt3dadd(88.64,-88.78,5.12,0.3) 
+  pt3dadd(88.84,-88.03,8.71,0.3) 
+  pt3dadd(89.87,-86.8,15.99,0.3) 
+  pt3dadd(89.49,-85.76,18.99,0.3) 
+  pt3dadd(91.16,-87.12,22.25,0.3) 
+  pt3dadd(89.61,-85.91,28.62,0.3) 
+  pt3dadd(87.64,-85.37,35.93,0.3) 
+  pt3dadd(88.44,-85.4,41.11,0.3) 
+  pt3dadd(88.98,-86.07,46.23,0.3) 
+  pt3dadd(89.32,-84.08,52.41,0.3) 
+  pt3dadd(90.66,-85.01,56.64,0.3) 
+  pt3dadd(90.77,-85.37,60.19,0.3) 
+  pt3dadd(90.51,-88,65.14,0.3) 
+  pt3dadd(92,-87.8,68.91,0.3) 
+  pt3dadd(93.94,-88.39,75.27,0.3) 
+  pt3dadd(94.32,-90.2,80.84,0.3) 
+  pt3dadd(92.96,-93.85,85.09,0.3) 
+  pt3dadd(94.18,-95.18,94.35,0.3) 
+  pt3dadd(97.34,-96.33,101.38,0.3) 
+  pt3dadd(99.39,-98.5,107.71,0.3) 
+  pt3dadd(100.2,-100.62,114.86,0.3) 
+  pt3dadd(98.95,-101.22,127.3,0.3) 
+  pt3dadd(102.34,-102.22,135.89,0.3) 
+  pt3dadd(102.38,-108,140.3,0.3) 
+  pt3dadd(106.91,-116.07,149.88,0.3) 
+  pt3dadd(108.54,-117.93,154.64,0.3) 
+  pt3dadd(110.98,-117.83,159.57,0.3) 
+  pt3dadd(112.5,-119.21,163.81,0.3) 
+
+} // end of points list
+
+{axon[0] connect axon[62](0), 1}
+
+axon[62] {
+  pt3dclear()
+  pt3dadd(38.12,-53.54,-16.84,1.2) 
+  pt3dadd(28.92,-52.07,-21.25,0.4) 
+  pt3dadd(23.93,-47.38,-29.48,0.4) 
+  pt3dadd(24.66,-39.16,-34.71,0.4) 
+  pt3dadd(18.38,-26.33,-42.41,0.4) 
+  pt3dadd(9.61,-25.94,-36.66,0.4) 
+  pt3dadd(7.52,-26.14,-33.45,0.4) 
+  pt3dadd(-2.54,-21.91,-26.27,0.4) 
+  pt3dadd(-2.84,-16.57,-24.66,0.4) 
+  pt3dadd(-4.51,-11.57,-17.19,0.4) 
+  pt3dadd(-8.49,-3.85,-12.53,0.4) 
+  pt3dadd(-15.93,4.09,-7.39,0.4) 
+  pt3dadd(-17.53,9.98,-5.95,0.4) 
+  pt3dadd(-19.84,12.82,-5.73,0.4) 
+  pt3dadd(-24.63,15.28,-2.85,0.4) 
+  pt3dadd(-28.92,19.54,-0.87,0.4) 
+  pt3dadd(-29.91,20.25,0,0.4) 
+  pt3dadd(-38.38,26.2,6.46,0.4) 
+  pt3dadd(-46.06,29.58,7.9,0.4) 
+  pt3dadd(-49.9,31.83,8.89,0.4) 
+  pt3dadd(-52.48,32.92,8.52,0.4) 
+  pt3dadd(-55.14,33.99,8.65,0.4) 
+  pt3dadd(-55.25,35.57,8.68,0.4) 
+  pt3dadd(-59.32,36.67,10.61,0.4) 
+  pt3dadd(-61.14,40.32,12.46,0.4) 
+  pt3dadd(-63.72,44.71,13.7,0.4) 
+  pt3dadd(-73.79,50.93,15.86,0.4) 
+  pt3dadd(-79.07,54.79,18.19,0.4) 
+  pt3dadd(-81.32,57.65,17.93,0.4) 
+  pt3dadd(-86.75,59.28,20.17,0.4) 
+  pt3dadd(-91.46,61.76,22.56,0.4) 
+  pt3dadd(-93.59,63.04,22.26,0.4) 
+  pt3dadd(-97.2,65.43,24.81,0.4) 
+  pt3dadd(-100.47,66.29,25.85,0.4) 
+  pt3dadd(-107.84,68.85,30.86,0.4) 
+  pt3dadd(-109.43,70.45,33.19,0.4) 
+  pt3dadd(-113.5,71.55,35.13,0.4) 
+  pt3dadd(-117.64,73.63,35.06,0.4) 
+  pt3dadd(-120.45,75.78,36.71,0.4) 
+  pt3dadd(-122.73,77.15,40.44,0.4) 
+  pt3dadd(-122.69,75.78,46.99,0.4) 
+  pt3dadd(-118.39,69.65,53.05,0.4) 
+  pt3dadd(-120.82,64.6,60.64,0.4) 
+  pt3dadd(-121.73,64.22,60.49,0.4) 
+
+} // end of points list
+
+{axon[62] connect axon[63](0), 1}
+
+axon[63] {
+  pt3dclear()
+  pt3dadd(-121.73,64.22,60.49,0.4) 
+  pt3dadd(-119.98,63.97,63.79,0.4) 
+  pt3dadd(-118.26,65.54,72.69,0.4) 
+  pt3dadd(-118.29,67.46,81.34,0.4) 
+  pt3dadd(-118.4,69.15,84.41,0.4) 
+  pt3dadd(-116.31,67.48,89.24,0.4) 
+  pt3dadd(-117.22,71.73,97.31,0.4) 
+  pt3dadd(-119.14,76.18,107.76,0.4) 
+  pt3dadd(-118.19,78.39,113.02,0.4) 
+  pt3dadd(-120.58,79.23,118.75,0.4) 
+  pt3dadd(-121.26,82.42,124.81,0.4) 
+
+} // end of points list
+
+{axon[62] connect axon[64](0), 1}
+
+axon[64] {
+  pt3dclear()
+  pt3dadd(-121.73,64.22,60.49,0.4) 
+  pt3dadd(-131.62,63.36,59.46,0.4) 
+  pt3dadd(-137.66,62.47,58.51,0.4) 
+  pt3dadd(-145.6,64.1,59.36,0.4) 
+  pt3dadd(-150.81,65.78,60.12,0.4) 
+  pt3dadd(-156.09,68.54,61.92,0.4) 
+  pt3dadd(-163.62,70.85,61.84,0.4) 
+  pt3dadd(-170.42,68.61,62.26,0.4) 
+  pt3dadd(-173.54,68.4,61.77,0.4) 
+  pt3dadd(-179.59,68.6,61.36,0.4) 
+  pt3dadd(-182.7,68.39,60.88,0.4) 
+  pt3dadd(-185.63,67.71,60.41,0.4) 
+  pt3dadd(-190.15,66.42,61.2,0.4) 
+  pt3dadd(-195.86,64.1,61.78,0.4) 
+  pt3dadd(-201.48,68.51,68.12,0.4) 
+  pt3dadd(-204.29,71.87,73.35,0.4) 
+  pt3dadd(-202.19,73.51,79.79,0.4) 
+  pt3dadd(-198.38,73.07,84.41,0.4) 
+  pt3dadd(-199.41,72.4,92.33,0.4) 
+  pt3dadd(-200.05,70.69,97.24,0.4) 
+  pt3dadd(-202.4,71.16,107.02,0.4) 
+  pt3dadd(-207.41,72.59,113.88,0.4) 
+  pt3dadd(-209.27,72.54,118.65,0.4) 
+
+}
